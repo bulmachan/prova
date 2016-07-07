@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Custom outline preview</title>
+<style type="text/css">
+body {
+	background: white;
+}
+img {
+	border: 1px dotted silver;
+	float: left;
+	margin: 1em;
+}
+
+</style>
+
+</head>
+<body>
+
+<a href="custom.php?&render=text">View code</a>
+<img src="custom.php?&render=box"/>
+<img src="custom.php?&render=slices"/>
+
+
+</body>
+</html>

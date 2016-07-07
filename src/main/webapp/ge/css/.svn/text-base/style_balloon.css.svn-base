@@ -1,0 +1,89 @@
+/* elementi di base */
+
+html {margin: 0; padding: 0;}
+body {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:8pt;	color: #fff; background:#402923; margin:0; padding:0; width:270px; }
+body a:link, a:active, a:visited{text-decoration:underline; color:#fff;}
+body a:hover{text-decoration:underline;}
+p, div {margin:0; padding:0.5em;}
+h3 {display:none;}
+p.center {text-align:center;}
+p.center a {text-decoration:none;}
+p.center a:hover {text-decoration:underline;}
+/* testata */
+#pageHeader {display:none;}
+  #pageHeader span {display:none;}
+/* fine testata */
+
+
+#container {margin-top:0; margin:auto; width:270px;}
+#intro {margin-top:0; margin:auto; }
+#titolo_bal {color:#E3CBB1; margin:0; padding:25px 2px 2px 2px; text-align:left; font-size:10pt; background-color:#402923; font-weight:bold; background:url(../images/sfondo_centrale_bal.jpg) repeat-x; width:auto;}
+#quickSummary {display:none;}
+#intro {margin:auto;}
+.scala {margin:0; padding:2px; color:#E3CBB1; background-color:#402923; font-style:italic; height:auto; font-weight:normal; text-align:right;}
+.uc {margin:0; padding:2px; text-align:left; font-size:8pt; color:#000; background-color:#E3CBB1; font-weight:bold; width:auto; height:auto; clear:both;}
+.titolo_uc_bal {margin:0; padding:3px; text-align:left; color:#fff;  width:auto; height:auto;}
+.testo_uc_bal {margin:0 0 2px 0; padding:2px; text-align:left; font-size:1.0em; width:auto;}
+.img_uc_bal {padding:0.2em; margin:0 0 0 55px;}
+.img_uc_bal_1000 {float:right; padding:0.2em;}
+  .img_uc_bal_1000 img {border:1px dotted #fff; padding:1px;}
+
+
+.img_uc_bal img {padding:0; margin:0; border:1px dotted #fff; width:150px;}
+.didascalia {padding:2px; margin:0; text-align:left; font-size:8pt; background-color:#fff; color:#000; width:148px;}
+.didascalia_1000 {padding:2px; margin:0; text-align:left; font-size:8pt; background-color:#fff; color:#000; width:150px;}
+.fr_succ {float:right; padding:6px 60px 6px 0; text-align:right; border-bottom:none;} /* CHIEDERE A MADDALENA */
+  .fr_succ a:link, a:active, a:visited {text-decoration:underline;}
+  .fr_succ a:hover {text-decoration:underline; color:#0f0;}
+.fr_prec {padding:6px 0 0 0; text-align:left; font-size:9pt;}
+  .fr_prec a:link, a:active, a:visited {text-decoration:underline;}
+  .fr_prec a:hover {text-decoration:underline; color:#0f0;}
+  
+  
+.link_dettaglio  {margin:0; padding:0; color:#fff; font-size:8pt; font-weight:bold; text-align:center;}
+  .link_dettaglio a:link, a:active, a:visited {text-decoration:underline; margin:0 0 5px 0; padding:0; color:#E3CBB1; font-size:8pt; font-weight:bold; }
+  .link_dettaglio a:hover {text-decoration:underline; margin:0; padding:0; font-size:8pt; font-weight:bold; color:#0f0;}
+
+/*per pagine legenda*/
+div.content_legenda {clear:both; /*border:1px dotted #fff;*/}
+.img_leg {margin:0.5em 0 0 0.5em; padding:0.2em; float:right; border:1px solid #fff;}
+.par_leg {margin:0.5em 0 0 0; padding:0; font-size:1.2em;}
+.col_01_testata {text-align:left; margin:1.2em 0 0 0; padding:0; font-weight:bold; color: #E2CDB2; float:left;}
+.col_02_testata {text-align:left; margin:1.5em 0 1.5em 10.0em; padding:0; font-weight:bold; color: #E2CDB2;}
+.col_01 {margin:0; padding:0; color:#fff; float:left; vertical-align:middle;}
+  p.col_01 a {text-decoration:underline; margin:0; padding:0 0 0 0.4em; color:#fff; font-weight:bold; }
+  p.col_01 a:hover {text-decoration:underline; color:#FFF8BE; }
+  p.col_01 img {margin:0 0.5em 0 0; padding:0;  border:1px solid #fff; float:left; vertical-align:middle;}
+p.col_02  {margin:0 0 0 5.4em; padding:0; color: #fff; text-align:left;}
+p.col_02a  {margin:0 0 0 2.5em; padding:0; color: #fff; text-align:left;}
+div.voce_leg {clear:left; vertical-align:middle; margin:0; padding:0;}
+
+/*ballon_pcf*/
+/*div.voce_leg_pcf {background-color: white; }
+div.voce_leg_pcf p.col_01, div.voce_leg_pcf p.col_02 { color: black }*/
+div.voce_leg_pcf p.col_01 { margin: 0.4em 0.4em 0 0; float: left; }
+div.voce_leg_pcf p.col_02 { margin: 0.4em 0 0 0; float: left; }
+div.row_legenda { clear:both; }
+p.note {clear:both; margin-top: 5px;}
+/**/
+
+	/* inizio footer*/
+#footer {clear:both; margin-top:20px; border-top:1px solid #fff; font-size:9pt; color:#fff; padding-left:5px; min-height:30px !important; width:264px; text-align:center;}
+#footer img {padding:0px; margin:5px; border:0px; text-align:left; vertical-align:middle; float:left;}
+/* fine footer */
+
+table.table_gloss {border:1px solid #000; padding:0.5em; margin:0.6em auto 0.6em auto; width:auto; text-align:left;}
+ .table_gloss caption {display:none;font-weight:bold; padding:0.3em; margin:0.5em; background-color:#fff; color:#000; border:1px solid #000; border-bottom:none; width:auto;}
+   .table_gloss th {padding:0.5em; margin:0.5em; width:auto; color:#fff; font-weight:bold; background-color:#603735; text-align:left;}
+   .table_gloss td {color: black; padding:0.5em; margin:0.5em; width:auto; text-align:left; background-color:#fff;}
+table.table_gloss #c02 {width: 30px;}
+
+
+
+
+
+
+
+
+
+

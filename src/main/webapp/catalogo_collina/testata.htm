@@ -1,0 +1,73 @@
+<body>
+<!-- Piwik Prod New Tracking Code -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+var index1 = location.href.indexOf("applicazioni.regione.emilia-romagna.it");
+var index2 = location.href.indexOf("applicazionitest.regione.emilia-romagna.it");
+var index3 = location.href.indexOf("cm.regione.emilia-romagna.it");
+var index6 = location.href.indexOf("localhost");
+var index7 = location.href.indexOf("//10.");
+(function(){ var u="https://statisticheweb.regione.emilia-romagna.it/analytics/";
+if (index1==-1 && index2==-1 && index3==-1 && index6==-1 && index7==-1){
+    _paq.push(['setSiteId', 82]);
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setDocumentTitle', document.domain + "/" + document.title]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.defer=true; g.async=true; g.src=u+'piwik.js';
+    s.parentNode.insertBefore(g,s); }})();
+</script>
+<noscript><p><img src="https://statisticheweb.regione.emilia-romagna.it/analytics/piwik.php?idsite=82" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Prod New Tracking Code -->
+<script type="text/javascript">
+/*<![CDATA[*/
+//funzione che apre i link con rel="external" in una popup javascript
+function externalLinks( ) {
+ if (!document.getElementsByTagName) return;
+ var anchors = document.getElementsByTagName("a");
+ for (var i=0; i<anchors.length; i++) {
+ var anchor = anchors[i];
+ if (anchor.getAttribute("href") && anchor.getAttribute("rel") == "external") {
+ anchor.title = "Il link apre una nuova finestra" ;
+ anchor.onclick = function( ) { window.open( this.href ); return false; }
+ anchor.onkeypress= function(e) { k = (e) ? e.keyCode : window.event.keyCode; if (k==13) window.open(this.href); return false; }
+ }
+}
+}
+/*]]>*/
+</script>
+<noscript>
+	<p>Per aprire i collegamenti in una nuova pagina occorre avere JavaScript abilitato.</p>
+</noscript>
+		<ul class="skip">
+		<li><a href="#homepage" title="Torna alla Pagina Principale - accesskey h">Torna alla Pagina Principale [h]</a> </li>
+		<li><a href="#contenutopagina" title=" Salta ai contenuti - accesskey k" accesskey="k">Salta ai contenuti [k]</a> </li>
+		<li><a href="#cerca" title="Salta al form di ricerca  - accesskey c">Cerca nel sito [c]</a> </li>
+        <li><a href="#menu" title="Salta al menu principale - accesskey n" accesskey="n">Salta al menu principale [n]</a> </li>
+		</ul>
+<div id="container">
+	<div id="intro">
+  		<div id="logo_rer">
+			<a href="http://www.regione.emilia-romagna.it" title="Apri il Portale della Regione Emilia-Romagna" rel="external"><img src="../images/logo_er.png" alt="Logo del Portale della Regione Emilia-Romagna"  height="30" /></a>&nbsp;<a href="http://www.regione.emilia-romagna.it" title="Apri il Portale della Regione Emilia-Romagna" rel="external"><img border="0" src="../images/logo_rer.png" width="150" height="21" alt="Logo Regione Emilia-Romagna" /></a>
+  		</div>
+  		<div id="logo_rer_stampa">
+  			<a href="http://www.regione.emilia-romagna.it" title="Apri il Portale della Regione Emilia-Romagna"><img src="../images/marchio_RER.jpg" width="200" height="34" alt="Regione Emilia-Romagna" /></a>
+  		</div>
+		<div id="pageHeader">			
+			<h1>
+  			<span>I suoli dell'Emilia-Romagna</span>
+  			<span>a cura del Servizio Geologico Sismico e dei Suoli, Regione Emilia-Romagna</span></h1>
+  		</div>
+  		<div id="titolo">
+  			<img src="../images/i_suoli_titolo.png" width="380" height="31" alt="I suoli dell'Emilia-Romagna" />
+  		</div>
+		<div id="campo_search">
+			<form method="get" action="../risultato_ricerca.jsp" id="ricerca">
+			  <div>
+				<label id="label" for="query">cerca</label><br />
+						<a name="cerca" tabindex="0"></a>
+						<input accesskey="c" type="text" name="query" size="16" value="" id="query" class="input_text" /><br />
+						<button type="submit" value=" " title="Avvia ricerca" id="button" class="bottone_vai">Vai &#8250;&#8250;</button>
+					</div>
+			</form>
+        </div>

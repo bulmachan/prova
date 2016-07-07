@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+	<Document>
+		<Style id="1">
+			<LineStyle>
+				<color>FF0000FF</color>
+				<width>0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>BECCEEFE</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<bgColor>ffB1CBE3</bgColor>
+			</BalloonStyle>
+		</Style>
+		<Style id="2">
+			<LineStyle>
+				<color>FF0000FF</color>
+				<width>0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>BE80D5FC</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<bgColor>ffB1CBE3</bgColor>
+			</BalloonStyle>
+		</Style>
+	</Document>
+</kml>

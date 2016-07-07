@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+	<Document>
+		<Style id="Non salino">
+			<LineStyle>
+				<color>FF0000FF</color>
+				<width>0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>BE73FFD1</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<bgColor>ffB1CBE3</bgColor>
+			</BalloonStyle>
+		</Style>
+		<Style id="Molto debolmente salino">
+			<LineStyle>
+				<color>FF0000FF</color>
+				<width>0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>BE59DE91</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<bgColor>ffB1CBE3</bgColor>
+			</BalloonStyle>
+		</Style>
+		<Style id="Debolmente salino">
+			<LineStyle>
+				<color>FF0000FF</color>
+				<width>0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>BEFF73DF</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<bgColor>ffB1CBE3</bgColor>
+			</BalloonStyle>
+		</Style>
+		<Style id="Moderatamente salino">
+			<LineStyle>
+				<color>FF0000FF</color>
+				<width>0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>BEE600A9</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<bgColor>ffB1CBE3</bgColor>
+			</BalloonStyle>
+		</Style>
+		<Style id="Fortemente salino">
+			<LineStyle>
+				<color>FF0000FF</color>
+				<width>0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>BEBF3D61</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+				<bgColor>ffB1CBE3</bgColor>
+			</BalloonStyle>
+		</Style>
+	</Document>
+</kml>

@@ -1,0 +1,266 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="it">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Servizio Geologico Sismico e dei Suoli, Regione Emilia-Romagna" />
+	<meta name="keywords" content="suoli, soil, pedologia, suolo, unitÃ  cartografiche, delineazioni, aziende agrarie" />
+	<meta name="description" content="Carte dei suoli, con diversi tipi di dettaglio" />
+	<meta name="robots" content="index,follow" />
+	<title>Catalogo dei tipi di suolo</title>
+	<link rel="stylesheet" media="screen" type="text/css" href="css/style_suoli.css" />
+	<link rel="stylesheet" media="print"  type="text/css" href="css/stampa.css" />
+	<link rel="Shortcut Icon" type="image/x-icon" href="images/favicon.ico" />	
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="xx.xml" />
+
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="css/style_suoli_ie.css" />
+<![endif]-->
+	
+
+
+<!-- Highslide CSS -->
+<link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="highslide/highslide-ie6.css" />
+<![endif]-->
+<!-- Highslide CSS -->
+
+
+</head>
+
+<body>
+<!-- Piwik Prod --> 
+	<script type="text/javascript">
+	var pkBaseURL = ("https://statisticheweb.regione.emilia-romagna.it/analytics/");
+	document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	var index1 = location.href.indexOf("applicazioni.regione.emilia-romagna.it");
+	var index2 = location.href.indexOf("applicazionitest.regione.emilia-romagna.it");
+	var index3 = location.href.indexOf("cm.regione.emilia-romagna.it");
+	function pageLoaded() {
+		try {
+			var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 82);
+			piwikTracker.setDocumentTitle(document.domain + "/" + document.title);
+			piwikTracker.trackPageView();
+			piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	}
+	if (index1==-1 && index2==-1 && index3==-1) {
+		document.onload = pageLoaded();
+	}
+	</script>
+	<noscript><p><img src="https://statisticheweb.regione.emilia-romagna.it/analytics/piwik.php?idsite=82" style="border:0" alt="" /></p>
+	</noscript>
+<!-- End Piwik Prod Tracking Code -->
+<script type="text/javascript">
+/*<![CDATA[*/
+//funzione che apre i link con rel="external" in una popup javascript
+function externalLinks( ) {
+ if (!document.getElementsByTagName) return;
+ var anchors = document.getElementsByTagName("a");
+ for (var i=0; i<anchors.length; i++) {
+ var anchor = anchors[i];
+ if (anchor.getAttribute("href") && anchor.getAttribute("rel") == "external") {
+ 
+	if(anchor.title)
+		anchor.title = anchor.title+" (il link apre una nuova finestra o scheda)" ;
+	else 
+		anchor.title = "Il link apre una nuova finestra o scheda" ;
+
+	anchor.onclick = function( ) { window.open( this.href ); return false; }
+	anchor.onkeypress= function(e) { k = (e) ? e.keyCode : window.event.keyCode; if (k==13) window.open(this.href); return false; }
+ }
+}
+}
+
+/**/
+function toggle(tagId, title) {
+	/*if (document.getElementById(tagId).style.display=='none') {
+		document.getElementById(tagId).style.display='block';
+		document.getElementById(title).title="Chiudi dettagli cartografia";
+	} else {
+		document.getElementById(tagId).style.display='none';
+		document.getElementById(title).title="Apri dettagli cartografia";
+	}*/
+
+	if (document.getElementById(tagId).className=='cartaChiuso') {
+		document.getElementById(tagId).className='cartaAperto';
+		document.getElementById("box_"+tagId).className='carta_tematica_box_aperto';
+		document.getElementById("spazio_"+tagId).className='spazio_aperto';
+		document.getElementById(title).title="Chiudi dettagli cartografia";
+	} else {
+		document.getElementById(tagId).className='cartaChiuso';
+		document.getElementById("box_"+tagId).className='carta_tematica_box';
+		document.getElementById("spazio_"+tagId).className='spazio_chiuso';
+		document.getElementById(title).title="Apri dettagli cartografia";
+	}
+
+}
+
+/*]]>*/
+</script>
+
+<!-- Highslide JS -->
+<script type="text/javascript" src="highslide/highslide.js"></script>
+<script type="text/javascript" src="highslide/highslide.config.js" charset="utf-8"></script>
+<!-- Highslide JS -->
+
+
+
+
+<ul class="skip">
+	<li><a href="#homepage" title="Torna alla Pagina Principale - accesskey h">Torna alla Pagina Principale [h]</a> </li>
+	<li><a href="#contenutopagina" title="Descrizione Catalogo dei tipi di suolo  - accesskey k" accesskey="k">Salta ai contenuti [k]</a> </li>
+    <li><a href="#cerca" title="Salta al form di ricerca  - accesskey c">Cerca nel sito [c]</a> </li>
+	<li><a href="#menu" title="Salta all'elenco delle Unità cartografiche 1:1.000.000 - accesskey n" accesskey="n">Salta all'elenco delle Unità cartografiche [n]</a> </li>
+ </ul>
+ 
+<div id="container">
+	<div id="intro">
+  		<div id="logo_rer">
+			<a href="http://www.regione.emilia-romagna.it" title="Apri il Portale della Regione Emilia-Romagna" rel="external"><img src="images/logo_er.png" alt="Logo del Portale della Regione Emilia-Romagna"  height="30" /></a>&nbsp;<a href="http://www.regione.emilia-romagna.it" title="Apri il Portale della Regione Emilia-Romagna" rel="external"><img border="0" src="images/logo_rer.png" width="150" height="21" alt="Logo Regione Emilia-Romagna" /></a>
+  		</div>
+
+
+  		<div id="logo_rer_stampa">
+			<img src="images/marchio_RER.jpg" width="200" height="34" alt="Regione Emilia-Romagna" />
+  			<span>http://www.regione.emilia-romagna.it</span>
+  		</div>
+		<div id="pageHeader">			
+			<h1>
+
+				<span>Catalogo dei tipi di suolo</span>
+ 			<span>I suoli dell'Emilia-Romagna</span>
+  			<span>a cura del Servizio Geologico Sismico e dei Suoli, Regione Emilia-Romagna</span></h1>
+  		</div>
+  		<div id="titolo">
+  			<img src="images/i_suoli_titolo.png" width="380" height="31" alt="I suoli dell'Emilia-Romagna" />
+  		</div>
+
+		<div id="campo_search">
+        <form method="get" action="risultato_ricerca.jsp" id="ricerca">
+          <div>
+            <label id="label" for="query">cerca</label><br />
+
+					<!--queste righe:
+    				<input type="hidden" value="Cartpedo" id="i" name="i" />
+    				<input type="hidden" value="cartpedo" id="url" name="url" />
+  					<input type="hidden" value="query" id="f" name="f" />
+  					<input type="hidden" value="cartpedo" name="content" />
+					 sono commentate fin qui-->
+
+					<a name="cerca" tabindex="0"></a>
+    				<input accesskey="c" type="text" name="query" size="16" value="" id="query" class="input_text" /><br />
+    				<button type="submit" value=" " title="Avvia ricerca" id="button" class="bottone_vai">Vai &#8250;&#8250;</button>
+    			</div>
+    	</form>
+        </div>
+
+  
+  	</div>
+  <div class="briciole">
+  <a name="homepage" tabindex="0"></a>
+  <a accesskey="h" href="index.jsp?liv=1" title="Torna alla pagina principale">Home Page</a>
+&nbsp;&#8250;&#8250; Catalogo dei tipi di suolo
+  </div>
+
+  
+  <div id="content_legenda">
+	<a name="contenutopagina" tabindex="0"></a>
+    <h2>Catalogo dei tipi di suolo</h2>
+	
+    <div><img class="img_leg" src="/gstatico/documenti/cartpedo/immagini/catalogo_tipi_suolo.jpg" width="200" height="134" alt="Catalogo dei tipi di suolo" title="Catalogo dei tipi di suolo" /></a></div>
+    <div class="par_leg">Qui sono elencati in ordine alfabetico tutti i 328 tipi di suolo presenti nella carta dei suoli in scala 1:50.000. Sono descritti solo i suoli relativi agli ambienti della pianura e di parte del basso Appennino (collina). Per ogni suolo è presente una <strong>scheda generale</strong> in cui è presente una breve descrizione del suolo, classificazioni, profilo rappresentativo e qualità specifiche. Per <strong>180</strong> suoli di pianura e <strong>18</strong> di collina sono disponibili anche schede più dettagliate su <strong>considerazioni sulla gestione</strong> (qualità agronomiche, sistemazioni, tecniche di lavorazione, fertilizzazione) e <strong>indicazioni sulla scelta delle colture</strong> (colture agrarie e forestali).</div>
+    <a name="menu" tabindex="0"></a>
+    <table class="table_legenda" summary="Catalogo dei tipi di suolo">
+	<caption>Tipi di suolo</caption>
+      <thead>
+        <tr>
+          <th id="c01" scope="col">Sigla suolo</th>
+          <th id="c02" scope="col">Nome suolo</th>
+        </tr>    
+      </thead>
+      <tbody> 
+      <tr>
+         <td headers="c01" id="r00">
+
+      <a href="scheda_provincia.jsp?id=1" title="Visualizza AGE1">AGE1</a>
+
+          </td>
+          <td headers="c01 r00 c02">AGELLO franca argillosa limosa</td>
+        </tr>
+     <tr>
+         <td headers="c01" id="r01">
+          
+      <a href="scheda_provincia.jsp?id=2" title="Visualizza AGO1">AGO1</a>
+
+          </td>
+          <td headers="c01 r01 c02">ARGINE AGOSTA, a materiale organico umificato</td>
+        </tr>
+     <tr>
+         <td headers="c01" id="r02">
+          
+      <a href="scheda_provincia.jsp?id=3" title="Visualizza AGOz">AGOz</a>
+
+          </td>
+          <td headers="c01 r02 c02">Variante di ARGINE AGOSTA a copertura minerale</td>
+        </tr>
+     <tr>
+         <td headers="c01" id="r03">
+          
+      <a href="scheda_provincia.jsp?id=4" title="Visualizza ALB">ALB</a>
+
+          </td>
+          <td headers="c01 r03 c02">ALBERELLI</td>
+        </tr>
+     <tr>
+         <td headers="c01" id="r04">
+          
+      <a href="scheda_provincia.jsp?id=5" title="Visualizza ANC">ANC</a>
+
+          </td>
+          <td headers="c01 r04 c02">ANCONELLA</td>
+        </tr>
+     
+     
+        </tbody>
+    </table><p><br /></p>
+      
+
+</div>
+
+
+
+<!-- footer -->
+	<div id="footer">
+		<!-- <span class="logo_ermes">
+			<a href="http://www.regione.emilia-romagna.it" title="Apri ERMES il Portale della Regione Emilia-Romagna" rel="external">
+				<img src="images/logo_er.png" alt="Logo del Portale della Regione Emilia-Romagna"  height="30" />
+			</a>
+		</span> -->
+		<a href="http://ambiente.regione.emilia-romagna.it/geologia/" title="Apri il Sito del Servizio Geologico Sismico e dei Suoli" rel="external">
+			<img src="images/logo_SGSS_symbol.jpg" width="30" height="30" alt="Servizio Geologico Sismico e dei Suoli" />
+		</a>
+			<ul>
+				<li>&#8250;&#8250;&nbsp;<a href="http://www.regione.emilia-romagna.it/privacy/" title="Apri la pagina del portale della Regione Emilia-Romagna in merito al trattamento dei dati personali raccolti durante la navigazione dei siti web" rel="external"><span lang="en" xml:lang="en">Privacy</span></a></li>
+				<li>&#8250;&#8250;&nbsp;<a href="http://www.regione.emilia-romagna.it/accessibility-info/" title="Apri la pagina del portale della Regione Emilia-Romagna in merito  all'accessibilità dei siti regionali" rel="external">Accessibilità</a></li>
+				<li>&#8250;&#8250;&nbsp;<a href="credits.jsp"><span lang="en" xml:lang="en" title="Apri pagina Credits - Responsabili del sito">Credits</span></a></li>
+				<li>&#8250;&#8250;&nbsp;<a name="guida" tabindex="0"></a><a href="glossario.jsp"><span lang="it" xml:lang="en" title="Apri il Glossario dei termini usati nelle descrizioni dei suoli">Glossario</span></a></li>
+				<li>&#8250;&#8250;&nbsp;<a href="/gstatico/documenti/cartpedo/guida/guidautente.pdf" title="Apri la Guida alla navigazione" rel="external"><span>Guida</span></a> [PDF]</li>
+			</ul>
+			<div class="scritta_spaziata">
+				Servizio Geologico Sismico e dei Suoli, Regione Emilia-Romagna (<abbr title="partita">p.</abbr> IVA 800<span class="scritta_smallwhite">,</span>625<span class="scritta_smallwhite">,</span>903<span class="scritta_smallwhite">,</span>79)
+			</div>
+	</div>
+</div> <!-- chiude container !-->
+<script type="text/javascript">
+	externalLinks();
+</script>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<Style id="gridStyle">
+	<PolyStyle>
+		<color>ff0000cc</color>
+		<colorMode>normal</colorMode>
+		<fill>0</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Style id="sn_noicon">
+    <IconStyle>
+		<Icon></Icon>
+	</IconStyle>
+</Style>
+<Style id="bordi">
+	<LineStyle>
+		<color>FF237ff1</color>
+		<width>2</width>
+	</LineStyle>
+	<BalloonStyle>
+		<text>$[description]</text>
+	</BalloonStyle>
+</Style>
+</Document>
+</kml>

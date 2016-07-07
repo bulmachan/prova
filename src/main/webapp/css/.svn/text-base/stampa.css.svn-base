@@ -1,0 +1,195 @@
+@page {size: 210mm 297mm; margin: 30mm;}
+body {font-family:Times-New-Roman; font-size:11pt; color: #000; margin: 0; padding: 0; background-color:#fff;}
+a:link, a:visited {font-weight:bold; text-decoration: underline; color:#009;}
+a[href]:after{content: "(" attr(href) ")"} 
+
+#campo_search {
+	display: none
+}
+div#footer {
+	display: none
+}
+div#quickSummary {
+	display: none
+} 
+div#titolo {
+	display: none
+}
+div#logo_rer img {
+  display:none;
+}
+div#logo_rer a {
+  color: #fff;
+  display:none;
+}
+div#logo_rer_stampa img {
+  position:absolute;
+  top:0;
+  left:0;
+  border:none;
+}
+div#logo_rer_stampa span {
+  position:absolute;
+  top:25pt;
+  left:0;
+  border:none;
+}
+
+h2.titolo {
+	display:none;
+}
+
+.briciole {	
+  display: none
+}
+
+p.col_02_testata {	
+  display: none
+}
+
+.display_none  {	
+  display: none
+}
+
+h1 {font-size:13pt;	margin:45pt 0 10pt 0; padding:0; font-weight:bold; text-align:center;}
+h1 span {display: block;}
+#content_legenda h1, .titolo_uc  h1, .titolo_comp h1 {font-size:12pt;}
+h2 {font-size:11pt;	margin:0 0 11pt 0; padding:0; font-weight:bold; font-style:italic;}
+
+.contenitore_01 {
+	width:auto;
+	font-size: 11pt;
+}
+.contenitore_02 {
+	width:auto;
+	font-size: 11pt;
+}
+.contenitore_03 {
+	width:auto;
+	font-size: 11pt;
+}
+.contenitore_04 {
+	width:auto;
+	font-size: 11pt;
+}
+div#content_leggenda {
+	width:auto;
+	font-size: 11pt;
+	margin-top:11pt;
+}
+table.table_legenda  {
+	width:auto;
+	font-size: 11pt;
+	margin-top:24pt;
+	border:1px solid #900;
+} 
+table.table_legenda td {
+	width:auto;
+	font-size: 11pt;
+	padding:11pt 4pt 11pt 4pt;
+} 
+div.par_leg {
+	width:auto;
+	font-size: 11pt;
+	margin-bottom:11pt;
+} 
+
+.skip {display:none; } 
+/*.menu_uc {float: left; }
+#box_descr_uc img {float:right;}*/
+
+p.titolo {font-size:14pt;	margin:24pt 0 0 0; padding:4pt; font-weight:bold; color:#900; background-color:#D0D0D0; height:100%; border:2pt dotted #900;}
+p.menu_attivo {font-size:12pt;	margin:8pt 0 0 0; padding:0; font-weight:bold; color:#000;}
+p.menu {font-size:10pt;	margin:0; padding:0; color:#000; text-align:right;}
+img {float:right;}
+div.spazio_contenuto {width:auto; height:auto; padding:0; margin:0; clear:both;}
+div.spazio_allegati {width:auto; height:auto; padding:0; margin:0;}
+p.ban_text {font-size:14pt;	margin:24pt 0 0 0; padding:4pt; font-weight:bold; color:#900; background-color:#D0D0D0; height:100%; border:2pt dotted #900;}
+
+/*elenchi*/
+ul {list-style-type: square; padding:0; margin-left:0;}
+ul.elenco_dx {list-style-type: square;	padding:0; margin:0;}
+.elenco_dx li {background:#fff; padding:0; margin:0;}
+.elenco_dx li.violet {background:#fff; padding:0; margin:0;}
+.elenco_dx li.green {background:#fff; padding:0; margin:0;} 
+ul.elenco_sx {list-style-type: square; padding:0; margin:0; } 
+.elenco_sx li {background:#fff; padding:0; margin:0;}
+li.violet {background:#fff; padding:0; margin:0;}
+li.green {background:#fff; padding:0; margin:0;} 
+ /*fine elenchi*/
+
+
+  /*scheda_sistema*/
+div h3 {font-size:12pt;	margin:11pt 0 11pt 0; padding:4pt; font-weight:bold; font-style:italic; text-align:left; }
+h4 {font-size:12pt;	margin:0; padding:0; font-weight:bold; color:#900;}
+.box_descr_uc {float:left; margin:0 11pt 11pt 11pt;}
+.box_descr {float:left;}
+div.uc_01 {position: static; top:0; left:0; float: none; clear:both; text-align:left;}
+div.uc_02 {position: static; float: none; clear:both; margin:11pt;}
+div.img_uc {float:right; margin:11pt; padding:4pt; text-align:center;}
+
+p.comportamento_riga {font-size:10pt; margin:0; padding:0; color:#000; text-align:right;}
+
+p.tipi_di_suolo  {margin-left:24pt; padding:0; color:#000;}
+h5 {font-size:11pt;	margin:10pt 0 0 0; padding:0; font-weight:bold; color:#000;}
+h6 {font-size:11pt;	margin:0; padding:0.5em; font-weight:bold;}
+
+.didascalia_img_sattellite {font-size:10pt; margin:0; padding:0; font-style:italic;}
+.img_sattellite {page-break-before:always; border:1pt solid #000; border-bottom:0; width:80%; padding:6pt; margin:0 0 0 8pt;}
+.didascalia_img_sattellite {border:1pt solid #000; border-top:0; width:80%; padding:6pt; margin:0 0 0 8pt;}
+.img_uc {border:1pt solid #000; width:210px; padding:0; margin:0; float:right;}
+.box_titolo_uc {float:left;}
+.table_cat_col {border:1pt solid #000; width:auto; padding:6pt; margin:0;}
+    .table_cat_col {border:1pt solid #000; width:auto; padding:6pt; margin:0; font-weight:bold;} 
+/*aziende*/
+p.img_azienda img {margin:10pt; padding:4pt; }
+
+div.uc_02_az {position: static; float: none; clear:both;}
+div.uc_02_az img {padding:6pt; margin:12pt;}
+p.prof_az {margin-left:24pt; padding:0; color:#000;}
+div.orizzonti {margin:0 0 24pt 24pt; padding:0; color:#000; font-style:italic;}  
+table.table_az  {
+	width:auto;
+	font-size: 11pt;
+	margin-top:24pt;
+	margin-bottom:24pt;
+	border:1px solid #900;
+} 
+table.table_az td {
+	width:auto;
+	font-size: 11pt;
+	padding:8pt 4pt 8pt 4pt;
+} 
+/*glossario*/ 
+.col_01_gloss {font-size:12pt; margin:14pt 0 0 0; padding:0; font-weight:bold;}
+table.table_gloss  {
+	width:auto;
+	font-size: 11pt;
+	margin-top:24pt;
+	margin-bottom:24pt;
+	border:1px solid #900;
+} 
+table.table_gloss td {
+	width:auto;
+	font-size: 11pt;
+	padding:8pt 4pt 8pt 4pt;
+} 
+
+  
+table.table_cat_col  {
+	width:auto;
+	font-size: 11pt;
+	margin-top:24pt;
+	margin-bottom:24pt;
+	border:1px solid #900;
+} 
+table.table_cat_col td {
+	width:auto;
+	font-size: 11pt;
+	padding:4pt;
+} 
+
+/*credits*/
+p.col_01_cr  {margin:18pt 0 0 0; padding:0; color:#000; font-weight:bold;}
+p.col_02_cr  {margin:0; padding:0; color:#000; }                              
+caption {display: none;}

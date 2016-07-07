@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root id="0" name="&lt;strong>Catalogo&lt;/strong>" rootId="0">
+    <root_cat id="10" name="&lt;strong>Acque sotterranee&lt;/strong>"
+        rootId="1" visible="true">
+        <folder id="1002" name="Pozzi" padre="10" visible="true"/>
+        <folder id="1003" name="Progetto eWater" padre="10" visible="true">
+            <document catid="1013" desctree="Corpi idrici sotterranei"
+                id="Gr1003_Og1013" metalayer=""
+                name="Corpi idrici sotterranei"
+                nametree="Corpi idrici sotterranei" owner="EWATER_USER"
+                pubflag="3" tab="EWATER_F_GROUND_WAT_BOD_POL" topo="a" visible="true"/>
+            <document catid="1014" desctree="Isopache, Ghiaie e Sabbie"
+                id="Gr1003_Og1014" metalayer=""
+                name="Isopache, Ghiaie e Sabbie"
+                nametree="Isopache, Ghiaie e Sabbie" owner="EWATER_USER"
+                pubflag="2" tab="EWATER_F_ISO_GRA_SAN_POL" topo="a" visible="true"/>
+            <document catid="1015" desctree="Pozzi di monitoraggio"
+                id="Gr1003_Og1015" metalayer=""
+                name="Pozzi di monitoraggio"
+                nametree="Pozzi di monitoraggio" owner="EWATER_USER"
+                pubflag="2" tab="EWATER_F_WELLS_PUN" topo="p" visible="true"/>
+        </folder>
+        <folder id="1001" name="Sorgenti" padre="10" visible="true"/>
+        <folder id="1099" name="Progetto E-Water Lingua Inglese"
+            padre="10" topo="WMS" visible="true">
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1099_WmsAdministration_limits"
+                metalayer="" name="Administration_limits"
+                nametree="Administration limits" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Administration limits" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1099_WmsISO_GRA_SAN" metalayer=""
+                name="ISO_GRA_SAN" nametree="ISO_GRA_SAN" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--ISO_GRA_SAN" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1099_WmsGROUND_WAT_BOD" metalayer=""
+                name="GROUND_WAT_BOD" nametree="GROUND_WAT_BOD" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--GROUND_WAT_BOD" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1099_WmsALGCh_it_LiGeoCh" metalayer=""
+                name="ALGCh_it_LiGeoCh" nametree="ALGCh_it_LiGeoCh"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--ALGCh_it_LiGeoCh" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1099_WmsALGCh_it_LiEnvSym"
+                metalayer="" name="ALGCh_it_LiEnvSym"
+                nametree="ALGCh_it_LiEnvSym" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--ALGCh_it_LiEnvSym" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1099_WmsALGCh_it_AqTyC" metalayer=""
+                name="ALGCh_it_AqTyC" nametree="ALGCh_it_AqTyC" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--ALGCh_it_AqTyC" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1099_WmsMonitoring_wells" metalayer=""
+                name="Monitoring_wells" nametree="Monitoring wells"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Monitoring wells" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+        </folder>
+    </root_cat>
+    <root_cat id="12" name="&lt;strong>Archeologia&lt;/strong>"
+        rootId="2" visible="true"/>
+    <root_cat id="13" name="&lt;strong>Cartografia di base&lt;/strong>"
+        rootId="3" visible="true">
+        <folder id="1303" name="Limiti amministrativi" padre="13" visible="true">
+            <document catid="708" desctree="Comuni (tabella)"
+                id="Gr1303_Og708" metalayer="" name="Comuni (tabella)"
+                nametree="Comuni (tabella)" owner="BASE_USER"
+                pubflag="3" tab="BASE_COMUNI" topo="t" visible="true"/>
+            <document catid="939"
+                desctree="Confine regionale derivato dai limiti comunali in scala 1:10000"
+                id="Gr1303_Og939"
+                metalayer="Area regionale 1:5.000 (SIG)"
+                name="Limite regionale" nametree="Limite regionale"
+                owner="BASE_USER" pubflag="3"
+                tab="BASE_VF_REGIONE_ER_POL" topo="a" visible="true"/>
+            <document catid="379"
+                desctree="Confini dei comuni digitalizzati dalla carta tecnica regionale in scala 1:10000"
+                id="Gr1303_Og379" metalayer="Aree comunali (SIG)"
+                name="Limiti comunali" nametree="Limiti comunali"
+                owner="BASE_USER" pubflag="3" tab="BASE_VF_COMUNI_POL"
+                topo="a" visible="true"/>
+            <document catid="380"
+                desctree="Confini provinciali derivati dai limiti comunali in scala 1:10000"
+                id="Gr1303_Og380" metalayer="Aree provinciali (SIG)"
+                name="Limiti provinciali" nametree="Limiti provinciali"
+                owner="BASE_USER" pubflag="3" tab="BASE_VF_PROVINCE_POL"
+                topo="a" visible="true"/>
+            <document catid="722" desctree="Province (tabella)"
+                id="Gr1303_Og722" metalayer="" name="Province (tabella)"
+                nametree="Province (tabella)" owner="BASE_USER"
+                pubflag="3" tab="BASE_PROVINCE" topo="t" visible="true"/>
+        </folder>
+        <folder id="1302" name="Quadri d'unione" padre="13" visible="true">
+            <document catid="581"
+                desctree="Quadro d'unione delle sezioni  CTR in scala 1:10.000"
+                id="Gr1302_Og581" metalayer="Quadro unione CTR 1:10.000"
+                name="Quadri - CTR 1:10.000"
+                nametree="Quadri - CTR 1:10.000" owner="BASE_USER"
+                pubflag="3" tab="BASE_VF_QUADRO10_POL" topo="a" visible="true"/>
+            <document catid="721"
+                desctree="Quadri d'unione delle sezioni CTR 1:10.000 (tabella)"
+                id="Gr1302_Og721" metalayer=""
+                name="CTR 1:10.000 (tabella)"
+                nametree="Quadri - CTR 1:10.000 (tabella)"
+                owner="BASE_USER" pubflag="3" tab="BASE_QUADRO10"
+                topo="t" visible="true"/>
+            <document catid="582"
+                desctree="Quadro d'unione delle tavole CTR in scala 1:25.000"
+                id="Gr1302_Og582" metalayer="Quadro unione CTR 1:25.000"
+                name="Quadri - CTR 1:25.000"
+                nametree="Quadri - CTR 1:25.000" owner="BASE_USER"
+                pubflag="3" tab="BASE_VF_QUADRO25_POL" topo="a" visible="true"/>
+            <document catid="724"
+                desctree="Quadri d'unione delle tavole CTR 1:25.000 (tabella)"
+                id="Gr1302_Og724" metalayer=""
+                name="CTR 1:25.000 (tabella)"
+                nametree="Quadri - CTR 1:25.000 (tabella)"
+                owner="BASE_USER" pubflag="3" tab="BASE_QUADRO25"
+                topo="t" visible="true"/>
+            <document catid="691"
+                desctree="Quadro d'unione delle sezioni  CTR in scala 1:5.000"
+                id="Gr1302_Og691" metalayer="Quadro unione CTR 1:5.000"
+                name="Quadri - CTR 1:5.000"
+                nametree="Quadri - CTR 1:5.000" owner="BASE_USER"
+                pubflag="3" tab="BASE_VF_QUADRO05_POL" topo="a" visible="true"/>
+            <document catid="720"
+                desctree="Quadri d'unione delle sezioni CTR 1:5.000 (tabella)"
+                id="Gr1302_Og720" metalayer=""
+                name="CTR 1:5.000 (tabella)"
+                nametree="Quadri - CTR 1:5.000 (tabella)"
+                owner="BASE_USER" pubflag="3" tab="BASE_QUADRO05"
+                topo="t" visible="true"/>
+            <document catid="580"
+                desctree="Quadro d'unione dei fogli IGM in scala 1:50.000"
+                id="Gr1302_Og580"
+                metalayer="Quadro unione 1:50.000 (IGM)"
+                name="Quadri - IGM 1:50.000"
+                nametree="Quadri - IGM 1:50.000" owner="BASE_USER"
+                pubflag="3" tab="BASE_VF_QUADRO50_POL" topo="a" visible="true"/>
+            <document catid="725"
+                desctree="Quadri d'unione dei fogli IGM 1:50.000 (tabella)"
+                id="Gr1302_Og725" metalayer=""
+                name="IGM 1:50.000 (tabella)"
+                nametree="Quadri - IGM 1:50.000 (tabella)"
+                owner="BASE_USER" pubflag="3" tab="BASE_QUADRO50"
+                topo="t" visible="true"/>
+        </folder>
+        <folder id="1301" name="Raster" padre="13" visible="true">
+            <folder id="130101" name="DTM" padre="1301" visible="true">
+                <folder id="13010102" name="Altimetrico" padre="130101" visible="true">
+                    <document catid="726"
+                        desctree="Modello digitale di superficie (DSM, Digital Surface Model) della fascia costiera, eseguito coprendo un corridoio largo circa 800 m, da Goro fino a Rimini, e lungo il Fiume Savio, dalla foce fino a Cesena."
+                        id="Gr13010102_Og726"
+                        metalayer="DSM (Digital Surface Model)"
+                        name="DSM - Lidar (costa)"
+                        nametree="DSM Lidar costa" owner="CST_USER"
+                        pubflag="2" tab="CST_GDS_DSMLIDAR" topo="R" visible="true"/>
+                    <document catid="647"
+                        desctree="Modello digitale del terreno con cella di 100 m, con porzioni di territorio extra-regionale"
+                        id="Gr13010102_Og647" metalayer="DTM EXT (10m)"
+                        name="DTM - 10 m" nametree="DTM - 10 m"
+                        owner="BASE_USER" pubflag="2"
+                        tab="BASE_GDS_DTM10M_EXT" topo="R" visible="true"/>
+                    <document catid="650"
+                        desctree="Modello digitale del terreno con cella di 100 m.&#xa;Tagliato sul confine regionale."
+                        id="Gr13010102_Og650" metalayer="DTM RER (10m)"
+                        name="DTM - 10 m (RER)"
+                        nametree="DTM - 10 m (RER)" owner="BASE_USER"
+                        pubflag="2" tab="BASE_GDS_DTM10M_RER" topo="R" visible="true"/>
+                    <document catid="381"
+                        desctree="Modello digitale del terreno con cella di 100 m, con porzioni di territorio extra-regionale"
+                        id="Gr13010102_Og381" metalayer="DTM EXT (100m)"
+                        name="DTM - 100 m" nametree="DTM - 100 m"
+                        owner="BASE_USER" pubflag="2"
+                        tab="BASE_GDS_DTM100M_EXT" topo="R" visible="true"/>
+                    <document catid="644"
+                        desctree="Modello digitale del terreno con cella di 100 m.&#xa;Tagliato sul confine regionale."
+                        id="Gr13010102_Og644" metalayer="DTM RER (100m)"
+                        name="DTM - 100 m (RER)"
+                        nametree="DTM - 100 m (RER)" owner="BASE_USER"
+                        pubflag="2" tab="BASE_GDS_DTM100M_RER" topo="R" visible="true"/>
+                    <document catid="646"
+                        desctree="Modello digitale del terreno con cella di 100 m, con porzioni di territorio extra-regionale"
+                        id="Gr13010102_Og646" metalayer="DTM EXT (40m)"
+                        name="DTM - 40 m" nametree="DTM - 40 m"
+                        owner="BASE_USER" pubflag="2"
+                        tab="BASE_GDS_DTM40M_EXT" topo="R" visible="true"/>
+                    <document catid="645"
+                        desctree="Modello digitale del terreno con cella di 100 m.&#xa;Tagliato sul confine regionale."
+                        id="Gr13010102_Og645" metalayer="DTM RER (40m)"
+                        name="DTM - 40 m (RER)"
+                        nametree="DTM - 40 m (RER)" owner="BASE_USER"
+                        pubflag="2" tab="BASE_GDS_DTM40M_RER" topo="R" visible="true"/>
+                    <document catid="611"
+                        desctree="Modello digitale del terreno con cella di 5 m, con porzioni di territorio extra-regionale"
+                        id="Gr13010102_Og611" metalayer="DTM EXT (5m)"
+                        name="DTM - 5 m" nametree="DTM - 5 m"
+                        owner="BASE_USER" pubflag="2"
+                        tab="BASE_GDS_DTM5M_EXT" topo="R" visible="true"/>
+                    <document catid="653"
+                        desctree="Modello digitale del terreno con cella di 100 m.&#xa;Tagliato sul confine regionale."
+                        id="Gr13010102_Og653" metalayer="DTM RER (5m)"
+                        name="DTM - 5 m (RER)"
+                        nametree="DTM - 5 m (RER)" owner="BASE_USER"
+                        pubflag="2" tab="BASE_GDS_DTM5M_RER" topo="R" visible="true"/>
+                    <document catid="382"
+                        desctree="Modello digitale del terreno con cella di 70 m, di un settore di territorio centrato sull'Emilia-Romagna ma esteso dal Trentino a nord, all'alto Lazio a sud, dal Piemonte orientale ad ovest, alle Marche centrali ad est"
+                        id="Gr13010102_Og382"
+                        metalayer="DTM (centro-nord ITA)"
+                        name="DTM - 70 m (centro-nord Italia)"
+                        nametree="DTM - 70 m (centro-nord)"
+                        owner="BASE_USER" pubflag="2"
+                        tab="BASE_GDS_DTM70M_EXT" topo="R" visible="true"/>
+                    <document catid="735"
+                        desctree="Modello digitale del terreno (DTM, Digital Elevation Model) della fascia costiera, eseguito coprendo un corridoio largo circa 800 m, da Goro fino a Rimini, e lungo il Fiume Savio, dalla foce fino a Cesena."
+                        id="Gr13010102_Og735"
+                        metalayer="DTM (Digital Terrain Model)"
+                        name="DTM - Lidar (costa)"
+                        nametree="DTM Lidar costa" owner="CST_USER"
+                        pubflag="2" tab="CST_GDS_DTMLIDAR" topo="R" visible="true"/>
+                </folder>
+                <folder id="13010101" name="Batimetrico" padre="130101" visible="true">
+                    <document catid="396"
+                        desctree="Modello digitale del fondale marino con risoluzione(pixel) di 50 m, anno 1953"
+                        id="Gr13010101_Og396"
+                        metalayer="DBM 1953-54 (Adriatico RER)"
+                        name="DTM - Mare 1953"
+                        nametree="DTM mare (1953)" owner="CST_USER"
+                        pubflag="2" tab="CST_GDS_MARE1953" topo="R" visible="true"/>
+                    <document catid="397"
+                        desctree="Modello digitale del fondale marino con risoluzione(pixel) di 10 m, anno 2000"
+                        id="Gr13010101_Og397"
+                        metalayer="DBM 2000 (Adriatico RER)"
+                        name="DTM - Mare 2000"
+                        nametree="DTM mare (2000)" owner="CST_USER"
+                        pubflag="2" tab="CST_GDS_MARE2000" topo="R" visible="true"/>
+                </folder>
+            </folder>
+            <folder id="130104" name="Immagini satellitari" padre="1301" visible="true"/>
+            <folder id="130105" name="Ortofoto" padre="1301" visible="true">
+                <folder id="13010501" name="Costa" padre="130105" visible="true">
+                    <document catid="663"
+                        desctree="Volo Costa anno 1982"
+                        id="Gr13010501_Og663"
+                        metalayer="Volo Costa 1982"
+                        name="Volo Costa (anno 1982)"
+                        nametree="Volo costa (1982)" owner="CST_USER"
+                        pubflag="2" tab="CST_RDS_VOLOCOSTA1982" topo="R" visible="true"/>
+                    <document catid="668"
+                        desctree="Volo Costa anno 1991"
+                        id="Gr13010501_Og668"
+                        metalayer="Volo Costa 1991"
+                        name="Volo Costa (anno 1991)"
+                        nametree="Volo costa (1991)" owner="CST_USER"
+                        pubflag="2" tab="CST_RDS_VOLOCOSTA1991" topo="R" visible="true"/>
+                    <document catid="664"
+                        desctree="Volo Costa anno 1992"
+                        id="Gr13010501_Og664"
+                        metalayer="Volo Costa 1992"
+                        name="Volo Costa (anno 1992)"
+                        nametree="Volo costa (1992)" owner="CST_USER"
+                        pubflag="2" tab="CST_RDS_VOLOCOSTA1992" topo="R" visible="true"/>
+                    <document catid="669"
+                        desctree="Volo Costa anno 2005"
+                        id="Gr13010501_Og669"
+                        metalayer="Volo Costa 2005"
+                        name="Volo Costa (anno 2005)"
+                        nametree="Volo costa (2005)" owner="CST_USER"
+                        pubflag="2" tab="CST_RDS_VOLOCOSTA2005" topo="R" visible="true"/>
+                    <document catid="665" desctree="Volo Costa GAI"
+                        id="Gr13010501_Og665" metalayer="Volo GAI"
+                        name="Volo Costa GAI"
+                        nametree="Volo costa GAI (1954-55)"
+                        owner="CST_USER" pubflag="2"
+                        tab="CST_RDS_VOLOGAI" topo="R" visible="true"/>
+                    <document catid="666"
+                        desctree="Volo IT2000 (Costa RER)"
+                        id="Gr13010501_Og666"
+                        metalayer="Volo IT2000 (Costa RER)"
+                        name="Volo IT2000 (Costa RER)"
+                        nametree="Volo costa IT2000 (1998-99)"
+                        owner="CST_USER" pubflag="2"
+                        tab="CST_RDS_VOLOIT2000" topo="R" visible="true"/>
+                    <document catid="670" desctree="Volo Costa RAF"
+                        id="Gr13010501_Og670" metalayer="Volo RAF"
+                        name="Volo Costa RAF"
+                        nametree="Volo costa RAF (1943-44)"
+                        owner="CST_USER" pubflag="2"
+                        tab="CST_RDS_VOLORAF" topo="R" visible="true"/>
+                    <document catid="612"
+                        desctree="Volo Costa RER 1976-78"
+                        id="Gr13010501_Og612"
+                        metalayer="Volo RER 1976-78"
+                        name="Volo Costa RER 1976-78"
+                        nametree="Volo costa RER (1976-78)"
+                        owner="CST_USER" pubflag="2"
+                        tab="CST_RDS_VOLO76_78" topo="R" visible="true"/>
+                </folder>
+                <document catid="386"
+                    desctree="Mosaico delle ortofoto AIMA con risoluzione di 1 metro sul terreno. Per le aree non coperte dalle ortofoto AIMA sono state utilizzate 8 ortofoto AGEA.&#xa;La copertura comprende l'intero territorio regionale."
+                    id="Gr130105_Og386" metalayer=""
+                    name="Ortofoto - AIMA" nametree="Ortofoto AIMA"
+                    owner="BASE_USER" pubflag="2"
+                    tab="BASE_RDS_ORTOAIMA_RER" topo="R" visible="true"/>
+            </folder>
+            <folder id="130103" name="Sfumo 3D" padre="1301" visible="true">
+                <document catid="536"
+                    desctree="Rappresentazione tridimensionale del terreno con cella di 10 m, con porzioni di territorio extra-regionale"
+                    id="Gr130103_Og536" metalayer="SFUMO 3D EXT (10m)"
+                    name="Sfumo 3D - 10 m" nametree="Sfumo 3D - 10 m"
+                    owner="BASE_USER" pubflag="2"
+                    tab="BASE_GDS_SFUMO10M_EXT" topo="R" visible="true"/>
+                <document catid="614"
+                    desctree="Rappresentazione tridimensionale del terreno con cella di 10 m, tagliata sul confine regionale"
+                    id="Gr130103_Og614" metalayer="SFUMO 3D RER (10m)"
+                    name="Sfumo 3D - 10 m (RER)"
+                    nametree="Sfumo 3D - 10 m (RER)" owner="BASE_USER"
+                    pubflag="2" tab="BASE_GDS_SFUMO10M_RER" topo="R" visible="true"/>
+                <document catid="535"
+                    desctree="Rappresentazione tridimensionale del terreno con cella di 100 m, con porzioni di territorio extra-regionale"
+                    id="Gr130103_Og535" metalayer="SFUMO 3D EXT (100m)"
+                    name="Sfumo 3D - 100 m" nametree="Sfumo 3D - 100 m"
+                    owner="BASE_USER" pubflag="2"
+                    tab="BASE_GDS_SFUMO100M_EXT" topo="R" visible="true"/>
+                <document catid="613"
+                    desctree="Rappresentazione tridimensionale del terreno con cella di 100 m, tagliata sul confine regionale"
+                    id="Gr130103_Og613" metalayer="SFUMO 3D RER (100m)"
+                    name="Sfumo 3D - 100 m (RER)"
+                    nametree="Sfumo 3D - 100 m (RER)" owner="BASE_USER"
+                    pubflag="2" tab="BASE_GDS_SFUMO100M_RER" topo="R" visible="true"/>
+                <document catid="537"
+                    desctree="Rappresentazione tridimensionale del terreno con cella di 40 m, con porzioni di territorio extra-regionale"
+                    id="Gr130103_Og537" metalayer="SFUMO 3D EXT (40m)"
+                    name="Sfumo 3D - 40 m" nametree="Sfumo 3D - 40 m"
+                    owner="BASE_USER" pubflag="2"
+                    tab="BASE_GDS_SFUMO40M_EXT" topo="R" visible="true"/>
+                <document catid="649"
+                    desctree="Rappresentazione tridimensionale del terreno con cella di 40 m, tagliata sul confine regionale"
+                    id="Gr130103_Og649" metalayer="SFUMO 3D RER (40m)"
+                    name="Sfumo 3D - 40 m (RER)"
+                    nametree="Sfumo 3D - 40 m (RER)" owner="BASE_USER"
+                    pubflag="2" tab="BASE_GDS_SFUMO40M_RER" topo="R" visible="true"/>
+                <document catid="538"
+                    desctree="Rappresentazione tridimensionale del terreno con cella di 5 m, con porzioni di territorio extra-regionale"
+                    id="Gr130103_Og538" metalayer="SFUMO 3D EXT (5m)"
+                    name="Sfumo 3D - 5 m" nametree="Sfumo 3D - 5 m"
+                    owner="BASE_USER" pubflag="2"
+                    tab="BASE_GDS_SFUMO5M_EXT" topo="R" visible="true"/>
+                <document catid="615"
+                    desctree="Rappresentazione tridimensionale del terreno con cella di 5 m, tagliata sul confine regionale"
+                    id="Gr130103_Og615" metalayer="SFUMO 3D RER (5m)"
+                    name="Sfumo 3D - 5 m (RER)"
+                    nametree="Sfumo 3D - 5 m (RER)" owner="BASE_USER"
+                    pubflag="2" tab="BASE_GDS_SFUMO5M_RER" topo="R" visible="true"/>
+                <document catid="385"
+                    desctree="Rappresentazione tridimensionale del terreno con cella di 70 m, di un settore di territorio centrato sull'Emilia-Romagna ma esteso dal Trentino a nord, all'alto Lazio a sud, dal Piemonte orientale ad ovest, alle Marche centrali ad est"
+                    id="Gr130103_Og385"
+                    metalayer="SFUMO 3D (centro-nord ITA)"
+                    name="Sfumo 3D - 70 m (centro-nord Italia)"
+                    nametree="Sfumo 3D - 70 m (centro-nord)"
+                    owner="BASE_USER" pubflag="2"
+                    tab="BASE_GDS_SFUMO70M_EXT" topo="R" visible="true"/>
+            </folder>
+            <folder id="130102" name="Topografia" padre="1301" visible="true">
+                <document catid="530" desctree="CTR Scala 1:25.000"
+                    id="Gr130102_Og530" metalayer="102_UTMA_CTR25"
+                    name="CTR - 1:25.000" nametree="CTR - 1:25.000"
+                    owner="BASE_USER" pubflag="2" tab="BASE_RDS_CTR25K"
+                    topo="R" visible="true"/>
+                <document catid="529"
+                    desctree="Carta Topografica Regionale alla scala 1:250.000."
+                    id="Gr130102_Og529" metalayer="103_UTMA_CTR250"
+                    name="CTR - 1:250.000" nametree="CTR - 1:250.000"
+                    owner="BASE_USER" pubflag="2"
+                    tab="BASE_RDS_CTR250K_TAGLIO" topo="R" visible="true"/>
+                <document catid="528"
+                    desctree="Carta Topografica Regionale alla scala 1:250.000. Comprende cornice di riquadro e titolo."
+                    id="Gr130102_Og528" metalayer="103_UTMA_CTR250"
+                    name="CTR - 1:250.000 (con cornice)"
+                    nametree="CTR - 1:250.000 (con cornice)"
+                    owner="BASE_USER" pubflag="2" tab="BASE_RDS_CTR250K"
+                    topo="R" visible="true"/>
+                <document catid="378"
+                    desctree="Carta Tecnica Regionale alla scala 1:5.000"
+                    id="Gr130102_Og378" metalayer="101_UTMA_CTR5"
+                    name="CTR - 1:5.000" nametree="CTR - 1:5.000"
+                    owner="BASE_USER" pubflag="2" tab="BASE_RDS_CTR5K"
+                    topo="R" visible="true"/>
+                <document catid="597"
+                    desctree="Estratto della Carta Topografica d'Italia dell'IGM alla scala 1:50.000.&#xa;Comprende i soli fogli in cui ricade il territorio regionale."
+                    id="Gr130102_Og597" metalayer="IGM 1:50.000"
+                    name="IGM - 1:50.000" nametree="IGM - 1:50.000"
+                    owner="BASE_USER" pubflag="2" tab="BASE_RDS_IGM50K"
+                    topo="R" visible="true"/>
+            </folder>
+        </folder>
+        <document catid="586"
+            desctree="Posizionamento dei toponimi presenti nella CTR 1:5.000"
+            id="Gr13_Og586" metalayer="Toponomastica 1:5.000 (SIG)"
+            name="Toponimi" nametree="Toponimi" owner="BASE_USER"
+            pubflag="2" tab="BASE_VF_TOPONIMI_PUN" topo="p" visible="true"/>
+    </root_cat>
+    <root_cat id="07" name="&lt;strong>Costa&lt;/strong>" rootId="4" visible="true">
+        <folder id="0701" name="Batimetrie" padre="07" visible="true">
+            <document catid="593"
+                desctree="Punti di campionamento batimetrico relativo alla campagna RER del 1984"
+                id="Gr0701_Og593"
+                metalayer="Profili Batimetrici RER 1984"
+                name="Batimetrie (anno 1984)"
+                nametree="Batimetrie (1984)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_BATIMETRIE1984_PUN" topo="p" visible="true"/>
+            <document catid="594"
+                desctree="Punti di campionamento batimetrico relativo alla campagna RER del 1994"
+                id="Gr0701_Og594"
+                metalayer="Profili Batimetrici RER 1994"
+                name="Batimetrie (anno 1994)"
+                nametree="Batimetrie (1994)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_BATIMETRIE1994_PUN" topo="p" visible="true"/>
+            <document catid="595"
+                desctree="Punti di campionamento batimetrico relativo alla campagna RER del 2000"
+                id="Gr0701_Og595"
+                metalayer="Profili Batimetrici RER 2000"
+                name="Batimetrie (anno 2000)"
+                nametree="Batimetrie (2000)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_BATIMETRIE2000_PUN" topo="p" visible="true"/>
+        </folder>
+        <folder id="0706" name="DTM" padre="07" visible="true">
+            <folder id="070602" name="Altimetrico" padre="0706" visible="true">
+                <document catid="726"
+                    desctree="Modello digitale di superficie (DSM, Digital Surface Model) della fascia costiera, eseguito coprendo un corridoio largo circa 800 m, da Goro fino a Rimini, e lungo il Fiume Savio, dalla foce fino a Cesena."
+                    id="Gr070602_Og726"
+                    metalayer="DSM (Digital Surface Model)"
+                    name="DSM - Lidar (costa)"
+                    nametree="DSM Lidar costa" owner="CST_USER"
+                    pubflag="2" tab="CST_GDS_DSMLIDAR" topo="R" visible="true"/>
+                <document catid="735"
+                    desctree="Modello digitale del terreno (DTM, Digital Elevation Model) della fascia costiera, eseguito coprendo un corridoio largo circa 800 m, da Goro fino a Rimini, e lungo il Fiume Savio, dalla foce fino a Cesena."
+                    id="Gr070602_Og735"
+                    metalayer="DTM (Digital Terrain Model)"
+                    name="DTM - Lidar (costa)"
+                    nametree="DTM Lidar costa" owner="CST_USER"
+                    pubflag="2" tab="CST_GDS_DTMLIDAR" topo="R" visible="true"/>
+            </folder>
+            <folder id="070601" name="Batimetrico" padre="0706" visible="true">
+                <document catid="396"
+                    desctree="Modello digitale del fondale marino con risoluzione(pixel) di 50 m, anno 1953"
+                    id="Gr070601_Og396"
+                    metalayer="DBM 1953-54 (Adriatico RER)"
+                    name="DTM - Mare 1953" nametree="DTM mare (1953)"
+                    owner="CST_USER" pubflag="2" tab="CST_GDS_MARE1953"
+                    topo="R" visible="true"/>
+                <document catid="397"
+                    desctree="Modello digitale del fondale marino con risoluzione(pixel) di 10 m, anno 2000"
+                    id="Gr070601_Og397"
+                    metalayer="DBM 2000 (Adriatico RER)"
+                    name="DTM - Mare 2000" nametree="DTM mare (2000)"
+                    owner="CST_USER" pubflag="2" tab="CST_GDS_MARE2000"
+                    topo="R" visible="true"/>
+            </folder>
+        </folder>
+        <folder id="0704" name="Geomorfologia costiera" padre="07" visible="true">
+            <document catid="746"
+                desctree="Rappresentazione della Pianura Padana della Regione Emilia-Romagna in fasce altimetriche ottenuta dalla &quot;CARTA ALTIMETRICA E DEI MOVIMENTI VERTICALI DEL SUOLO DELLA PIANURA PADANA&quot;"
+                id="Gr0704_Og746" metalayer="Fasce Altimetriche"
+                name="Fasce Altimetriche" nametree="Fasce Altimetriche"
+                owner="CST_USER" pubflag="2"
+                tab="CST_F_FASCE_ALTIMETRICHE" topo="a" visible="true"/>
+            <document catid="710"
+                desctree="Mappatura della geomorfologia costiera relativa al volo Raf 1943-45"
+                id="Gr0704_Og710"
+                metalayer="Geomorfologia costiera 1943"
+                name="Geomorfologia costiera (anno 1943)"
+                nametree="Geomorfologia costiera (1943)"
+                owner="CST_USER" pubflag="2"
+                tab="CST_VF_GEOMORFOLOGIA1943_POL" topo="a" visible="true"/>
+            <document catid="711"
+                desctree="Mappatura della geomorfologia costiera sulla base delle foto aeree del volo costa 1982"
+                id="Gr0704_Og711"
+                metalayer="Geomorfologia costiera 1982"
+                name="Geomorfologia costiera (anno 1982)"
+                nametree="Geomorfologia costiera (1982)"
+                owner="CST_USER" pubflag="2"
+                tab="CST_VF_GEOMORFOLOGIA1982_POL" topo="a" visible="true"/>
+            <document catid="712"
+                desctree="Mappatura della geomorfologia costiera sulla base del Volo Italia 2000"
+                id="Gr0704_Og712"
+                metalayer="Geomorfologia costiera 1998"
+                name="Geomorfologia costiera (anno 1998)"
+                nametree="Geomorfologia costiera (1998)"
+                owner="CST_USER" pubflag="2"
+                tab="CST_VF_GEOMORFOLOGIA2000_POL" topo="a" visible="true"/>
+            <document catid="713"
+                desctree="Mappatura della geomorfologia costiera sulla base del volo Arpa 2005"
+                id="Gr0704_Og713"
+                metalayer="Geomorfologia costiera 2005"
+                name="Geomorfologia costiera (anno 2005)"
+                nametree="Geomorfologia costiera (2005)"
+                owner="CST_USER" pubflag="2"
+                tab="CST_VF_GEOMORFOLOGIA2005_POL" topo="a" visible="true"/>
+        </folder>
+        <folder id="0703" name="Isobate" padre="07" visible="true">
+            <document catid="583"
+                desctree="Isolinee batimetriche ricavate dal rilievo batimetrico IIMM relative al periodo 1953-54"
+                id="Gr0703_Og583" metalayer="Isobate Rilievi 1953-54"
+                name="Isobate Adriatico (anno 1953)"
+                nametree="Isobate Adriatico (1953)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_ISOBATE1953_LIN" topo="l" visible="true"/>
+            <document catid="596"
+                desctree="Isolinee batimetriche ricavate dai rilievi del CNR di Padova nel 1968"
+                id="Gr0703_Og596" metalayer="Isobate Rilievi 1968 CNR"
+                name="Isobate Adriatico (anno 1968)"
+                nametree="Isobate Adriatico (1968)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_ISOBATE1968_LIN" topo="l" visible="true"/>
+            <document catid="585"
+                desctree="Isolinee batimetriche ricavate dai rilievi RER del 1984"
+                id="Gr0703_Og585" metalayer="Isobate Rilievi 1984"
+                name="Isobate Adriatico (anno 1984)"
+                nametree="Isobate Adriatico (1984)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_ISOBATE1984_LIN" topo="l" visible="true"/>
+            <document catid="573"
+                desctree="Isolinee batimetriche ricavate dai rilievi RER del 1994"
+                id="Gr0703_Og573" metalayer="Isobate Rilievi 1993-94"
+                name="Isobate Adriatico (anno 1994)"
+                nametree="Isobate Adriatico (1994)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_ISOBATE1994_LIN" topo="l" visible="true"/>
+            <document catid="587"
+                desctree="Isolinee batimetriche ricavate dalla campagna batimetrica regionale relativa al periodo 1998-2000"
+                id="Gr0703_Og587" metalayer="Isobate Rilievi 2000"
+                name="Isobate Adriatico (anno 2000)"
+                nametree="Isobate Adriatico (2000)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_ISOBATE2000_LIN" topo="l" visible="true"/>
+        </folder>
+        <folder id="0702" name="Linee di costa" padre="07" visible="true">
+            <document catid="693"
+                desctree="Mappatura della linea di riva sulla base delle foto aeree del volo Raf 1943-45"
+                id="Gr0702_Og693" metalayer="Linea di Costa 1943-45"
+                name="Linea di costa (anno 1943)"
+                nametree="Linea di costa (1943)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_LINEE_COSTA1943_LIN" topo="l" visible="true"/>
+            <document catid="697"
+                desctree="Mappatura della linea di riva sulla base delle foto aeree del volo costa 1982"
+                id="Gr0702_Og697" metalayer="Linea di costa 1982"
+                name="Linea di costa (anno 1982)"
+                nametree="Linea di costa (1982)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_LINEE_COSTA1982_LIN" topo="l" visible="true"/>
+            <document catid="696"
+                desctree="Mappatura della linea di riva sulla base delle foto aeree del volo AIMA 1996"
+                id="Gr0702_Og696" metalayer="Linea di costa 1996"
+                name="Linea di costa (anno 1996)"
+                nametree="Linea di costa (1996)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_LINEE_COSTA1996_LIN" topo="l" visible="true"/>
+            <document catid="695"
+                desctree="Mappatura della linea di riva sulla base delle foto aeree del Volo Italia 2000"
+                id="Gr0702_Og695" metalayer="Linea di costa 1998"
+                name="Linea di costa (anno 1998)"
+                nametree="Linea di costa (1998)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_LINEE_COSTA2000_LIN" topo="l" visible="true"/>
+            <document catid="694"
+                desctree="Mappatura della linea di riva sulla base delle foto aeree del volo Arpa 2005"
+                id="Gr0702_Og694" metalayer="Linea di costa 2005"
+                name="Linea di costa (anno 2005)"
+                nametree="Linea di costa (2005)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_LINEE_COSTA2005_LIN" topo="l" visible="true"/>
+        </folder>
+        <folder id="0705" name="Opere di difesa costiera" padre="07" visible="true">
+            <document catid="740"
+                desctree="Opere di difesa del litorale emiliano-romagnolo mappate sulla base del volo RAF 1943-44"
+                id="Gr0705_Og740"
+                metalayer="Opere di difesa costiera 1943"
+                name="Opere di difesa costiera (anno 1943)"
+                nametree="Opere difesa costiera (1943)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_OPERE_DIF_1943_POL" topo="a" visible="true"/>
+            <document catid="741"
+                desctree="Opere di difesa del litorale emiliano-romagnolo mappate sulla base del volo ARPA-RER 1982"
+                id="Gr0705_Og741"
+                metalayer="Opere di difesa costiera 1982"
+                name="Opere di difesa costiera (anno 1982)"
+                nametree="Opere difesa costiera (1982)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_OPERE_DIF_1982_POL" topo="a" visible="true"/>
+            <document catid="742"
+                desctree="Opere di difesa del litorale emiliano-romagnolo mappate sulla base del volo IT2000"
+                id="Gr0705_Og742"
+                metalayer="Opere di difesa costiera 1998"
+                name="Opere di difesa costiera (anno 1998)"
+                nametree="Opere difesa costiera (1998)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_OPERE_DIF_1998_POL" topo="a" visible="true"/>
+            <document catid="714"
+                desctree="Opere di difesa del litorale emiliano-romagnolo mappate sulla base del volo ARPA-RER 2005"
+                id="Gr0705_Og714" metalayer="Opere di difesa 2005"
+                name="Opere di difesa costiera (anno 2005)"
+                nametree="Opere difesa costiera (2005)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_OPERE_DIF_2005_POL" topo="a" visible="true"/>
+        </folder>
+        <folder id="0707" name="Ortofotopiani" padre="07" visible="true">
+            <document catid="663" desctree="Volo Costa anno 1982"
+                id="Gr0707_Og663" metalayer="Volo Costa 1982"
+                name="Volo Costa (anno 1982)"
+                nametree="Volo costa (1982)" owner="CST_USER"
+                pubflag="2" tab="CST_RDS_VOLOCOSTA1982" topo="R" visible="true"/>
+            <document catid="668" desctree="Volo Costa anno 1991"
+                id="Gr0707_Og668" metalayer="Volo Costa 1991"
+                name="Volo Costa (anno 1991)"
+                nametree="Volo costa (1991)" owner="CST_USER"
+                pubflag="2" tab="CST_RDS_VOLOCOSTA1991" topo="R" visible="true"/>
+            <document catid="664" desctree="Volo Costa anno 1992"
+                id="Gr0707_Og664" metalayer="Volo Costa 1992"
+                name="Volo Costa (anno 1992)"
+                nametree="Volo costa (1992)" owner="CST_USER"
+                pubflag="2" tab="CST_RDS_VOLOCOSTA1992" topo="R" visible="true"/>
+            <document catid="669" desctree="Volo Costa anno 2005"
+                id="Gr0707_Og669" metalayer="Volo Costa 2005"
+                name="Volo Costa (anno 2005)"
+                nametree="Volo costa (2005)" owner="CST_USER"
+                pubflag="2" tab="CST_RDS_VOLOCOSTA2005" topo="R" visible="true"/>
+            <document catid="665" desctree="Volo Costa GAI"
+                id="Gr0707_Og665" metalayer="Volo GAI"
+                name="Volo Costa GAI"
+                nametree="Volo costa GAI (1954-55)" owner="CST_USER"
+                pubflag="2" tab="CST_RDS_VOLOGAI" topo="R" visible="true"/>
+            <document catid="666" desctree="Volo IT2000 (Costa RER)"
+                id="Gr0707_Og666" metalayer="Volo IT2000 (Costa RER)"
+                name="Volo IT2000 (Costa RER)"
+                nametree="Volo costa IT2000 (1998-99)" owner="CST_USER"
+                pubflag="2" tab="CST_RDS_VOLOIT2000" topo="R" visible="true"/>
+            <document catid="670" desctree="Volo Costa RAF"
+                id="Gr0707_Og670" metalayer="Volo RAF"
+                name="Volo Costa RAF"
+                nametree="Volo costa RAF (1943-44)" owner="CST_USER"
+                pubflag="2" tab="CST_RDS_VOLORAF" topo="R" visible="true"/>
+            <document catid="612" desctree="Volo Costa RER 1976-78"
+                id="Gr0707_Og612" metalayer="Volo RER 1976-78"
+                name="Volo Costa RER 1976-78"
+                nametree="Volo costa RER (1976-78)" owner="CST_USER"
+                pubflag="2" tab="CST_RDS_VOLO76_78" topo="R" visible="true"/>
+        </folder>
+        <folder id="0708" name="Uso del suolo area costiera" padre="07" visible="true">
+            <document catid="715"
+                desctree="Mappatura dell'uso del suolo dell'area costiera relativa al volo Raf 1943-45"
+                id="Gr0708_Og715" metalayer="Uso del suolo costa 1943"
+                name="Uso del suolo costa (anno 1943)"
+                nametree="Uso del suolo costa (1943)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_USO_SUOLO1943_POL" topo="a" visible="true"/>
+            <document catid="716"
+                desctree="Mappatura dell'uso del suolo dell'area costiera sulla base delle foto aeree del volo costa 1982"
+                id="Gr0708_Og716" metalayer="Uso del suolo costa 1982"
+                name="Uso del suolo costa (anno 1982)"
+                nametree="Uso del suolo costa (1982)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_USO_SUOLO1982_POL" topo="a" visible="true"/>
+            <document catid="717"
+                desctree="Mappatura dell'uso del suolo dell'area costiera sulla base del Volo Italia 2000"
+                id="Gr0708_Og717" metalayer="Uso del suolo costa 1998"
+                name="Uso del suolo costa (anno 1998)"
+                nametree="Uso del suolo costa (1998)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_USO_SUOLO2000_POL" topo="a" visible="true"/>
+            <document catid="718"
+                desctree="Mappatura dell'uso del suolo dell'area costiera sulla base del volo Arpa 2005"
+                id="Gr0708_Og718" metalayer="Uso del suolo costa 2005"
+                name="Uso del suolo costa (anno 2005)"
+                nametree="Uso del suolo costa (2005)" owner="CST_USER"
+                pubflag="2" tab="CST_VF_USO_SUOLO2005_POL" topo="a" visible="true"/>
+        </folder>
+        <document catid="745"
+            desctree="Carta Sedimentologica dell' Adriatico della Regione Emilia-Romagna realizzata a partire dalla Carta Sedimentologica dell'Adriatico Setttentionale e dell'Adriatico Centrale, prodotte dal CNR"
+            id="Gr07_Og745" metalayer="Carta Sedimentologica"
+            name="Carta Sedimentologica"
+            nametree="Carta Sedimentologica" owner="CST_USER"
+            pubflag="2" tab="CST_F_CARTA_SEDIMENTI_POL" topo="a" visible="true"/>
+        <document catid="757"
+            desctree="Carta Geologica del Mare Adriatico emiliano-romagnolo, derivante dalla Carta Geologica dei Mari Italiani alla scala 1:250.000 (Foglio Ravenna)."
+            id="Gr07_Og757" metalayer="Geologia Mare"
+            name="Geologia Mare" nametree="Geologia Mare"
+            owner="CST_USER" pubflag="2" tab="CST_F_GEOLOGIA_MARE250K"
+            topo="a" visible="true"/>
+        <document catid="758"
+            desctree="Linea di delimitazione della piattaforma continentale tra Italia e Croazia"
+            id="Gr07_Og758" metalayer="Limite Italia-Croazia"
+            name="Linea di delimitazione Italia-Croazia"
+            nametree="Linea di delim. Italia-Croazia" owner="CST_USER"
+            pubflag="2" tab="CST_F_MIDLINE_ITA_CRO_LIN" topo="l" visible="true"/>
+    </root_cat>
+    <root_cat id="08" name="&lt;strong>Dissesto&lt;/strong>" rootId="5" visible="true">
+        <folder id="0801" name="Archivio frane storiche" padre="08" visible="true">
+            <document catid="755"
+                desctree="Segnalazioni poligonali delle frane storiche derivate dall'unione dei cataloghi storici provinciali"
+                id="Gr0801_Og755" metalayer="Frane storiche (poligoni)"
+                name="Segnalazioni delle frane storiche (poligoni)"
+                nametree="Segnalazioni areali" owner="DIS_USER"
+                pubflag="2" tab="DIS_VF_10_ARCHIVIO_DWL_PRO_POL"
+                topo="a" visible="true"/>
+            <document catid="754"
+                desctree="Segnalazioni lineari delle frane storiche derivate dall'unione dei cataloghi storici provinciali"
+                id="Gr0801_Og754" metalayer="Frane storiche (linee)"
+                name="Segnalazioni delle frane storiche (linee)"
+                nametree="Segnalazioni lineari" owner="DIS_USER"
+                pubflag="2" tab="DIS_VF_10_ARCHIVIO_DWL_PRO_LIN"
+                topo="l" visible="true"/>
+            <document catid="756"
+                desctree="Segnalazioni puntuali delle frane storiche derivate dall'unione dei cataloghi storici provinciali"
+                id="Gr0801_Og756" metalayer="Frane storiche (punti)"
+                name="Segnalazioni delle frane storiche (punti)"
+                nametree="Segnalazioni puntuali" owner="DIS_USER"
+                pubflag="2" tab="DIS_VF_10_ARCHIVIO_DWL_PRO_PUN"
+                topo="p" visible="true"/>
+        </folder>
+        <folder id="0802" name="Inventario del dissesto" padre="08" visible="true">
+            <document catid="633" desctree="Coperture quaternarie"
+                id="Gr0802_Og633"
+                metalayer="Coperture quaternarie -vista"
+                name="GEO(10K) - Coperture quaternarie"
+                nametree="Coperture quaternarie" owner="DIS_USER"
+                pubflag="3" tab="DIS_VF_10_COPERTURE_SITO_POL" topo="a" visible="true"/>
+        </folder>
+        <folder id="0803" name="Segnalazioni" padre="08" visible="true"/>
+    </root_cat>
+    <root_cat id="06" name="&lt;strong>Geologia&lt;/strong>" rootId="6" visible="true">
+        <folder id="0605" name="Cartografie" padre="06" visible="true">
+            <folder id="060501" name="Scala 1:10.000 (10K)" padre="0605" visible="true">
+                <document catid="579"
+                    desctree="Affioramenti areali a scala 1:10.000"
+                    id="Gr060501_Og579" metalayer="Affioramenti (aree)"
+                    name="GEO(10K) - Affioramenti"
+                    nametree="Affioramenti" owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_10_AFFIORAMENTI_POL" topo="a" visible="true"/>
+                <document catid="575"
+                    desctree="Affioramenti puntuali a scala 1:10.000"
+                    id="Gr060501_Og575" metalayer="Affioramenti (punti)"
+                    name="GEO(10K) - Affioramenti puntuali"
+                    nametree="Affioramenti puntuali" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_10_AFFIORAMENTI_PUN"
+                    topo="p" visible="true"/>
+                <document catid="633" desctree="Coperture quaternarie"
+                    id="Gr060501_Og633"
+                    metalayer="Coperture quaternarie -vista"
+                    name="GEO(10K) - Coperture quaternarie"
+                    nametree="Coperture quaternarie" owner="DIS_USER"
+                    pubflag="3" tab="DIS_VF_10_COPERTURE_SITO_POL"
+                    topo="a" visible="true"/>
+                <document catid="627"
+                    desctree="Elementi geomorfologici e antropici lineari a scala 1:10.000"
+                    id="Gr060501_Og627"
+                    metalayer="Elem. geomorfol. antrop. lin."
+                    name="GEO(10K) - Elementi geomorf.-antrop. Lineari"
+                    nametree="Elementi geomorf.-antrop. linee"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_10_GEOMORFOLOGIA_LIN" topo="l" visible="true"/>
+                <document catid="628"
+                    desctree="Elementi geomorfologici e antropici puntuali a scala 1:10.000"
+                    id="Gr060501_Og628"
+                    metalayer="Elem. geomorfol. antrop. punt."
+                    name="GEO(10K) - Elementi geomorf.-antrop. Puntuali"
+                    nametree="Elementi geomorf.-antrop. punti"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_10_GEOMORFOLOGIA_PUN" topo="p" visible="true"/>
+                <document catid="623"
+                    desctree="Elementi strutturali a scala 1:10.000"
+                    id="Gr060501_Og623" metalayer="Elementi strutturali"
+                    name="GEO(10K) - Elementi strutturali"
+                    nametree="Elementi strutturali" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_10_STRUTT_LIN" topo="l" visible="true"/>
+                <document catid="626"
+                    desctree="Limiti di unità geologiche a scala 1:10.000"
+                    id="Gr060501_Og626"
+                    metalayer="Limiti unita geologiche -vista"
+                    name="GEO(10K) - Limiti di unità geologiche"
+                    nametree="Limiti di unità geologiche"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_10_GEOLOGIA_LIN" topo="l" visible="true"/>
+                <document catid="637"
+                    desctree="Processi geologici particolari a scala 1:10.000"
+                    id="Gr060501_Og637"
+                    metalayer="Processi geologici particolari"
+                    name="GEO(10K) - Processi geologici particolari"
+                    nametree="Processi geologici particolari"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_10_PROC_PARTIC_POL" topo="a" visible="true"/>
+                <document catid="629"
+                    desctree="Punti di osservazione e misura a scala 1:10.000"
+                    id="Gr060501_Og629"
+                    metalayer="Punti di osservazione e misura"
+                    name="GEO(10K) - Punti di osservazione e misura"
+                    nametree="Punti di osservazione e misura"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_10_OSS_PUNTUALI_PUN" topo="p" visible="true"/>
+                <document catid="631"
+                    desctree="Risorse e prospezioni a scala 1:10.000"
+                    id="Gr060501_Og631"
+                    metalayer="Risorse e prospezioni"
+                    name="GEO(10K) - Risorse e prospezioni"
+                    nametree="Risorse e prospezioni" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_10_RISORSE_PUN" topo="p" visible="true"/>
+                <document catid="592"
+                    desctree="Unità geologiche a scala 1:10.000"
+                    id="Gr060501_Og592"
+                    metalayer="Unita geologiche -vista"
+                    name="GEO(10K) - Unità geologiche"
+                    nametree="Unità geologiche" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_10_GEOLOGIA_POL" topo="a" visible="true"/>
+            </folder>
+            <folder id="060502" name="Scala 1:50.000 (50K)" padre="0605" visible="true">
+                <document catid="1000"
+                    desctree="Ambienti e tessiture a scala 1:50.000"
+                    id="Gr060502_Og1000"
+                    metalayer="Ambienti deposizionali"
+                    name="GEO(50K) - Ambienti e tessiture"
+                    nametree="Ambienti e tessiture" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_50_TESSITURE_POL" topo="a" visible="true"/>
+                <document catid="544"
+                    desctree="Campioni geologici a scala 1:50.000"
+                    id="Gr060502_Og544"
+                    metalayer="Campioni geologici -ST017"
+                    name="GEO(50K) - Campioni geologici"
+                    nametree="Campioni geologici" owner="GEO_USER"
+                    pubflag="2" tab="ST017POINT" topo="p" visible="true"/>
+                <document catid="960"
+                    desctree="Elementi geomorfologici e antropici lineari a scala 1:50.000"
+                    id="Gr060502_Og960"
+                    metalayer="Elementi geomorfologici e antropici lineari"
+                    name="GEO(50K) - Elementi geomorf.-antrop. Lineari"
+                    nametree="Elementi geomorf.-antrop. linee"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_50_GEOMORF_LIN" topo="l" visible="true"/>
+                <document catid="961"
+                    desctree="Elementi geomorfologici e antropici poligonali a scala 1:50.000"
+                    id="Gr060502_Og961"
+                    metalayer="Elementi geomorfologici e antropici poligonali"
+                    name="GEO(50K) - Elementi geomorf.-antrop. Poligonali"
+                    nametree="Elementi geomorf.-antrop. pol."
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_50_GEOMORF_POL" topo="a" visible="true"/>
+                <document catid="962"
+                    desctree="Elementi geomorfologici e antropici puntuali a scala 1:50.000"
+                    id="Gr060502_Og962"
+                    metalayer="Elementi geomorfologici e antropici puntuali"
+                    name="GEO(50K) - Elementi geomorf.-antrop. Puntuali"
+                    nametree="Elementi geomorf.-antrop. punti"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_50_GEOMORF_PUN" topo="p" visible="true"/>
+                <document catid="956"
+                    desctree="Elementi strutturali a scala 1:50.000"
+                    id="Gr060502_Og956" metalayer="Elem. strutturali"
+                    name="GEO(50K) - Elementi strutturali"
+                    nametree="Elementi strutturali" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_50_STRUTTURE_LIN" topo="l" visible="true"/>
+                <document catid="963"
+                    desctree="Isolinee del sottosuolo a scala 1:50.000"
+                    id="Gr060502_Og963"
+                    metalayer="Descr. isolinee sottosuolo"
+                    name="GEO(50K) - Isolinee del sottosuolo"
+                    nametree="Isolinee del sottosuolo" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_50_ISOLINEE_LIN" topo="l" visible="true"/>
+                <document catid="964"
+                    desctree="Limiti di unità geologiche a scala 1:50.000"
+                    id="Gr060502_Og964" metalayer="Limiti geologici"
+                    name="GEO(50K) - Limiti di unita geologiche"
+                    nametree="Limiti di unità geologiche"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_50_LIMITI_GEO_LIN" topo="l" visible="true"/>
+                <document catid="1009"
+                    desctree="Livelli guida a scala 1:50.000"
+                    id="Gr060502_Og1009" metalayer="Livelli guida"
+                    name="GEO(50K) - Livelli guida"
+                    nametree="Livelli guida" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_50_UNITA_GEO_LIN" topo="l" visible="true"/>
+                <document catid="966"
+                    desctree="Processi geologici particolari a scala 1:50.000"
+                    id="Gr060502_Og966"
+                    metalayer="Processi geol. particolari"
+                    name="GEO(50K) - Processi geologici particolari"
+                    nametree="Processi geologici particolari"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_50_PROCESSI_POL" topo="a" visible="true"/>
+                <document catid="965"
+                    desctree="Punti di osservazione e misura a scala 1:50.000"
+                    id="Gr060502_Og965"
+                    metalayer="Punti osservazione e misura"
+                    name="GEO(50K) - Punti di osservazione e misura"
+                    nametree="Punti di osservazione e misura"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_50_OSSERVAZIONI_PUN" topo="p" visible="true"/>
+                <document catid="967"
+                    desctree="Risorse e prospezioni a scala 1:50.000"
+                    id="Gr060502_Og967" metalayer="Risorse prospezioni"
+                    name="GEO(50K) - Risorse e prospezioni"
+                    nametree="Risorse e prospezioni" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_50_RISORSE_PUN" topo="p" visible="true"/>
+                <document catid="1008"
+                    desctree="Tracce di sezioni o campionamenti a scala 1:50.000"
+                    id="Gr060502_Og1008"
+                    metalayer="Tracciati geologici e geofisici"
+                    name="GEO(50K) - Tracce di sezioni o campionamenti"
+                    nametree="Tracce sezioni/campionamenti"
+                    owner="GEO_USER" pubflag="3"
+                    tab="GEO_VF_50_TRACCIATI_LIN" topo="l" visible="true"/>
+                <document catid="1010"
+                    desctree="Unita geologiche a scala 1:50.000"
+                    id="Gr060502_Og1010"
+                    metalayer="Unita cartog.geologiche"
+                    name="GEO(50K) - Unità geologiche"
+                    nametree="Unità geologiche" owner="GEO_USER"
+                    pubflag="3" tab="GEO_VF_50_UNITA_GEO_POL" topo="a" visible="true"/>
+            </folder>
+        </folder>
+        <folder id="0604" name="Geologia di sintesi" padre="06" visible="true">
+            <document catid="503"
+                desctree="Raggruppamenti geologici informali corrispondenti per le aree di montagna e collina agli originari domini paleogeografici. Per le aree di pianura è stata distinta la fascia di transizione alla collina."
+                id="Gr0604_Og503" metalayer="Domini paleogeografici"
+                name="Domini paleogeografici"
+                nametree="Domini paleogeografici" owner="GEO_USER"
+                pubflag="3" tab="GEO_F_SIN_DOMINI" topo="a" visible="true"/>
+        </folder>
+        <document catid="661"
+            desctree="Unità di Paesaggio Geologico, intese come settori di territorio con peculiari caratteristiche geologiche, vegetazionali, morfologiche e antropiche, che ne permettono una chiara individuazione."
+            id="Gr06_Og661" metalayer="Paesaggio geologico"
+            name="Paesaggio geologico" nametree="Paesaggio geologico"
+            owner="PGE_USER" pubflag="3" tab="PGE_F_PAESAGGIO_GEO_POL"
+            topo="a" visible="true"/>
+        <document catid="698" desctree="Ubicazione prove geognostiche"
+            id="Gr06_Og698" metalayer="Prove geognostiche"
+            name="Prove geognostiche" nametree="Prove geognostiche"
+            owner="GEG_USER" pubflag="2" tab="GEG_VF_PROVE_PUN" topo="p" visible="true"/>
+    </root_cat>
+    <root_cat id="11" name="&lt;strong>Patrimonio geologico&lt;/strong>"
+        rootId="7" visible="true">
+        <folder id="1102" name="Cavità naturali" padre="11" visible="true"/>
+        <folder id="1101" name="Geositi" padre="11" visible="true">
+            <document catid="736"
+                desctree="Luoghi di particolare interesse geologico e geomorfologico, il cui valore è principalmente scientifico e paesaggistico."
+                id="Gr1101_Og736" metalayer="Patrimonio geologico -Aree"
+                name="Geositi - aree" nametree="Geositi areali"
+                owner="PGE_USER" pubflag="2" tab="PGE_VF_PATRIGEO_POL"
+                topo="a" visible="true"/>
+            <document catid="739"
+                desctree="Luoghi di particolare interesse geologico e geomorfologico, il cui valore è principalmente scientifico e paesaggistico."
+                id="Gr1101_Og739"
+                metalayer="Patrimonio geologico -Punti"
+                name="Geositi - punti" nametree="Geositi puntuali"
+                owner="PGE_USER" pubflag="2" tab="PGE_VF_PATRIGEO_PUN"
+                topo="p" visible="true"/>
+        </folder>
+        <folder id="1103" name="Itinerari" padre="11" visible="true"/>
+        <document catid="661"
+            desctree="Unità di Paesaggio Geologico, intese come settori di territorio con peculiari caratteristiche geologiche, vegetazionali, morfologiche e antropiche, che ne permettono una chiara individuazione."
+            id="Gr11_Og661" metalayer="Paesaggio geologico"
+            name="Paesaggio geologico" nametree="Paesaggio geologico"
+            owner="PGE_USER" pubflag="3" tab="PGE_F_PAESAGGIO_GEO_POL"
+            topo="a" visible="true"/>
+    </root_cat>
+    <root_cat id="14" name="&lt;strong>Servizi WMS&lt;/strong>"
+        rootId="8" visible="true">
+        <folder id="1498" name="Geologia 1:10.000" padre="14" topo="WMS" visible="true">
+            <document
+                bbox="9.18486469358215,43.7195061313328,12.8230902365881,45.0607653138893"
+                catid="1011" id="Gr1498_WmsUnita_geologiche_10K"
+                metalayer="" name="Unita_geologiche_10K"
+                nametree="Unita_geologiche_10K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Unita_geologiche_10K" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.19535232727778,43.7201092596203,12.8002788900219,44.9989285457273"
+                catid="1011" id="Gr1498_WmsAffioramenti_aree_10K"
+                metalayer="" name="Affioramenti_aree_10K"
+                nametree="Affioramenti_aree_10K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Affioramenti_aree_10K" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.57650244735464,43.776810832587,12.7880077295714,44.8326597345347"
+                catid="1011"
+                id="Gr1498_WmsProcessi_geologici_particolari_10K"
+                metalayer="" name="Processi_geologici_particolari_10K"
+                nametree="Processi_geologici_particolari_10K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Processi_geologici_particolari_10K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.19572076464101,43.5745475711851,12.9006596734664,45.1419447009835"
+                catid="1011" id="Gr1498_WmsCoperture_quaternarie_10K"
+                metalayer="" name="Coperture_quaternarie_10K"
+                nametree="Coperture_quaternarie_10K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Coperture_quaternarie_10K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.19572076464101,43.5745475711851,12.9006596734664,45.1419447009835"
+                catid="1011"
+                id="Gr1498_WmsAmbienti_deposiz_e_litologie_10K"
+                metalayer="" name="Ambienti_deposiz_e_litologie_10K"
+                nametree="Ambienti_deposiz_e_litologie_10K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Ambienti_deposiz_e_litologie_10K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.18486469358215,43.7195061313328,12.8230902365881,45.0607653138893"
+                catid="1011"
+                id="Gr1498_WmsLimiti_di_unita_geologiche_10k"
+                metalayer="" name="Limiti_di_unita_geologiche_10k"
+                nametree="Limiti_di_unita_geologiche_10k" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Limiti_di_unita_geologiche_10k" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.33015693608154,43.7535673774492,12.7779540617018,44.8201811488589"
+                catid="1011" id="Gr1498_WmsElementi_strutturali_10K"
+                metalayer="" name="Elementi_strutturali_10K"
+                nametree="Elementi_strutturali_10K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Elementi_strutturali_10K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.24095238837707,43.7834065499133,12.8109712981651,45.0049756584348"
+                catid="1011" id="Gr1498_WmsLinee_geomorf_antrop_10K"
+                metalayer="" name="Linee_geomorf_antrop_10K"
+                nametree="Linee_geomorf_antrop_10K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Linee_geomorf_antrop_10K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.19543607779577,43.7202426582112,12.8001665566497,44.9988424465301"
+                catid="1011" id="Gr1498_WmsAffioramenti_punti_10K"
+                metalayer="" name="Affioramenti_punti_10K"
+                nametree="Affioramenti_punti_10K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Affioramenti_punti_10K" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.19529936420024,43.7232885301454,12.799290257584,44.996625324611"
+                catid="1011"
+                id="Gr1498_WmsPunti_di_osservaz_e_misura_10K"
+                metalayer="" name="Punti_di_osservaz_e_misura_10K"
+                nametree="Punti_di_osservaz_e_misura_10K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Punti_di_osservaz_e_misura_10K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.35529286714806,43.7373924593129,12.7909834604529,44.9853214357627"
+                catid="1011" id="Gr1498_WmsPunti_geomorf_antrop_10K"
+                metalayer="" name="Punti_geomorf_antrop_10K"
+                nametree="Punti_geomorf_antrop_10K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Punti_geomorf_antrop_10K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+            <document
+                bbox="9.20775207088822,43.7245571096284,12.7524176620061,44.9993158480193"
+                catid="1011" id="Gr1498_WmsRisorse_e_prospezioni_10K"
+                metalayer="" name="Risorse_e_prospezioni_10K"
+                nametree="Risorse_e_prospezioni_10K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Risorse_e_prospezioni_10K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia10k?"/>
+        </folder>
+        <folder id="1497" name="Geologia 1:50.000" padre="14" topo="WMS" visible="true">
+            <document
+                bbox="9.32503696417494,43.5793702984622,12.7408825945861,45.0465290160762"
+                catid="1050" id="Gr1497_WmsUnita_geologiche_50K"
+                metalayer="" name="Unita_geologiche_50K"
+                nametree="Unita_geologiche_50K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Unita_geologiche_50K" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.32503696417494,43.5793702984622,12.7408825945861,45.0465290160762"
+                catid="1050"
+                id="Gr1497_WmsAmbienti_deposiz_e_litologie_50K"
+                metalayer="" name="Ambienti_deposiz_e_litologie_50K"
+                nametree="Ambienti_deposiz_e_litologie_50K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Ambienti_deposiz_e_litologie_50K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.34524980533079,43.7835282157773,12.689772341824,45.0360029718087"
+                catid="1050" id="Gr1497_WmsAree_geomorf_antrop_50K"
+                metalayer="" name="Aree_geomorf_antrop_50K"
+                nametree="Aree_geomorf_antrop_50K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Aree_geomorf_antrop_50K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="10.5258206240707,43.6470359006224,12.180561989427,44.5385747238055"
+                catid="1050"
+                id="Gr1497_WmsProcessi_geologici_particolari_50K"
+                metalayer="" name="Processi_geologici_particolari_50K"
+                nametree="Processi_geologici_particolari_50K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Processi_geologici_particolari_50K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.32507709933455,43.5794661039486,12.739840199223,45.0457401464738"
+                catid="1050"
+                id="Gr1497_WmsLimiti_di_unita_geologiche_50K"
+                metalayer="" name="Limiti_di_unita_geologiche_50K"
+                nametree="Limiti_di_unita_geologiche_50K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Limiti_di_unita_geologiche_50K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.44066509207449,43.5849628109113,12.7231474104477,44.8997717975672"
+                catid="1050" id="Gr1497_WmsLivelli_guida_50k"
+                metalayer="" name="Livelli_guida_50k"
+                nametree="Livelli_guida_50k" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Livelli_guida_50k" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.06307271498313,43.5807831424787,12.9894743660211,45.2319747078925"
+                catid="1050" id="Gr1497_WmsElementi_strutturali_50K"
+                metalayer="" name="Elementi_strutturali_50K"
+                nametree="Elementi_strutturali_50K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Elementi_strutturali_50K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.03876350947383,43.9257688997553,12.9938356386386,45.2696643697641"
+                catid="1050"
+                id="Gr1497_WmsIsolinee_di_unita_del_sottosuolo_50k"
+                metalayer="" name="Isolinee_di_unita_del_sottosuolo_50k"
+                nametree="Isolinee_di_unita_del_sottosuolo_50k" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Isolinee_di_unita_del_sottosuolo_50k" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.41235273075959,43.7890047328559,12.7391537221827,45.0450950025713"
+                catid="1050" id="Gr1497_WmsLinee_geomorf_antrop_50K"
+                metalayer="" name="Linee_geomorf_antrop_50K"
+                nametree="Linee_geomorf_antrop_50K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Linee_geomorf_antrop_50K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.3279395590654,43.6283292466816,12.7321041066202,45.0345177204819"
+                catid="1050" id="Gr1497_WmsTracciati_geologici_50k"
+                metalayer="" name="Tracciati_geologici_50k"
+                nametree="Tracciati_geologici_50k" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Tracciati_geologici_50k" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.32670977315757,43.5802101187786,12.7347890751311,44.9963248250095"
+                catid="1050"
+                id="Gr1497_WmsPunti_di_osservaz_e_misura_50K"
+                metalayer="" name="Punti_di_osservaz_e_misura_50K"
+                nametree="Punti_di_osservaz_e_misura_50K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Punti_di_osservaz_e_misura_50K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="10.8092972268906,43.7847821912879,12.1337735802782,44.5068457025483"
+                catid="1050" id="Gr1497_WmsPunti_geomorf_antrop_50K"
+                metalayer="" name="Punti_geomorf_antrop_50K"
+                nametree="Punti_geomorf_antrop_50K" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Punti_geomorf_antrop_50K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+            <document
+                bbox="9.34549701527347,43.5961002544667,12.7208450840587,45.0087368383543"
+                catid="1050" id="Gr1497_WmsRisorse_e_prospezioni_50K"
+                metalayer="" name="Risorse_e_prospezioni_50K"
+                nametree="Risorse_e_prospezioni_50K" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Risorse_e_prospezioni_50K" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia50k?"/>
+        </folder>
+        <folder id="1496" name="Geologia di sintesi" padre="14"
+            topo="WMS" visible="true">
+            <document
+                bbox="9.18486468978947,43.7195061104142,12.8284930681181,45.1419042328456"
+                catid="1054" id="Gr1496_WmsDomini_geologici"
+                metalayer="" name="Domini_geologici"
+                nametree="Domini_geologici" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Domini_geologici" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geologia_sintesi?"/>
+        </folder>
+        <folder id="1495" name="Grotte" padre="14" topo="WMS" visible="true">
+            <document
+                bbox="9.51679297955217,43.8708917949043,12.5965630305638,44.7159599370411"
+                catid="1055" id="Gr1495_WmsIngressi_grotte" metalayer=""
+                name="Ingressi_grotte" nametree="Ingressi_grotte"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Ingressi_grotte" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/grotte?"/>
+        </folder>
+        <folder id="1494" name="Paesaggio geologico" padre="14"
+            topo="WMS" visible="true">
+            <document
+                bbox="9.19545426239351,43.713619302254,12.8284930725069,45.1418857205896"
+                catid="1057" id="Gr1494_WmsPaesaggio_geologico"
+                metalayer="" name="Paesaggio_geologico"
+                nametree="Paesaggio_geologico" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Paesaggio_geologico" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/paesaggio_geologico?"/>
+        </folder>
+        <folder id="1493" name="Percorsi escursionistici" padre="14"
+            topo="WMS" visible="true">
+            <document
+                bbox="9.19581267604636,43.7211874620334,12.7351860673606,44.9185612801945"
+                catid="1056" id="Gr1493_WmsPercorso_escursionistico"
+                metalayer="" name="Percorso_escursionistico"
+                nametree="Percorso_escursionistico" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Percorso_escursionistico" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsRifugio" metalayer=""
+                name="Rifugio" nametree="Rifugio" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Rifugio" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsRicovero_di_emergenza"
+                metalayer="" name="Ricovero_di_emergenza"
+                nametree="Ricovero_di_emergenza" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Ricovero_di_emergenza" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056"
+                id="Gr1493_WmsEmergenza_antropico_ambientale"
+                metalayer="" name="Emergenza_antropico_ambientale"
+                nametree="Emergenza_antropico_ambientale" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Emergenza_antropico_ambientale" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsCampeggio" metalayer=""
+                name="Campeggio" nametree="Campeggio" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Campeggio" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsFarmacia" metalayer=""
+                name="Farmacia" nametree="Farmacia" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Farmacia" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsAlbergo" metalayer=""
+                name="Albergo" nametree="Albergo" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Albergo" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsOstello" metalayer=""
+                name="Ostello" nametree="Ostello" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Ostello" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsMuseo" metalayer=""
+                name="Museo" nametree="Museo" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Museo" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsScuderia" metalayer=""
+                name="Scuderia" nametree="Scuderia" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Scuderia" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsStazione_ferroviaria"
+                metalayer="" name="Stazione_ferroviaria"
+                nametree="Stazione_ferroviaria" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Stazione_ferroviaria" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsParcheggio" metalayer=""
+                name="Parcheggio" nametree="Parcheggio" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Parcheggio" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsFermata_Bus" metalayer=""
+                name="Fermata_Bus" nametree="Fermata_Bus" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Fermata_Bus" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsSorgente_o_fontana"
+                metalayer="" name="Sorgente_o_fontana"
+                nametree="Sorgente_o_fontana" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Sorgente_o_fontana" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsPericolo_valanghe"
+                metalayer="" name="Pericolo_valanghe"
+                nametree="Pericolo_valanghe" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Pericolo_valanghe" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsPunto_panoramico"
+                metalayer="" name="Punto_panoramico"
+                nametree="Punto_panoramico" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Punto_panoramico" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+            <document
+                bbox="9.19777558538973,43.7229456631362,12.806424241675,45.1087014874773"
+                catid="1056" id="Gr1493_WmsSbarra_o_divieto"
+                metalayer="" name="Sbarra_o_divieto"
+                nametree="Sbarra_o_divieto" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Sbarra_o_divieto" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/percorsi_escursionistici?"/>
+        </folder>
+        <folder id="1492" name="Progetto E-Water Lingua Inglese"
+            padre="14" topo="WMS" visible="true">
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1492_WmsAdministration_limits"
+                metalayer="" name="Administration_limits"
+                nametree="Administration limits" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Administration limits" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1492_WmsISO_GRA_SAN" metalayer=""
+                name="ISO_GRA_SAN" nametree="ISO_GRA_SAN" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--ISO_GRA_SAN" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1492_WmsGROUND_WAT_BOD" metalayer=""
+                name="GROUND_WAT_BOD" nametree="GROUND_WAT_BOD" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--GROUND_WAT_BOD" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1492_WmsALGCh_it_LiGeoCh" metalayer=""
+                name="ALGCh_it_LiGeoCh" nametree="ALGCh_it_LiGeoCh"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--ALGCh_it_LiGeoCh" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1492_WmsALGCh_it_LiEnvSym"
+                metalayer="" name="ALGCh_it_LiEnvSym"
+                nametree="ALGCh_it_LiEnvSym" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--ALGCh_it_LiEnvSym" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1492_WmsALGCh_it_AqTyC" metalayer=""
+                name="ALGCh_it_AqTyC" nametree="ALGCh_it_AqTyC" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--ALGCh_it_AqTyC" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+            <document
+                bbox="9.0075217391446,43.6472300272673,13.0155840607948,45.2118003775005"
+                catid="923" id="Gr1492_WmsMonitoring_wells" metalayer=""
+                name="Monitoring_wells" nametree="Monitoring wells"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Monitoring wells" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/ewater?"/>
+        </folder>
+        <folder id="1491" name="Prove geognostiche" padre="14"
+            topo="WMS" visible="true">
+            <document
+                bbox="9.34007604156463,43.7387831255259,12.8285864044221,45.142971655826"
+                catid="1012" id="Gr1491_WmsProve_Geognostiche"
+                metalayer="" name="Prove_Geognostiche"
+                nametree="Prove_Geognostiche" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Prove_Geognostiche" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/geognostica?"/>
+        </folder>
+        <folder id="1490" name="Suoli" padre="14" topo="WMS" visible="true">
+            <document
+                bbox="9.19548048212255,43.7194930772622,12.8288961801917,45.1418418417526"
+                catid="1058" id="Gr1490_WmsCarta_dei_suoli_250k_ed_1994"
+                metalayer="" name="Carta_dei_suoli_250k_ed_1994"
+                nametree="Carta_dei_suoli_250k_ed_1994" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Carta_dei_suoli_250k_ed_1994" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.19568149732477,43.7195797080009,12.8284714121862,45.1418403255363"
+                catid="1058"
+                id="Gr1490_WmsCarta_del_contenuto_percentuale_di_argilla_nei_suoli_della_pianura_tra_0_30_cm"
+                metalayer=""
+                name="Carta_del_contenuto_percentuale_di_argilla_nei_suoli_della_pianura_tra_0_30_cm"
+                nametree="Carta_del_contenuto_percentuale_di_argilla_nei_suoli_della_pianura_tra_0_30_cm"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Carta_del_contenuto_percentuale_di_argilla_nei_suoli_della_pianura_tra_0_30_cm"
+                topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.19568149732477,43.7195797080009,12.8284714121862,45.1418403255363"
+                catid="1058"
+                id="Gr1490_WmsCarta_del_contenuto_percentuale_di_carbonio_organico_nei_suoli_dell_Appennino_tra_0_30_cm"
+                metalayer=""
+                name="Carta_del_contenuto_percentuale_di_carbonio_organico_nei_suoli_dell_Appennino_tra_0_30_cm"
+                nametree="Carta_del_contenuto_percentuale_di_carbonio_organico_nei_suoli_dell_Appennino_tra_0_30_cm"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Carta_del_contenuto_percentuale_di_carbonio_organico_nei_suoli_dell_Appennino_tra_0_30_cm"
+                topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.19568149732477,43.7195797080009,12.8284714121862,45.1418403255363"
+                catid="1058"
+                id="Gr1490_WmsCarta_del_contenuto_percentuale_di_carbonio_organico_nei_suoli_della_pianura_tra_0_30_cm"
+                metalayer=""
+                name="Carta_del_contenuto_percentuale_di_carbonio_organico_nei_suoli_della_pianura_tra_0_30_cm"
+                nametree="Carta_del_contenuto_percentuale_di_carbonio_organico_nei_suoli_della_pianura_tra_0_30_cm"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Carta_del_contenuto_percentuale_di_carbonio_organico_nei_suoli_della_pianura_tra_0_30_cm"
+                topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.30360616034443,43.8850747671452,12.8285189029376,45.141674475748"
+                catid="1058" id="Gr1490_WmsCapacita_d_uso_suoli"
+                metalayer="" name="Capacita_d_uso_suoli"
+                nametree="Capacita_d_uso_suoli" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Capacita_d_uso_suoli" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.36230731186702,43.9100374837756,12.8285188791105,45.1414966918705"
+                catid="1058" id="Gr1490_WmsPiombo" metalayer=""
+                name="Piombo" nametree="Piombo" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Piombo" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.36230731186702,43.9100374837756,12.8285188791105,45.1414966918705"
+                catid="1058" id="Gr1490_WmsRame" metalayer=""
+                name="Rame" nametree="Rame" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Rame" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.36230731186702,43.9100374837756,12.8285188791105,45.1414966918705"
+                catid="1058" id="Gr1490_WmsZinco" metalayer=""
+                name="Zinco" nametree="Zinco" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Zinco" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.36230731186702,43.9100374837756,12.8285188791105,45.1414966918705"
+                catid="1058" id="Gr1490_WmsNichel" metalayer=""
+                name="Nichel" nametree="Nichel" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Nichel" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.36230731186702,43.9100374837756,12.8285188791105,45.1414966918705"
+                catid="1058" id="Gr1490_WmsCromo" metalayer=""
+                name="Cromo" nametree="Cromo" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Cromo" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.19568149732477,43.7195797080009,12.8284714121862,45.1418403255363"
+                catid="1058"
+                id="Gr1490_WmsCarta_del_carbonio_organico_immagazzinato_nei_suoli_dell_Appennino_tra_0_100_cm"
+                metalayer=""
+                name="Carta_del_carbonio_organico_immagazzinato_nei_suoli_dell_Appennino_tra_0_100_cm"
+                nametree="Carta_del_carbonio_organico_immagazzinato_nei_suoli_dell_Appennino_tra_0_100_cm"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Carta_del_carbonio_organico_immagazzinato_nei_suoli_dell_Appennino_tra_0_100_cm"
+                topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.19568149732477,43.7195797080009,12.8284714121862,45.1418403255363"
+                catid="1058"
+                id="Gr1490_WmsCarta_del_carbonio_organico_immagazzinato_nei_suoli_di_pianura_tra_0_100_cm"
+                metalayer=""
+                name="Carta_del_carbonio_organico_immagazzinato_nei_suoli_di_pianura_tra_0_100_cm"
+                nametree="Carta_del_carbonio_organico_immagazzinato_nei_suoli_di_pianura_tra_0_100_cm"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Carta_del_carbonio_organico_immagazzinato_nei_suoli_di_pianura_tra_0_100_cm"
+                topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.19568149732477,43.7195797080009,12.8284714121862,45.1418403255363"
+                catid="1058"
+                id="Gr1490_WmsCarta_del_carbonio_organico_immagazzinato_nei_suoli_dell_Appennino_tra_0_30_cm"
+                metalayer=""
+                name="Carta_del_carbonio_organico_immagazzinato_nei_suoli_dell_Appennino_tra_0_30_cm"
+                nametree="Carta_del_carbonio_organico_immagazzinato_nei_suoli_dell_Appennino_tra_0_30_cm"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Carta_del_carbonio_organico_immagazzinato_nei_suoli_dell_Appennino_tra_0_30_cm"
+                topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.19568149732477,43.7195797080009,12.8284714121862,45.1418403255363"
+                catid="1058"
+                id="Gr1490_WmsCarta_del_carbonio_organico_immagazzinato_nei_suoli_di_pianura_tra_0_30_cm"
+                metalayer=""
+                name="Carta_del_carbonio_organico_immagazzinato_nei_suoli_di_pianura_tra_0_30_cm"
+                nametree="Carta_del_carbonio_organico_immagazzinato_nei_suoli_di_pianura_tra_0_30_cm"
+                owner="" pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Carta_del_carbonio_organico_immagazzinato_nei_suoli_di_pianura_tra_0_30_cm"
+                topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.30360618673918,43.8850624403212,12.8289011893516,45.1416744694332"
+                catid="1058" id="Gr1490_WmsCarta_dei_Suoli_50k"
+                metalayer="" name="Carta_dei_Suoli_50k"
+                nametree="Carta_dei_Suoli_50k" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Carta_dei_Suoli_50k" topo="WMS" visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.30496305190187,43.5620408227905,13.4502611229607,45.1465381832674"
+                catid="1058" id="Gr1490_WmsCampioni_Analisi_Terreni"
+                metalayer="" name="Campioni_Analisi_Terreni"
+                nametree="Campioni_Analisi_Terreni" owner="" pubflag="2"
+                scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Campioni_Analisi_Terreni" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.38224797332331,43.8710163636561,12.7958837995329,45.1238861701915"
+                catid="1058" id="Gr1490_WmsInventario_dati_ambientali"
+                metalayer="" name="Inventario_dati_ambientali"
+                nametree="Inventario_dati_ambientali" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Inventario_dati_ambientali" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+            <document
+                bbox="9.79310606099143,44.0466879592599,12.5288500082713,45.0662387058979"
+                catid="1058" id="Gr1490_WmsBatterie_falde_superficiali"
+                metalayer="" name="Batterie_falde_superficiali"
+                nametree="Batterie_falde_superficiali" owner=""
+                pubflag="2" scalemin="" service="-"
+                srs="CRS:84,EPSG:4230,EPSG:32633,EPSG:202032,EPSG:23033,EPSG:3857,EPSG:4326,EPSG:4326,EPSG:4258,EPSG:202003,EPSG:4265,EPSG:25833,EPSG:23032,EPSG:3004,EPSG:3003,EPSG:32632,EPSG:25832,"
+                tab="--Batterie_falde_superficiali" topo="WMS"
+                visible="true" wmsurl="http://servizigis.regione.emilia-romagna.it/wms/suoli?"/>
+        </folder>
+    </root_cat>
+    <root_cat id="09" name="&lt;strong>Sismica&lt;/strong>" rootId="9" visible="true">
+        <document catid="934"
+            desctree="Classificazione sismica dei comuni dell'Emilia-Romagna (dall'allegato B del D. G. R. 1677/2005)"
+            id="Gr09_Og934" metalayer="Classificazione sismica"
+            name="Classificazione sismica"
+            nametree="Classificazione sismica" owner="SSM_USER"
+            pubflag="3" tab="SSM_VF_CLASSIF_SISMICA_POL" topo="a" visible="true"/>
+        <document catid="935"
+            desctree="Classificazione sismica (tabella)" id="Gr09_Og935"
+            metalayer="" name="Classificazione sismica (tab.)"
+            nametree="Classificazione sismica (tab.)" owner="SSM_USER"
+            pubflag="3" tab="SSM_VT_CLASSIF_SISMICA" topo="t" visible="true"/>
+        <document catid="929"
+            desctree="Valori di accelerazione massima orizzontale di picco al suolo per ogni comune della Regione Emilia-Romagna (dalla Tabella 2 della D.A.L. n. 112/2007)"
+            id="Gr09_Og929" metalayer="Microzonazione sismica"
+            name="Microzonazione sismica"
+            nametree="Microzonazione sismica" owner="SSM_USER"
+            pubflag="3" tab="SSM_VF_MICROZONAZIONE_POL" topo="a" visible="true"/>
+        <document catid="936"
+            desctree="Microzonazione sismica (tabella)" id="Gr09_Og936"
+            metalayer="" name="Microzonazione sismica (tab.)"
+            nametree="Microzonazione sismica (tab.)" owner="SSM_USER"
+            pubflag="3" tab="SSM_VT_MICROZONAZIONE" topo="t" visible="true"/>
+    </root_cat>
+    <root_cat id="05" name="&lt;strong>Suoli&lt;/strong>" rootId="10" visible="true">
+        <folder id="0504" name="Carte applicative" padre="05" visible="true">
+            <document catid="1024"
+                desctree="Carta della capacità d'uso dei suoli di pianura"
+                id="Gr0504_Og1024" metalayer="Capacità uso del suolo"
+                name="Capacità d'uso dei suoli di pianura"
+                nametree="Capacità d'uso dei suoli" owner="PED_USER"
+                pubflag="3" tab="PED_VF_CAPACITAUSO_GE_POL" topo="a" visible="true"/>
+            <document catid="1028"
+                desctree="Carta del carbonio organico immagazzinato nei suoli dell'Appennino tra 0-100 cm"
+                id="Gr0504_Og1028"
+                metalayer="Contenuto COorg. montagna100cm"
+                name="Carbonio organico immagazzinato nei suoli dell'Appennino tra 0-100 cm"
+                nametree="Carbonio org. 0-100 (montagna)"
+                owner="PED_USER" pubflag="3"
+                tab="PED_VF_STOCK100_M_GE_POL" topo="a" visible="true"/>
+            <document catid="1026"
+                desctree="Carta del carbonio organico immagazzinato nei suoli di pianura tra 0-100 cm"
+                id="Gr0504_Og1026"
+                metalayer="Contenuto COorg. pianura 100cm"
+                name="Carbonio organico immagazzinato nei suoli di pianura tra 0-100 cm"
+                nametree="Carbonio org. 0-100 (pianura)"
+                owner="PED_USER" pubflag="3"
+                tab="PED_VF_STOCK100_P_GE_POL" topo="a" visible="true"/>
+            <document catid="1027"
+                desctree="Carta del carbonio organico immagazzinato nei suoli dell'Appennino tra 0-30 cm"
+                id="Gr0504_Og1027"
+                metalayer="Contenuto COorg. montagna 30cm"
+                name="Carbonio organico immagazzinato nei suoli dell'Appennino tra 0-30 cm"
+                nametree="Carbonio org. 0-30 (montagna)"
+                owner="PED_USER" pubflag="3"
+                tab="PED_VF_STOCK30_M_GE_POL" topo="a" visible="true"/>
+            <document catid="1025"
+                desctree="Carta del carbonio organico immagazzinato nei suoli di pianura tra 0-30 cm"
+                id="Gr0504_Og1025"
+                metalayer="Contenuto COorg. pianura 30cm"
+                name="Carbonio organico immagazzinato nei suoli di pianura tra 0-30 cm"
+                nametree="Carbonio org. 0-30 (pianura)" owner="PED_USER"
+                pubflag="3" tab="PED_VF_STOCK30_P_GE_POL" topo="a" visible="true"/>
+            <document catid="622"
+                desctree="Prima approssimazione della carta regionale degli areali degli ordinamenti colturali"
+                id="Gr0504_Og622"
+                metalayer="Carta reg. areali colturali"
+                name="Carta aree colturali"
+                nametree="Carta aree colturali" owner="PED_USER"
+                pubflag="3" tab="PED_F_ZONE_COLT" topo="a" visible="true"/>
+            <document catid="940"
+                desctree="Carta regionale della distribuzione di tipi climatici"
+                id="Gr0504_Og940"
+                metalayer="Carta reg. dei tipi climatici"
+                name="Carta dei tipi climatici"
+                nametree="Carta dei tipi climatici" owner="PED_USER"
+                pubflag="3" tab="PED_F_AGRO_CLIMA_POL" topo="a" visible="true"/>
+            <document catid="1051"
+                desctree="Carta della dotazione in sostanza organica dei suoli di pianura tra 0-30 cm"
+                id="Gr0504_Og1051" metalayer=""
+                name="Carta della dotazione in sostanza organica dei suoli di pianura tra 0-30 cm"
+                nametree="Dotazione sostanza org. 0-30" owner="PED_USER"
+                pubflag="3" tab="PED_VF_LIVELLO_SO_POL" topo="a" visible="true"/>
+            <document catid="1052"
+                desctree="Carta della salinità dei suoli di pianura - strato 0-50 cm di prima approssimazione"
+                id="Gr0504_Og1052" metalayer=""
+                name="Carta della salinità dei suoli di pianura - strato 0-50 cm di prima approssimazione"
+                nametree="Salinità strato 0-50 1° appr."
+                owner="PED_USER" pubflag="3"
+                tab="PED_VF_SALINITA_0_50_POL" topo="a" visible="true"/>
+            <document catid="1053"
+                desctree="Carta della salinità dei suoli di pianura - strato 50-100 cm di prima approssimazione"
+                id="Gr0504_Og1053" metalayer=""
+                name="Carta della salinità dei suoli di pianura - strato 50-100 cm di prima approssimazione"
+                nametree="Salinità strato 50-100 1° appr."
+                owner="PED_USER" pubflag="3"
+                tab="PED_VF_SALINITA_50_100_POL" topo="a" visible="true"/>
+        </folder>
+        <folder id="0501" name="Carte dei suoli" padre="05" visible="true">
+            <document catid="946"
+                desctree="Raccolta di carte di dettaglio di aziende sperimentali, parchi naturali, campi sperimentali, ecc."
+                id="Gr0501_Og946" metalayer="Carta suoli 1:10.000"
+                name="Carta Suoli 1:10.000"
+                nametree="Carta Suoli 1:10.000" owner="PED_USER"
+                pubflag="2" tab="PED_F_PED_10" topo="a" visible="true"/>
+            <document catid="942"
+                desctree="Carta dei suoli in scala 1:250.000"
+                id="Gr0501_Og942" metalayer="Carta suoli 1:250.000"
+                name="Carta Suoli 1:250.000"
+                nametree="Carta Suoli 1:250.000" owner="PED_USER"
+                pubflag="3" tab="PED_F_PED_250_ED94" topo="a" visible="true"/>
+            <document catid="943"
+                desctree="Carta dei suoli della pianura emiliano-romagnola in scala 1:50.000"
+                id="Gr0501_Og943"
+                metalayer="Carta suoli 1:50.000 pianura"
+                name="Carta Suoli 1:50.000 pianura"
+                nametree="Carta Suoli 1:50.000 pianura" owner="PED_USER"
+                pubflag="3" tab="PED_F_PED_50_ED05" topo="a" visible="true"/>
+        </folder>
+        <folder id="0503"
+            name="Carte proprietà chimico-fisiche dei suoli" padre="05" visible="true">
+            <document catid="1017"
+                desctree="Carta del contenuto percentuale di carbonio organico nei suoli dell'Appennino tra 0-30 cm"
+                id="Gr0503_Og1017"
+                metalayer="Contenuto perc. COorg.montagna"
+                name="Contenuto % di carbonio organico nei suoli dell'Appennino"
+                nametree="Cont. perc. carbonio org. montagna"
+                owner="PED_USER" pubflag="3"
+                tab="PED_VF_C_ORGANICO_M_GE_POL" topo="a" visible="true"/>
+            <document catid="1016"
+                desctree="Carta del contenuto percentuale di carbonio organico nei suoli della pianura tra 0-30 cm"
+                id="Gr0503_Og1016"
+                metalayer="Contenuto perc. COorg. pianura"
+                name="Contenuto % di carbonio organico nei suoli di pianura"
+                nametree="Cont. perc. carbonio org. pianura"
+                owner="PED_USER" pubflag="3"
+                tab="PED_VF_C_ORGANICO_P_GE_POL" topo="a" visible="true"/>
+            <document catid="1019"
+                desctree="Carta del contenuto naturale di Cromo [Cr] della pianura emiliana"
+                id="Gr0503_Og1019"
+                metalayer="Carta pedo-geochimica -cromo"
+                name="Contenuto naturale di Cromo [Cr] di pianura emiliana"
+                nametree="Contenuto naturale Cromo" owner="PED_USER"
+                pubflag="3" tab="PED_VF_CROMO_POL" topo="a" visible="true"/>
+            <document catid="1020"
+                desctree="Carta del contenuto naturale di Nichel [Ni] della pianura emiliana"
+                id="Gr0503_Og1020"
+                metalayer="Carta pedo-geochimica -nichel"
+                name="Contenuto naturale di Nichel [Ni] di pianura emiliana"
+                nametree="Contenuto naturale Nichel" owner="PED_USER"
+                pubflag="3" tab="PED_VF_NICHEL_POL" topo="a" visible="true"/>
+            <document catid="1021"
+                desctree="Carta del contenuto naturale di Piombo [Pb] della pianura emiliana"
+                id="Gr0503_Og1021"
+                metalayer="Carta pedo-geochimica -piombo"
+                name="Contenuto naturale di Piombo [Pb] di pianura emiliana"
+                nametree="Contenuto naturale Piombo" owner="PED_USER"
+                pubflag="3" tab="PED_VF_PIOMBO_POL" topo="a" visible="true"/>
+            <document catid="1022"
+                desctree="Carta del contenuto naturale di Rame [Cu] della pianura emiliana"
+                id="Gr0503_Og1022"
+                metalayer="Carta pedo-geochimica -rame"
+                name="Contenuto naturale di Rame [Cu] di pianura emiliana"
+                nametree="Contenuto naturale Rame" owner="PED_USER"
+                pubflag="3" tab="PED_VF_RAME_POL" topo="a" visible="true"/>
+            <document catid="1023"
+                desctree="Carta del contenuto naturale di Zinco [Zn] della pianura emiliana"
+                id="Gr0503_Og1023"
+                metalayer="Carta pedo-geochimica -zinco"
+                name="Contenuto naturale di Zinco [Zn] di pianura emiliana"
+                nametree="Contenuto naturale Zinco" owner="PED_USER"
+                pubflag="3" tab="PED_VF_ZINCO_POL" topo="a" visible="true"/>
+            <document catid="1018"
+                desctree="Carta del contenuto percentuale di argilla nei suoli della pianura tra 0-30 cm"
+                id="Gr0503_Og1018" metalayer="Contenuto perc. Argilla"
+                name="Contenuto % argilla suoli di pianura"
+                nametree="Contenuto perc. argilla pianura"
+                owner="PED_USER" pubflag="3"
+                tab="PED_VF_ARGILLA_P_GE_POL" topo="a" visible="true"/>
+        </folder>
+        <folder id="0502" name="Siti di campionamento" padre="05" visible="true">
+            <document catid="944" desctree="Analisi Terreni"
+                id="Gr0502_Og944" metalayer="Campioni analisi terreni"
+                name="Analisi Terreni" nametree="Analisi terreni"
+                owner="DWHPEDO" pubflag="2" tab="DWHPEDO_VF_SACT_PUN"
+                topo="p" visible="true"/>
+            <document catid="941"
+                desctree="Siti con batterie di strumenti per la misurazione della falda superficiale"
+                id="Gr0502_Og941"
+                metalayer="Batterie falde superficiali"
+                name="Batterie falde superficiali"
+                nametree="Batterie falde superficiali" owner="PED_USER"
+                pubflag="3" tab="PED_F_BATTERIE" topo="p" visible="true"/>
+            <document catid="702" desctree="Inventario dati ambientali"
+                id="Gr0502_Og702" metalayer="Monitoraggi ambientali"
+                name="Inventario dati ambientali"
+                nametree="Inventario dati ambientali" owner="DWHPEDO"
+                pubflag="2" tab="DWHPEDO_VF_MONITORAGGI_PUN" topo="p" visible="true"/>
+        </folder>
+    </root_cat>
+    <root_cat id="15" name="&lt;strong>Uso del Suolo&lt;/strong>"
+        rootId="11" visible="true">
+        <document catid="927"
+            desctree="Carta di uso del suolo derivata dall'interpretazione di fotografie aeree del 1954-1955"
+            id="Gr15_Og927" metalayer="Carta uso suoli 1:25.000 -1954"
+            name="Uso del suolo del 1954"
+            nametree="Uso del suolo (1954)" owner="BASE_USER"
+            pubflag="3" tab="BASE_VF_USOSUOLO1954_POL" topo="a" visible="true"/>
+    </root_cat>
+</root>
