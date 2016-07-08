@@ -10,7 +10,7 @@
 	<groupId>com.rer.sgss</groupId>
 	<artifactId>cartpedo</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.1</version>
+	<version>1.0.0</version>
 	<name>Cartpedo</name>
 	<description>Il sito cartografico "I suoli dell'Emilia-Romagna" è uno strumento per la consultazione della cartografia dei suoli della Regione Emilia-Romagna realizzata dal "Servizio Geologico, Sismico e dei Suoli".</description>
 	<url>https://redmine.ente.regione.emr.it/projects/cartpedo</url>
