@@ -85,6 +85,8 @@ linkMetadati.add("http://servizigis.regione.emilia-romagna.it/ctwmetadatiRER/met
 linkMetadati.add("http://servizigis.regione.emilia-romagna.it/ctwmetadatiRER/metadatoISO.ejb?stato_IdMetadato=iOrg01iEnP1idMetadato78055"); //31
 linkMetadati.add("http://servizigis.regione.emilia-romagna.it/ctwmetadatiRER/metadatoISO.ejb?stato_IdMetadato=iOrg01iEnP1idMetadato78056"); //32
 linkMetadati.add("http://servizigis.regione.emilia-romagna.it/ctwmetadatiRER/metadatoISO.ejb?stato_IdMetadato=iOrg01iEnP1idMetadatoXXXXX"); //33
+linkMetadati.add("http://servizigis.regione.emilia-romagna.it/ctwmetadatiRER/metadatoISO.ejb?stato_IdMetadato=iOrg01iEnP1idMetadatoXXXXX"); //34
+linkMetadati.add("http://servizigis.regione.emilia-romagna.it/ctwmetadatiRER/metadatoISO.ejb?stato_IdMetadato=iOrg01iEnP1idMetadatoXXXXX"); //35
 
 
 

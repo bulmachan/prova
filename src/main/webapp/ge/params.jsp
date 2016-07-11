@@ -67,7 +67,8 @@ if (ip.equals(ipSvil)){
 	// SVILUPPO:
 	servletURL = request.getScheme() + "://"+request.getLocalAddr()+"/geologico"+ request.getRequestURI();
 	appPath = request.getScheme() + "://"+request.getLocalAddr()+"/geologico"+ request.getRequestURI().substring(0, request.getRequestURI().lastIndexOf('/')+1);
-	stylesPath="http://"+ip+"/gstatico/documenti/cartpedo/geStyles";
+	//stylesPath="http://"+ip+"/gstatico/documenti/cartpedo/geStyles";
+	stylesPath="http://mappegis.regione.emilia-romagna.it/gstatico/documenti/cartpedo/geStyles";
 
 } else if (request.getServerName().equals("geotest.ente.regione.emr.it")){
 	// TEST:
@@ -90,6 +91,7 @@ if (ip.equals(ipSvil)){
 }
 
 String fileLogo="images/sfondo_ge.jpg";
+String fileLegenda="";
 
 int[] xDivisions=null;
 int[] yDivisions=null;
@@ -2317,11 +2319,11 @@ switch (liv){
 		balloonWidth="300px";
 		balloonHeight="570px";
 		bordiRaster="http://"+request.getServerName()+"/gstatico/documenti/cartpedo/raster/impermeabilizzazione/doc.kml";
-
+		//fileLegenda="images/legenda_impermeabilizzazione.png";
 		colonne=new String[4];
 		colonne[0]="SHAPE"; 		// CAMPO SHAPE
 		colonne[1]="GISID"; 		// CAMPO ID
-		colonne[2]="ETICHETTA"; 		// CAMPO TEMATIZZAZIONE
+		colonne[2]="ID_COMUNE"; 		// CAMPO TEMATIZZAZIONE
 		colonne[3]="BALLOON"; 		// CAMPO BALLOON
 		
 		levels=8;
@@ -2372,6 +2374,143 @@ switch (liv){
 		
 	break;
 
+	case 34:
+	
+		layer="PED_VF_C_ORGANICO100_P_GE_POL";
+		sdeUser="PED_USER";	
+		startup=true; //mostra la mappa allo startup
+		showGrid=false;
+		nomeMappa="I suoli dell'Emilia-Romagna";
+		subNomeMappa="Carta del contenuto % di carbonio organico nei suoli di pianura tra 0-100 cm (scala 1:50.000)";
+		descMappa="<![CDATA[<iframe src=\""+appPath+"balloon_home.jsp?liv=6\" width=\"300\" height=\"570\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" name=\"balloon\">balloon</iframe>]]>";
+		descEtichetta="Classe";
+		balloonWidth="300px";
+		balloonHeight="570px";
+		bordiRaster="";
+
+		colonne=new String[4];
+		colonne[0]="SHAPE"; 		// CAMPO SHAPE
+		colonne[1]="GISID"; 		// CAMPO ID
+		colonne[2]="CLASSE"; 		// CAMPO TEMATIZZAZIONE
+		colonne[3]="BALLOON"; 		// CAMPO BALLOON
+		
+		levels=8;
+
+		xDivisions=new int[levels];
+		yDivisions=new int[levels];
+
+		xDivisions[0]=6;
+		yDivisions[0]=4;
+		for(int i=1; i<levels; i++){
+			xDivisions[i] = 3;
+			yDivisions[i] = 3;
+		}
+
+		params=new int[levels][3];
+		
+		params[0][0]=1; 					//minLod
+		params[0][1]=-1;//3500; 					//maxLod
+		params[0][2]=0;//5000; 				//scalaGen
+/*
+		params[1][0]=700; 					//minLod
+		params[1][1]=2100; 					//maxLod
+		params[1][2]=5000; 				//scalaGen
+
+		params[2][0]=700; 					//minLod
+		params[2][1]=2100; 					//maxLod
+		params[2][2]=5000; 				//scalaGen
+		
+		params[3][0]=700; 					//minLod
+		params[3][1]=2100; 					//maxLod
+		params[3][2]=5000; 				//scalaGen
+
+		params[4][0]=700; 					//minLod
+		params[4][1]=2100; 					//maxLod
+		params[4][2]=5000; 				//scalaGen
+
+		params[5][0]=700; 					//minLod
+		params[5][1]=2100; 					//maxLod
+		params[5][2]=5000; 				//scalaGen
+
+		params[6][0]=700; 					//minLod
+		params[6][1]=2100; 					//maxLod
+		params[6][2]=5000; 				//scalaGen
+
+		params[7][0]=700;			//minLod
+		params[7][1]=-1;				//maxLod
+		params[7][2]=5000;*/			//scalaGen
+		
+	break;
+
+	
+	case 35:
+	
+		layer="PED_VF_VANADIO_GE_POL";
+		sdeUser="PED_USER";	
+		startup=true; //mostra la mappa allo startup
+		showGrid=false;
+		nomeMappa="I suoli dell'Emilia-Romagna";
+		subNomeMappa="Carta del Fondo naturale del Vanadio [V] della pianura emiliano-romagnola";
+		descMappa="<![CDATA[<iframe src=\""+appPath+"balloon_home.jsp?liv=35\" width=\"300\" height=\"570\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" name=\"balloon\">balloon</iframe>]]>";
+		descEtichetta="Classe";
+		balloonWidth="300px";
+		balloonHeight="570px";
+		bordiRaster="";
+		//stylesPath="http://10.10.80.125/gstatico/documenti/cartpedo/geStyles/nuovi";
+
+		colonne=new String[4];
+		colonne[0]="SHAPE"; 		// CAMPO SHAPE
+		colonne[1]="XID_DELIN"; 		// CAMPO ID
+		colonne[2]="CLASSE"; 		// CAMPO TEMATIZZAZIONE
+		colonne[3]="BALLOON"; 		// CAMPO BALLOON
+		
+		levels=1;
+
+		xDivisions=new int[levels];
+		yDivisions=new int[levels];
+
+		xDivisions[0]=6;
+		yDivisions[0]=4;
+		for(int i=1; i<levels; i++){
+			xDivisions[i] = 3;
+			yDivisions[i] = 3;
+		}
+
+		params=new int[levels][3];
+		
+		params[0][0]=1; 					//minLod
+		params[0][1]=-1; 					//maxLod
+		params[0][2]=5000; 				//scalaGen
+
+		/*params[1][0]=700; 					//minLod
+		params[1][1]=2100; 					//maxLod
+		params[1][2]=400000; 				//scalaGen
+
+		params[2][0]=700; 					//minLod
+		params[2][1]=2100; 					//maxLod
+		params[2][2]=250000; 				//scalaGen
+		
+		params[3][0]=700; 					//minLod
+		params[3][1]=2100; 					//maxLod
+		params[3][2]=75000; 				//scalaGen
+
+		params[4][0]=700; 					//minLod
+		params[4][1]=2100; 					//maxLod
+		params[4][2]=30000; 				//scalaGen
+
+		params[5][0]=700; 					//minLod
+		params[5][1]=2100; 					//maxLod
+		params[5][2]=10000; 				//scalaGen
+
+		params[6][0]=700; 					//minLod
+		params[6][1]=2100; 					//maxLod
+		params[6][2]=5000; 				//scalaGen
+
+		params[7][0]=700;			//minLod
+		params[7][1]=-1;				//maxLod
+		params[7][2]=5000;*/
+		
+	break;	
 	
 } 
 

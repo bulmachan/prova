@@ -193,6 +193,11 @@ try {
 		if(level>=0)
 			kC.appendLogo(sb, appPath, fileLogo);
 
+		if(!fileLegenda.equals("")){
+			if(level>=0)
+				kC.appendLegenda(sb, appPath, fileLegenda);
+		}
+		
 		kC.appendLicenza(sb);
 		
 		sb.append("</Document>"+"\r\n");

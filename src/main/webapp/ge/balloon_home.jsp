@@ -220,7 +220,7 @@
 %><%@ include file="testata_balloon.htm"
 %>
 <%	
-if (liv > 0 && liv <=33) {
+if (liv > 0 && liv <=35) {
 %>
     <p class="scala"><%=scala%></p><br />
   <div class="uc">

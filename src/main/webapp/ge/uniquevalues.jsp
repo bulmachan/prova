@@ -38,7 +38,7 @@ else
 	
 	sqlString="select distinct etichetta as classe, '' as colore from ped_user.ped_vf_suoli50_ge_pol order by etichetta";
 
-	sqlString="select distinct etichetta as classe, '' as colore from ped_user.ped_vf_imperm_comuni_ge_pol order by etichetta";
+	sqlString="select distinct id_comune as classe, '' as colore from ped_user.ped_vf_imperm_comuni_ge_pol order by id_comune";
 	
 	//if (scala=="500")
 		//sqlString="select distinct "+layer+".etichetta, colore from "+layer+", ped_sottosistemi where "+layer+".id_sottosistema=ped_sottosistemi.id_sottosistema order by "+layer+".etichetta";

@@ -330,8 +330,8 @@ class kmlConnector{
 						sb.append("\t\t\t\t<description><![CDATA["+ris[4]+"]]></description>"+"\r\n");
 					
 					//java.sql.Timestamp t = new Timestamp(System.currentTimeMillis());
-					sb.append("\t\t\t\t<styleUrl>" + stylesPath + "?t="+oggi+"#"+ris[2]+"</styleUrl>"+"\r\n");
-					//sb.append("\t\t\t\t<styleUrl>" + stylesPath + "#"+ris[2]+"</styleUrl>"+"\r\n");
+					//sb.append("\t\t\t\t<styleUrl>" + stylesPath + "?t="+oggi+"2#"+ris[2]+"</styleUrl>"+"\r\n");
+					sb.append("\t\t\t\t<styleUrl>" + stylesPath + "#"+ris[2]+"</styleUrl>"+"\r\n");
 
 					
 					if (ris[0].substring(0,ris[0].indexOf(" (")).equals("MULTILINESTRING")){
@@ -752,8 +752,8 @@ class kmlConnector{
 						sb.append("\t\t<description></description>"+"\r\n");
 
 						//java.sql.Timestamp t = new Timestamp(System.currentTimeMillis());
-						sb.append("\t\t<styleUrl>" + stylesPath + "/kmlStyles.kml"+ "?t="+oggi+"#bordi</styleUrl>"+"\r\n");
-						//sb.append("\t\t<styleUrl>" + stylesPath + "/kmlStyles.kml" + "#bordi</styleUrl>"+"\r\n");
+						//sb.append("\t\t<styleUrl>" + stylesPath + "/kmlStyles.kml"+ "?t="+oggi+"r#bordi</styleUrl>"+"\r\n");
+						sb.append("\t\t<styleUrl>" + stylesPath + "/kmlStyles.kml" + "#bordi</styleUrl>"+"\r\n");
 
 						if (ris[0].indexOf("MULTILINESTRING")>-1){
 							
@@ -928,8 +928,8 @@ class kmlConnector{
 					
 				
 					//java.sql.Timestamp t = new Timestamp(System.currentTimeMillis());
-					sb.append("\t\t<styleUrl>" + stylesPath + "/" + layer.toLowerCase() + ".kml"+"?t="+oggi+"#" + ris[2] + "</styleUrl>"+"\r\n");
-					//sb.append("\t\t<styleUrl>" + stylesPath + "/" + layer.toLowerCase() + ".kml" + "#" + ris[2] + "</styleUrl>"+"\r\n");
+					//sb.append("\t\t<styleUrl>" + stylesPath + "/" + layer.toLowerCase() + ".kml"+"?t="+oggi+"r#" + ris[2] + "</styleUrl>"+"\r\n");
+					sb.append("\t\t<styleUrl>" + stylesPath + "/" + layer.toLowerCase() + ".kml" + "#" + ris[2] + "</styleUrl>"+"\r\n");
 
 					if (ris[0].indexOf("MULTIPOLYGON")>-1){
 						strCoords=ris[0].replace("MULTIPOLYGON ((( ","");
@@ -1147,7 +1147,7 @@ class kmlConnector{
 
 		sb.append("\t\t<ScreenOverlay>"+"\r\n");  
 		sb.append("\t\t\t<name>Licenza CC by 2.5</name>"+"\r\n");
-		sb.append("\t\t\t<description><![CDATA[<a href=\"http://geoportale.regione.emilia-romagna.it/it/it/licenze\">Dettagli licenza</a>]]></description>"+"\r\n");
+		sb.append("\t\t\t<description><![CDATA[<a href=\"http://geoportale.regione.emilia-romagna.it/it/it/contenuti/licenze\">Dettagli licenza</a>]]></description>"+"\r\n");
 		sb.append("\t\t\t<color>e0ffffff</color>"+"\r\n");
 		sb.append("\t\t\t<Icon>"+"\r\n");
 		sb.append("\t\t\t\t<href>http://i.creativecommons.org/l/by/3.0/88x31.png</href>"+"\r\n");
@@ -1160,7 +1160,27 @@ class kmlConnector{
 
 		sb.append("\t</Folder>"+"\r\n");
 	}
-	
+
+	public void appendLegenda(StringBuffer sb, String appPath, String fileLegenda){
+		sb.append("\t<Folder>"+"\r\n");
+		sb.append("\t\t<name>Legenda</name>"+"\r\n");
+		sb.append("\t\t<visibility>1</visibility>"+"\r\n");
+		sb.append("\t\t<open>0</open>"+"\r\n");
+
+		sb.append("\t\t<ScreenOverlay>"+"\r\n");  
+		sb.append("\t\t\t<name>Legenda</name>"+"\r\n");
+		sb.append("\t\t\t<color>e0ffffff</color>"+"\r\n");
+		sb.append("\t\t\t<Icon>"+"\r\n");
+		sb.append("\t\t\t\t<href>"+appPath+"/"+fileLegenda+"</href>"+"\r\n");
+		sb.append("\t\t\t</Icon>"+"\r\n");
+
+		sb.append("\t\t\t<overlayXY x=\"0.5\" y=\"0\" xunits=\"fraction\" yunits=\"fraction\"/>"+"\r\n");
+		sb.append("\t\t\t<screenXY x=\"130\" y=\"60\" xunits=\"pixels\" yunits=\"pixels\"/>"+"\r\n");
+
+		sb.append("\t\t</ScreenOverlay>"+"\r\n");
+
+		sb.append("\t</Folder>"+"\r\n");
+	}	
 
 	public double[] trasformaPunto(double x, double y){
 		String[] xy = new String[2];

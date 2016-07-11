@@ -49,6 +49,22 @@ carteTable[liv5].put("descCarta", "<p>Il carbonio organico costituisce circa il 
 carteTable[liv5].put("nomeNoteIllustrative", "NOTE_ILLUSTRATIVE_CO_pianura.pdf");
 macroCatTable[app].put(6, carteTable[liv5]);
 
+
+// NUOVA CARTA
+Integer liv5 = 0;
+carteTable[liv5].put("dataCarta", dfm.parse("2016-07-11 00:00:00").getTime());
+carteTable[liv5].put("articoloTestoLinkCarta", "la");
+carteTable[liv5].put("testoLinkCarta", "Carta del contenuto % di carbonio organico nei suoli della pianura tra 0-100 cm. 2a edizione");
+carteTable[liv5].put("titleCarta", "Contenuto % di carbonio organico nei suoli della pianura tra 0-100 cm. 2a edizione");
+carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview34.jpg");
+carteTable[liv5].put("scalaCarta", "1:50.000");
+carteTable[liv5].put("codiceLivelloCarta", 34);
+carteTable[liv5].put("linkMetadato", linkMetadati.get(34));
+carteTable[liv5].put("descCarta", "<p>Il carbonio organico costituisce circa il 58% della materia organica, ossia quella frazione di suolo composta da qualsiasi cosa che una volta era vivente. La materia organica svolge diverse funzioni essendo in grado di influenzare positivamente le proprietà fisiche, chimiche e biologiche del suolo.</p><p>La diminuzione del contenuto di materia organica nei suoli è considerata una minaccia ed un elemento di degrado del suolo così come indicato nella comunicazione “Strategia tematica per le protezione del suolo” della Commissione Europea (COM2006/231).<p>La carta rappresenta la distribuzione areale nei suoli di pianura del contenuto percentuale di carbonio organico nel primo metro (0-100 cm). La carta è stata elaborata a partire dai dati estrapolati dalla Banca Dati dei Suoli della Regione Emilia-Romagna relativi al periodo 1974-2015.<\\/p>");
+carteTable[liv5].put("nomeNoteIllustrative", "NOTE_ILLUSTRATIVE_CO_pianura.pdf");
+macroCatTable[app].put(34, carteTable[liv5]);
+
+
 // NUOVA CARTA
 liv5++;
 carteTable[liv5].put("dataCarta", dfm.parse("2010-01-01 00:00:00").getTime());
