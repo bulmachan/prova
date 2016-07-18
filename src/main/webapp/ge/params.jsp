@@ -939,7 +939,7 @@ switch (liv){
 		startup=true; //mostra la mappa allo startup
 		showGrid=false;
 		nomeMappa="I suoli dell'Emilia-Romagna";
-		subNomeMappa="Carta del Fondo naturale del Cromo [Cr] della pianura emiliano-romagnola";
+		subNomeMappa="Carta del Fondo naturale del Cromo [Cr] della pianura emiliano-romagnola. 2a edizione";
 		descMappa="<![CDATA[<iframe src=\""+appPath+"balloon_home.jsp?liv=13\" width=\"300\" height=\"570\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" name=\"balloon\">balloon</iframe>]]>";
 		descEtichetta="Classe";
 		balloonWidth="300px";
@@ -1007,7 +1007,7 @@ switch (liv){
 		startup=true; //mostra la mappa allo startup
 		showGrid=false;
 		nomeMappa="I suoli dell'Emilia-Romagna";
-		subNomeMappa="Carta del Fondo naturale del Nichel [Ni] della pianura emiliano-romagnola";
+		subNomeMappa="Carta del Fondo naturale del Nichel [Ni] della pianura emiliano-romagnola. 2a edizione";
 		descMappa="<![CDATA[<iframe src=\""+appPath+"balloon_home.jsp?liv=14\" width=\"300\" height=\"570\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" name=\"balloon\">balloon</iframe>]]>";
 		descEtichetta="Classe";
 		balloonWidth="300px";
@@ -1077,7 +1077,7 @@ switch (liv){
 		startup=true; //mostra la mappa allo startup
 		showGrid=false;
 		nomeMappa="I suoli dell'Emilia-Romagna";
-		subNomeMappa="Carta del Fondo naturale del Piombo [Pb] della pianura emiliano-romagnola";
+		subNomeMappa="Carta del Fondo naturale del Piombo [Pb] della pianura emiliano-romagnola. 2a edizione";
 		descMappa="<![CDATA[<iframe src=\""+appPath+"balloon_home.jsp?liv=15\" width=\"300\" height=\"570\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" name=\"balloon\">balloon</iframe>]]>";
 		descEtichetta="Classe";
 		balloonWidth="300px";
@@ -1145,7 +1145,7 @@ switch (liv){
 		startup=true; //mostra la mappa allo startup
 		showGrid=false;
 		nomeMappa="I suoli dell'Emilia-Romagna";
-		subNomeMappa="Carta del Fondo naturale del Rame [Cu] della pianura emiliano-romagnola";
+		subNomeMappa="Carta del Fondo naturale del Rame [Cu] della pianura emiliano-romagnola. 2a edizione";
 		descMappa="<![CDATA[<iframe src=\""+appPath+"balloon_home.jsp?liv=16\" width=\"300\" height=\"570\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" name=\"balloon\">balloon</iframe>]]>";
 		descEtichetta="Classe";
 		balloonWidth="300px";
@@ -1214,7 +1214,7 @@ switch (liv){
 		startup=true; //mostra la mappa allo startup
 		showGrid=false;
 		nomeMappa="I suoli dell'Emilia-Romagna";
-		subNomeMappa="Carta del Fondo naturale dello Zinco [Zn] della pianura emiliano-romagnola";
+		subNomeMappa="Carta del Fondo naturale dello Zinco [Zn] della pianura emiliano-romagnola. 2a edizione";
 		descMappa="<![CDATA[<iframe src=\""+appPath+"balloon_home.jsp?liv=17\" width=\"300\" height=\"570\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" name=\"balloon\">balloon</iframe>]]>";
 		descEtichetta="Classe";
 		balloonWidth="300px";
@@ -2382,7 +2382,7 @@ switch (liv){
 		showGrid=false;
 		nomeMappa="I suoli dell'Emilia-Romagna";
 		subNomeMappa="Carta del contenuto % di carbonio organico nei suoli di pianura tra 0-100 cm (scala 1:50.000)";
-		descMappa="<![CDATA[<iframe src=\""+appPath+"balloon_home.jsp?liv=6\" width=\"300\" height=\"570\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" name=\"balloon\">balloon</iframe>]]>";
+		descMappa="<![CDATA[<iframe src=\""+appPath+"balloon_home.jsp?liv=34\" width=\"300\" height=\"570\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" name=\"balloon\">balloon</iframe>]]>";
 		descEtichetta="Classe";
 		balloonWidth="300px";
 		balloonHeight="570px";

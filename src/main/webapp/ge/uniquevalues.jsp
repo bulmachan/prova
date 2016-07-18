@@ -8,7 +8,7 @@ int redLine=255;
 int greenLine=0;
 int blueLine=0;
 
-int alphaPoly=0;
+int alphaPoly=190;
 
 String tempVar;
 String layer, scala;
@@ -36,9 +36,9 @@ else
 	String sqlString = "";	
 	//String sqlString = "select distinct id_unita, color from "+layer+" order by id_unita";
 	
-	sqlString="select distinct etichetta as classe, '' as colore from ped_user.ped_vf_suoli50_ge_pol order by etichetta";
+	//sqlString="select distinct etichetta as classe, '' as colore from ped_user.ped_vf_suoli50_ge_pol order by etichetta";
 
-	sqlString="select distinct id_comune as classe, '' as colore from ped_user.ped_vf_imperm_comuni_ge_pol order by id_comune";
+	//sqlString="select distinct id_comune as classe, '' as colore from ped_user.ped_vf_imperm_comuni_ge_pol order by id_comune";
 	
 	//if (scala=="500")
 		//sqlString="select distinct "+layer+".etichetta, colore from "+layer+", ped_sottosistemi where "+layer+".id_sottosistema=ped_sottosistemi.id_sottosistema order by "+layer+".etichetta";
@@ -51,7 +51,7 @@ else
 		//capacitauso
 		//sqlString="select distinct "+layer+".classe, colore from ped_user."+layer+", ped_user.PED_LEGENDE_GE_PEDOCHIMICHE where "+layer+".classe=PED_LEGENDE_GE_PEDOCHIMICHE.id and liv="+request.getParameter("liv")+" order by "+layer+".classe";
 
-		//sqlString="select id as classe,colore from ped_user.PED_LEGENDE_GE_PEDOCHIMICHE where liv="+request.getParameter("liv")+" order by id";
+		sqlString="select id as classe,colore from ped_user.PED_LEGENDE_GE_PEDOCHIMICHE where liv="+request.getParameter("liv")+" order by id";
 
 		// livello SO:
 		//sqlString="select ID_LIVELLO_SO as classe, colore from ped_user.ped_t_livello_so where ordine > 0 order by ordine";
@@ -124,11 +124,12 @@ else
 			"ORDER BY MIN(ece)";	*/
 			
 			
-			//sqlString="select colore, sigla as classe from ped_user.ped_t_param_suolo order by id asc nulls last,sigla";
+            //sqlString="select colore, sigla as classe from ped_user.ped_t_param_suolo order by id asc nulls last,sigla";
 
-			//sqlString="select colore, id as classe from ped_user.ped_legende_ge_proprieta_cf where liv=6 order by id";
+            //sqlString="select colore, id as classe from ped_user.ped_legende_ge_proprieta_cf where liv=6 order by id";
+            //sqlString="select colore, id as classe from ped_user.ped_legende_ge_proprieta_cf where liv=34 order by id";
 
-			//sqlString="select colore, id as classe from ped_user.ped_legende_ge_proprieta_cf where liv=32 order by id";
+            //sqlString="select colore, id as classe from ped_user.ped_legende_ge_proprieta_cf where liv=32 order by id";
 			
 	out.println("CONNESSIONE AL DB: "+dbConn.getMetaData().getURL() );		
 	out.println(sqlString);

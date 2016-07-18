@@ -928,8 +928,8 @@ class kmlConnector{
 					
 				
 					//java.sql.Timestamp t = new Timestamp(System.currentTimeMillis());
-					//sb.append("\t\t<styleUrl>" + stylesPath + "/" + layer.toLowerCase() + ".kml"+"?t="+oggi+"r#" + ris[2] + "</styleUrl>"+"\r\n");
-					sb.append("\t\t<styleUrl>" + stylesPath + "/" + layer.toLowerCase() + ".kml" + "#" + ris[2] + "</styleUrl>"+"\r\n");
+					sb.append("\t\t<styleUrl>" + stylesPath + "/" + layer.toLowerCase() + ".kml"+"?t="+oggi+"r#" + ris[2] + "</styleUrl>"+"\r\n");
+					//sb.append("\t\t<styleUrl>" + stylesPath + "/" + layer.toLowerCase() + ".kml" + "#" + ris[2] + "</styleUrl>"+"\r\n");
 
 					if (ris[0].indexOf("MULTIPOLYGON")>-1){
 						strCoords=ris[0].replace("MULTIPOLYGON ((( ","");

@@ -29,8 +29,8 @@ String pref="";
 switch (liv){
 	case 13:
 		scala="1:250.000";
-		h1="Legenda della Carta del Fondo naturale del Cromo [Cr] al livello di dettaglio "+scala;
-		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala;
+		h1="Legenda della Carta del Fondo naturale del Cromo [Cr] al livello di dettaglio "+scala+". 2a edizione";
+		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala+". 2a edizione";
 		esempio="Le classi di concentrazione per il Cromo vanno da 1 a 4 in ordine di concentrazione crescente.<br /><strong>Classe 1</strong>: suoli dei bacini di pertinenza dei Torrenti Chiavenna, Crostolo, Parma, Stirone, Tidone e del F. Secchia;<br /><strong>Classe 2</strong>: suoli dei dei bacini di pertinenza dei Torrenti, Baganza, Enza e Tresinaro;<br /><strong>Classe 3</strong>: suoli dei dei bacini di pertinenza dei Torrenti Arda, Taro e del Fiume Po;<br /><strong>Classe 4</strong>: suoli dei dei bacini di pertinenza i suoli dei Torrenti Trebbia e Nure.<br /><br />Nei suoli il contenuto naturale di Cromo è strettamente legato alla provenienza del sedimento, tranne che in quelli ad elevato grado di alterazione di pertinenza delle superfici più antiche del margine appenninico dove il contenuto di metalli è piuttosto omogeneo e indipendente dal bacino: questi tipi di suoli appartengono tutti alla classe 2.<br /><br />Il valore limite stabilito dal DLgs 152/06 è di 150 mg/kg (titolo 5, allegato 5, colonna A della tabella).";
 		imgCarta = "/gstatico/documenti/cartpedo/immagini/overview13.jpg";
 		titoloLegenda="Cromo";
@@ -39,8 +39,8 @@ switch (liv){
 	
 	case 14:
 		scala="1:250.000";
-		h1="Legenda della Carta del Fondo naturale del Nichel [Ni] al livello di dettaglio "+scala;
-		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala;
+		h1="Legenda della Carta del Fondo naturale del Nichel [Ni] al livello di dettaglio "+scala+". 2a edizione";
+		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala+". 2a edizione";
 		esempio="Le classi di concentrazione per il Nichel vanno da 1 a 4 in ordine di concentrazione crescente.<br /><strong>Classe 1</strong>: suoli dei bacini di pertinenza dei Torrenti Chiavenna, Crostolo, Parma, Stirone, Tidone e del F.Secchia;<br /><strong>Classe 2</strong>: suoli dei dei bacini di pertinenza dei Torrenti, Baganza, Enza e Tresinaro;<br /><strong>Classe 3</strong>: suoli dei dei bacini di pertinenza dei Torrenti Arda, Taro e del Fiume Po;<br /><strong>Classe 4</strong>: suoli dei dei bacini di pertinenza i suoli dei Torrenti Trebbia e Nure.<br /><br />Nei suoli il contenuto naturale di Nichel è strettamente legato alla provenienza del sedimento, tranne che in quelli ad elevato grado di alterazione di pertinenza delle superfici più antiche del margine appenninico dove il contenuto di metalli è piuttosto omogeneo e indipendente dal bacino: essi appartengono tutti alla classe 1. Il valore limite stabilito dal DLgs 152/06 è di 120 mg/kg (titolo 5, allegato 5, colonna A della tabella).<br /><br />Il valore limite stabilito dal DLgs 99/92 è di 75 mg/kg (allegato I A)";
 		imgCarta = "/gstatico/documenti/cartpedo/immagini/overview14.jpg";
 		titoloLegenda="Nichel";
@@ -49,8 +49,8 @@ switch (liv){
 	
 	case 15:
 		scala="1:250.000";
-		h1="Legenda della Carta del Fondo naturale del Piombo [Pb] al livello di dettaglio "+scala;
-		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala;
+		h1="Legenda della Carta del Fondo naturale del Piombo [Pb] al livello di dettaglio "+scala+". 2a edizione";
+		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala+". 2a edizione";
 		esempio="Le due classi di concentrazione che risultano dall’analisi dei dati pedo-geochimici hanno valori talmente ravvicinati tra loro che non è stato ritenuto opportuno mantenerle.<br />La carta del piombo è perciò attualmente costituita da un’unica classe su tutta la pianura emiliana.<br /><br />Il valore limite stabilito dal DLgs 152/06 è di 100 mg/kg (titolo 5, allegato 5, colonna A della tabella).<br />Il valore limite stabilito dal DLgs 99/92 è di 100 mg/kg (allegato I A)";
 		imgCarta = "/gstatico/documenti/cartpedo/immagini/overview15.jpg";
 		titoloLegenda="Piombo";
@@ -59,8 +59,8 @@ switch (liv){
 	
 	case 16:
 		scala="1:250.000";
-		h1="Legenda della Carta del Fondo naturale del Rame [Cu] al livello di dettaglio "+scala;
-		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala;
+		h1="Legenda della Carta del Fondo naturale del Rame [Cu] al livello di dettaglio "+scala+". 2a edizione";
+		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala+". 2a edizione";
 		esempio="Le classi di concentrazione sono solo due in ordine di concentrazione crescente:<br /><br /><strong>Classe 1</strong>: suoli ad elevato grado di differenziazione del profilo; <br /><strong>Classe 2</strong>: suoli con grado di differenziazione del profilo da debole a moderato e da moderato ad elevato.<br /><br />Il valore limite stabilito dal DLgs 152/06 è di 120 mg/kg (titolo 5, allegato 5, colonna A della tabella).<br />Il valore limite stabilito dal DLgs 99/92 è di 100 mg/kg (allegato I A)";
 		imgCarta = "/gstatico/documenti/cartpedo/immagini/overview16.jpg";
 		titoloLegenda="Rame";
@@ -69,13 +69,22 @@ switch (liv){
 
 	case 17:
 		scala="1:250.000";
-		h1="Legenda della Carta del Fondo naturale dello Zinco [Zn] al livello di dettaglio "+scala;
-		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala;
+		h1="Legenda della Carta del Fondo naturale dello Zinco [Zn] al livello di dettaglio "+scala+". 2a edizione";
+		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala+". 2a edizione";
 		esempio="Le classi di concentrazione sono solo due in ordine di concentrazione crescente:<br /><br /><strong>Classe 1</strong>: suoli a tessitura media o moderatamente grossolana, in ambiente di canale, argine e rotta fluviale;  <br /><strong>Classe 2</strong>: suoli a tessitura fine o moderatamente fine in ambiente di piana inondabile e di conoide.<br /><br />Nei suoli il contenuto naturale di Zinco è prevalentemente legato alla granulometria, tranne che in quelli ad elevato grado di alterazione di pertinenza delle superfici più antiche del margine appenninico dove il contenuto di metalli è piuttosto omogeneo e indipendente dalla granulometria: essi appartengono tutti alla classe 1.<br /><br />Il valore limite stabilito dal DLgs 152/06 è di 150 mg/kg (titolo 5, allegato 5, colonna A della tabella).<br />Il valore limite stabilito dal DLgs 99/92 è di 300 mg/kg (allegato I A)";
 		imgCarta = "/gstatico/documenti/cartpedo/immagini/overview17.jpg";
 		titoloLegenda="Zinco";
 		pref="ZN";
 	break;
+	case 35:
+		scala="1:250.000";
+		h1="Legenda della Carta del Fondo naturale del Vanadio [V] al livello di dettaglio "+scala;
+		pageHeader = "Carta dei Suoli al livello di dettaglio "+scala;
+		esempio="Le classi di concentrazione sono solo due in ordine di concentrazione crescente:<br /><br /><strong>Classe 1</strong>: suoli a tessitura media o moderatamente grossolana, in ambiente di canale, argine e rotta fluviale;  <br /><strong>Classe 2</strong>: suoli a tessitura fine o moderatamente fine in ambiente di piana inondabile e di conoide.<br /><br />Nei suoli il contenuto naturale di Zinco è prevalentemente legato alla granulometria, tranne che in quelli ad elevato grado di alterazione di pertinenza delle superfici più antiche del margine appenninico dove il contenuto di metalli è piuttosto omogeneo e indipendente dalla granulometria: essi appartengono tutti alla classe 1.<br /><br />Il valore limite stabilito dal DLgs 152/06 è di 150 mg/kg (titolo 5, allegato 5, colonna A della tabella).<br />Il valore limite stabilito dal DLgs 99/92 è di 300 mg/kg (allegato I A)";
+		imgCarta = "/gstatico/documenti/cartpedo/immagini/overview35.jpg";
+		titoloLegenda="Vanadio";
+		pref="V";
+	break;        
 	
 }
 ResultSet rs2 = null;
@@ -91,7 +100,7 @@ try {
 		+"ped_t_pedochimiche.gruppo               AS UNITA, "
 		+"ped_t_met_gruppif.suoli                 AS SUOLI, "
 		+"ped_t_met_gruppif.provenienza           AS PROVENIENZA_SEDIMENTI, "
-		+"ped_t_ambienti.descrizione || ' / ' || '<i>' || ped_t_depositi.descrizione || '</i>' AS Compl_amb_dep, "
+		+"ped_t_ambienti.descrizione || '<br />' || '<i>' || ped_t_depositi.descrizione || '</i>' AS Compl_amb_dep, "
 		+"ped_t_pedochimiche.val_50     AS perc50, "
 		+"ped_t_pedochimiche.val_90     AS perc90, "
 		+"ped_t_pedochimiche.val_95     AS perc95, "
@@ -163,9 +172,9 @@ try {
 		<!-- <caption>LEGENDA</caption> -->
 		<thead>
 			<tr>
-				<th id="c01">Classe<sup>1)</sup> (mg/kg)</th>
+				<th id="c01">Classe <sup>1)</sup> (mg/kg)</th>
 				<th id="c02">Unità</th>
-				<th id="c03">Suoli</th>
+				<th id="c03">Suoli <sup>2)</sup></th>
 				<th id="c04">Provenienza dei sedimenti</th>
 				<th id="c05">Complesso ambientale<br /><i>Ambiente deposizionale</i></th>
 				<th id="c06">50°</th>
@@ -202,7 +211,11 @@ try {
 	%>
 		</tbody>
 	</table>
-	<div class="note_legenda">Classificazione dei suoli: WRB, 2007</div>
+	<div class="note_legenda">
+            1) Valori definiti in base al 95° percentile
+            <br />
+            2) Classificazione dei suoli: WRB, 2007
+        </div>
 	
 	<p><br /></p>
       

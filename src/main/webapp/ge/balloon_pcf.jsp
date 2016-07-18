@@ -40,9 +40,14 @@ try {
 	if(liv==6){
 		sqlString="select ped_vf_c_organico_p_ge_pol.*, ped_legende_ge_proprieta_cf.descrizione from ped_user.ped_vf_c_organico_p_ge_pol, ped_user.ped_legende_ge_proprieta_cf where ped_vf_c_organico_p_ge_pol.classe = ped_legende_ge_proprieta_cf.id and ped_vf_c_organico_p_ge_pol.gisid = " + id + " and ped_legende_ge_proprieta_cf.liv = "+liv;
 	
-		scala="<strong>Contenuto % di carbonio organico tra 0-30 cm nei suoli di pianura. Seconda edizione</strong><br />Livello di dettaglio 1:50.000";
+		scala="<strong>Contenuto % di carbonio organico tra 0-30 cm nei suoli di pianura. 2a edizione</strong><br />Livello di dettaglio 1:50.000";
 	}
-	if(liv==7){
+	if(liv==34){
+		sqlString="select ped_vf_c_organico100_p_ge_pol.*, ped_legende_ge_proprieta_cf.descrizione from ped_user.ped_vf_c_organico100_p_ge_pol, ped_user.ped_legende_ge_proprieta_cf where ped_vf_c_organico100_p_ge_pol.classe = ped_legende_ge_proprieta_cf.id and ped_vf_c_organico100_p_ge_pol.gisid = " + id + " and ped_legende_ge_proprieta_cf.liv = "+liv;
+	
+		scala="<strong>Contenuto % di carbonio organico tra 0-100 cm nei suoli di pianura.</strong><br />Livello di dettaglio 1:50.000";
+	}
+        if(liv==7){
 		sqlString="select ped_vf_c_organico_m_ge_pol.*, ped_legende_ge_proprieta_cf.descrizione from ped_user.ped_vf_c_organico_m_ge_pol, ped_user.ped_legende_ge_proprieta_cf where ped_vf_c_organico_m_ge_pol.classe = ped_legende_ge_proprieta_cf.id and ped_vf_c_organico_m_ge_pol.gisid = " + id + " and ped_legende_ge_proprieta_cf.liv = "+liv;
 		
 		scala="<strong>Contenuto % di carbonio organico tra 0-30 cm nei suoli dell'Appennino</strong><br />Livello di dettaglio 1:250.000";
@@ -55,7 +60,7 @@ try {
 	if(liv==9){
 		sqlString="select ped_vf_stock30_p_ge_pol.*, ped_legende_ge_proprieta_cf.descrizione from ped_user.ped_vf_stock30_p_ge_pol, ped_user.ped_legende_ge_proprieta_cf where ped_vf_stock30_p_ge_pol.classe = ped_legende_ge_proprieta_cf.id and ped_vf_stock30_p_ge_pol.gisid = " + id + " and ped_legende_ge_proprieta_cf.liv = "+liv+" and ped_legende_ge_proprieta_cf.id <> 9999";
 		
-		scala="<strong>Carbonio organico immagazzinato nei suoli di pianura tra 0-30 cm. Seconda edizione</strong><br />Livello di dettaglio 1:50.000";
+		scala="<strong>Carbonio organico immagazzinato nei suoli di pianura tra 0-30 cm. 2a edizione</strong><br />Livello di dettaglio 1:50.000";
 	}
 	if(liv==10){
 		sqlString="select ped_vf_stock30_m_ge_pol.*, ped_legende_ge_proprieta_cf.descrizione from ped_user.ped_vf_stock30_m_ge_pol, ped_user.ped_legende_ge_proprieta_cf where ped_vf_stock30_m_ge_pol.classe = ped_legende_ge_proprieta_cf.id and ped_vf_stock30_m_ge_pol.gisid = " + id + " and ped_legende_ge_proprieta_cf.liv = "+liv;
@@ -75,7 +80,7 @@ try {
 	if(liv==18){
 		sqlString="select GISID, CLASSE from ped_user.PED_VF_LIVELLO_SO_POL where PED_VF_LIVELLO_SO_POL.gisid = " + id ;
 		
-		scala="<strong>Dotazione in sostanza organica dei suoli di pianura tra 0-30 cm. Seconda edizione</strong><br />Livello di dettaglio 1:50.000";
+		scala="<strong>Dotazione in sostanza organica dei suoli di pianura tra 0-30 cm. 2a edizione</strong><br />Livello di dettaglio 1:50.000";
 	}
 	if(liv==19){
 		sqlString="select GISID, CLASSE, ECE, ATTENDIBILITA from ped_user.PED_VF_SALINITA_0_50_POL where PED_VF_SALINITA_0_50_POL.gisid = " + id ;
@@ -102,7 +107,7 @@ try {
 		<%
 	} else {
 
-		if(liv<=12){
+		if(liv<=12 || liv==34){
 			sqlString="select id, descrizione, colore from ped_user.ped_legende_ge_proprieta_cf where liv = "+liv+" and id >0 and id < 9999 order by id";
 		} else if(liv==18){ 
 			sqlString="select ID_LIVELLO_SO as id, descrizione, colore, t_sabbiosi, t_medioimpasto, t_argillosilimosi from ped_user.ped_t_livello_so where ordine > 0 order by ordine";
@@ -252,7 +257,7 @@ try {
 	%>
 	  <p class="scala"><%=scala%></p>
 	
-	<% if(liv<=12){
+	<% if(liv<=12 || liv==34){
 	%>
 	  <div class="uc">
 <% if(liv==9 || liv==10 || liv==11 || liv==12){
@@ -279,7 +284,7 @@ try {
 		 </strong>
 	  </div>
 
-<% if(liv==6){
+<% if(liv==6 || liv==34){
 %>
 	  <div class="uc">
 		 Attendibilità della stima
@@ -534,7 +539,7 @@ try {
 	%>	 
 
 
-<% if(liv==6 || liv==7){
+<% if(liv==6 || liv==7 || liv==34){
 %>		  
 	<p class="note"><strong>Note</strong>: il valore di sostanza organica può essere ricavato attraverso il fattore di Van Bemmelen (S.O. = 1,724 C.O.) (Jackson, 1965).<!--<br />Valore stimato.Il valore % non tiene conto delle superfici prive di suolo.--></p>
 
@@ -560,6 +565,10 @@ try {
 <% } else if(liv==18){
 %>
 		2015
+
+<% } else if(liv==34){
+%>
+		2016
 		
 <% } else {
 %>
@@ -571,6 +580,10 @@ try {
 <% if(liv==6){
 %>		  
 		<a href="/gstatico/documenti/dati_pedol/NOTE_ILLUSTRATIVE_CO_pianura.pdf" rel="external">Apri note illustrative </a>
+<% } %>
+<% if(liv==34){
+%>		  
+		<a href="/gstatico/documenti/dati_pedol/NOTE_ILLUSTRATIVE_CO_pianura_0_100.pdf" rel="external">Apri note illustrative </a>
 <% } %>
 <% if(liv==7){
 %>		  

@@ -24,7 +24,7 @@ Integer i = 0;
 for (i=0; i<macroCatTable.length; i++)
 	macroCatTable[i] = new Hashtable(); // this creates object itself
 
-Hashtable carteTable[]= new Hashtable[28];
+Hashtable carteTable[]= new Hashtable[30];
 
 for (i=0; i<carteTable.length; i++)
 	carteTable[i] = new Hashtable(); // this creates object itself
@@ -50,19 +50,19 @@ carteTable[liv5].put("nomeNoteIllustrative", "NOTE_ILLUSTRATIVE_CO_pianura.pdf")
 macroCatTable[app].put(6, carteTable[liv5]);
 
 
-// NUOVA CARTA
-Integer liv5 = 0;
+// NUOVA CARTA CARBONIO ORGANICO 1-100
+liv5++;
 carteTable[liv5].put("dataCarta", dfm.parse("2016-07-11 00:00:00").getTime());
 carteTable[liv5].put("articoloTestoLinkCarta", "la");
-carteTable[liv5].put("testoLinkCarta", "Carta del contenuto % di carbonio organico nei suoli della pianura tra 0-100 cm. 2a edizione");
-carteTable[liv5].put("titleCarta", "Contenuto % di carbonio organico nei suoli della pianura tra 0-100 cm. 2a edizione");
+carteTable[liv5].put("testoLinkCarta", "Carta del contenuto % di carbonio organico nei suoli della pianura tra 0-100 cm.");
+carteTable[liv5].put("titleCarta", "Contenuto % di carbonio organico nei suoli della pianura tra 0-100 cm.");
 carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview34.jpg");
 carteTable[liv5].put("scalaCarta", "1:50.000");
 carteTable[liv5].put("codiceLivelloCarta", 34);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(34));
 carteTable[liv5].put("descCarta", "<p>Il carbonio organico costituisce circa il 58% della materia organica, ossia quella frazione di suolo composta da qualsiasi cosa che una volta era vivente. La materia organica svolge diverse funzioni essendo in grado di influenzare positivamente le proprietà fisiche, chimiche e biologiche del suolo.</p><p>La diminuzione del contenuto di materia organica nei suoli è considerata una minaccia ed un elemento di degrado del suolo così come indicato nella comunicazione “Strategia tematica per le protezione del suolo” della Commissione Europea (COM2006/231).<p>La carta rappresenta la distribuzione areale nei suoli di pianura del contenuto percentuale di carbonio organico nel primo metro (0-100 cm). La carta è stata elaborata a partire dai dati estrapolati dalla Banca Dati dei Suoli della Regione Emilia-Romagna relativi al periodo 1974-2015.<\\/p>");
-carteTable[liv5].put("nomeNoteIllustrative", "NOTE_ILLUSTRATIVE_CO_pianura.pdf");
-macroCatTable[app].put(34, carteTable[liv5]);
+carteTable[liv5].put("nomeNoteIllustrative", "NOTE_ILLUSTRATIVE_CO_pianura_0_100.pdf");
+macroCatTable[app].put(7, carteTable[liv5]);
 
 
 // NUOVA CARTA
@@ -77,7 +77,7 @@ carteTable[liv5].put("codiceLivelloCarta", 7);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(7));
 carteTable[liv5].put("descCarta", "<p>Il carbonio organico del suolo costituisce circa il 58% della materia organica, quella frazione di suolo composta da qualsiasi cosa che una volta era vivente.<br/>La materia organica svolge diverse funzioni essendo in grado di influenzare positivamente le proprietà fisiche, chimiche e biologiche del suolo.La diminuzione del contenuto di materia organica nei suoli è considerata una minaccia ed un elemento di degrado del suolo così come indicato nella comunicazione “Strategia tematica per le protezione del suolo” della Commissione Europea (COM2006/231).<br />La carta del contenuto % di carbonio organico va intesa come una prima elaborazione dei dati disponibili nella banca dati dei suoli, al fine di divulgare lo stato delle conoscenze riguardo al contenuto di carbonio organico nei suoli regionali.<\\/p>");
 carteTable[liv5].put("nomeNoteIllustrative", "NOTE_ILLUSTRATIVE_CO_montagna.pdf");
-macroCatTable[app].put(7, carteTable[liv5]);
+macroCatTable[app].put(8, carteTable[liv5]);
 
 // NUOVA CARTA: SPEGNIAMO ARGILLA (gennaio 2016)
 /*
@@ -107,80 +107,94 @@ carteTable[liv5].put("codiceLivelloCarta", 31);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(31));
 carteTable[liv5].put("descCarta", "<p>La carta della tessitura superficiale (0-30 cm) dei suoli di pianura rappresenta la distribuzione areale delle frazioni granulometriche classificate secondo la metodologia USDA.<br />I dati di base sono stati estrapolati dalla Banca Dati dei Suoli della Regione Emilia-Romagna.<br />La carta della tessitura rappresenta un’utile cartografia di base per una vasta gamma di analisi ambientali in generale e legate all’uso agricolo in particolare; ad esempio per la formulazione dei piani di fertilizzazione e l'applicazione dei Disciplinari di Produzione Integrata.<\\/p>");
 carteTable[liv5].put("nomeNoteIllustrative", "xxxxxxxxxxxxx.pdf");
-macroCatTable[app].put(8, carteTable[liv5]);
+macroCatTable[app].put(9, carteTable[liv5]);
 
 
 
 // NUOVA CARTA
 liv5++;
 
-carteTable[liv5].put("dataCarta", dfm.parse("2012-03-01 00:00:00").getTime());
+carteTable[liv5].put("dataCarta", dfm.parse("2016-07-18 00:00:00").getTime());
 carteTable[liv5].put("articoloTestoLinkCarta", "la");
-carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale del Cromo [Cr] della pianura emiliano-romagnola");
-carteTable[liv5].put("titleCarta", "Fondo naturale del Cromo [Cr] della pianura emiliano-romagnola");
+carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale del Cromo [Cr] della pianura emiliano-romagnola. 2a edizione");
+carteTable[liv5].put("titleCarta", "Fondo naturale del Cromo [Cr] della pianura emiliano-romagnola. 2a edizione");
 carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview13_new.jpg");
 carteTable[liv5].put("scalaCarta", "1:250.000");
 carteTable[liv5].put("codiceLivelloCarta", 13);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(13));
-carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola del Cromo in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Cromo nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda il Cromo, nei suoli meno evoluti, il fattore dominante è la provenienza, in relazione alla presenza di rocce ricche in Cr e Ni (ofioliti), che affiorano nelle Alpi Occidentali e in alcuni bacini idrografici dell’Appennino. Nei suoli ad elevato grado evolutivo del margine appenninico il “segnale” della provenienza si perde e il contenuto di Cromo è omogeneo indipendentemente dal bacino.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico XRF (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale. Per questo metallo l’attacco con acqua regia e lettura ICP-MS determina valori <span>inferiori<\\/span>, con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>40%<\\/strong> circa. Ad esempio 100 mg/kg di Cromo determinati con l’attacco in acqua regia corrispondono a 140 mg/kg totali di concentrazione.<\\/p>");
+carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola del Cromo in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Cromo nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda il Cromo, nei suoli meno evoluti, il fattore dominante è la provenienza, in relazione alla presenza di rocce ricche in Cr e Ni (ofioliti), che affiorano nelle Alpi Occidentali e in alcuni bacini idrografici dell’Appennino. Nei suoli ad elevato grado evolutivo del margine appenninico il “segnale” della provenienza si perde e il contenuto di Cromo è omogeneo indipendentemente dal bacino.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale. Per questo metallo l’attacco con acqua regia e lettura ICP-MS (metodo UNI EN 13346- 2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span>, con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>35%<\\/strong> circa.<\\/p>");
 carteTable[liv5].put("nomeNoteIllustrative", "CARTA_PEDOGEOCHIMICA.pdf");
 macroCatTable[app].put(13, carteTable[liv5]);
 
 		
 // NUOVA CARTA
 liv5++;
-carteTable[liv5].put("dataCarta", dfm.parse("2012-03-01 00:00:00").getTime());
+carteTable[liv5].put("dataCarta", dfm.parse("2016-07-18 00:00:00").getTime());
 carteTable[liv5].put("articoloTestoLinkCarta", "la");
-carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale del Nichel [Ni] della pianura emiliano-romagnola");
-carteTable[liv5].put("titleCarta", "Fondo naturale del Nichel [Ni] della pianura emiliano-romagnola");
+carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale del Nichel [Ni] della pianura emiliano-romagnola. 2a edizione");
+carteTable[liv5].put("titleCarta", "Fondo naturale del Nichel [Ni] della pianura emiliano-romagnola. 2a edizione");
 carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview14_new.jpg");
 carteTable[liv5].put("scalaCarta", "1:250.000");
 carteTable[liv5].put("codiceLivelloCarta", 14);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(14));
-carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola del Nichel in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Nichel nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado. Per quanto riguarda il Nichel, nei suoli meno evoluti, il fattore dominante è la provenienza in relazione alla presenza di rocce ricche in Cr e Ni (ofioliti), che affiorano nelle Alpi Occidentali e in alcuni bacini idrografici dell’Appennino. Nei suoli ad elevato grado evolutivo del margine appenninico il “segnale” della provenienza si perde e il contenuto di Nichel è omogeneo indipendentemente dal bacino.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale. Per questo metallo l’attacco con acqua regia e lettura ICP-MS determina valori <span>inferiori<\\/span>, con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>20%<\\/strong> circa. Ad esempio 100 mg/kg di Nichel determinati con l’attacco in acqua regia corrispondono a 120 mg/kg totali di concentrazione.<\\/p>");
+carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola del Nichel in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Nichel nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado. Per quanto riguarda il Nichel, nei suoli meno evoluti, il fattore dominante è la provenienza in relazione alla presenza di rocce ricche in Cr e Ni (ofioliti), che affiorano nelle Alpi Occidentali e in alcuni bacini idrografici dell’Appennino. Nei suoli ad elevato grado evolutivo del margine appenninico il “segnale” della provenienza si perde e il contenuto di Nichel è omogeneo indipendentemente dal bacino.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale. Per questo metallo l’attacco con acqua regia e lettura ICP-MS (UNI EN 13346-2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span>, con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>23%<\\/strong> circa.<\\/p>");
 carteTable[liv5].put("nomeNoteIllustrative", "CARTA_PEDOGEOCHIMICA.pdf");
 macroCatTable[app].put(14, carteTable[liv5]);
 
 // NUOVA CARTA
 liv5++;
-carteTable[liv5].put("dataCarta", dfm.parse("2012-03-01 00:00:00").getTime());
+carteTable[liv5].put("dataCarta", dfm.parse("2016-07-18 00:00:00").getTime());
 carteTable[liv5].put("articoloTestoLinkCarta", "la");
-carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale del Piombo [Pb] della pianura emiliano-romagnola");
-carteTable[liv5].put("titleCarta", "Fondo naturale del Piombo [Pb] della pianura emiliano-romagnola");
+carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale del Piombo [Pb] della pianura emiliano-romagnola. 2a edizione");
+carteTable[liv5].put("titleCarta", "Fondo naturale del Piombo [Pb] della pianura emiliano-romagnola. 2a edizione");
 carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview15_new.jpg");
 carteTable[liv5].put("scalaCarta", "1:250.000");
 carteTable[liv5].put("codiceLivelloCarta", 15);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(15));
-carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola del Piombo” in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Piombo nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda il Piombo il fattore dominante è la provenienza legata alla presenza di rocce vulcaniche nel bacino idrografico e il fattore secondario è il grado evolutivo dei suoli.<\\/p><p>Nella nostra regione le rocce vulcaniche presenti non condizionano i valori di concentrazione di Piombo nei suoli, si osserva una debole variabilità coerente in maniera non staticamente significativa con il grado evolutivo dei suoli.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale. Per questo metallo l’attacco con acqua regia e lettura ICP-MS determina valori <span>comparabili<\\/span> tra i due metodi.<\\/p>");
+carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola del Piombo” in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Piombo nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda il Piombo il fattore dominante è la provenienza legata alla presenza di rocce vulcaniche nel bacino idrografico e il fattore secondario è il grado evolutivo dei suoli.<\\/p><p>Nella nostra regione le rocce vulcaniche presenti non condizionano i valori di concentrazione di Piombo nei suoli, si osserva una debole variabilità coerente in maniera non staticamente significativa con il grado evolutivo dei suoli.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale. Per questo metallo l’attacco con acqua regia e lettura ICP-MS (UNI EN 13346- 2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span>. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>7%<\\/strong> circa.<\\/p>");
 carteTable[liv5].put("nomeNoteIllustrative", "CARTA_PEDOGEOCHIMICA.pdf");
 macroCatTable[app].put(15, carteTable[liv5]);
 
 liv5++;
-carteTable[liv5].put("dataCarta", dfm.parse("2012-03-01 00:00:00").getTime());
+carteTable[liv5].put("dataCarta", dfm.parse("2016-07-18 00:00:00").getTime());
 carteTable[liv5].put("articoloTestoLinkCarta", "la");
-carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale del Rame [Cu] della pianura emiliano-romagnola");
-carteTable[liv5].put("titleCarta", "Fondo naturale del Rame [Cu] della pianura emiliano-romagnola");
+carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale del Rame [Cu] della pianura emiliano-romagnola. 2a edizione");
+carteTable[liv5].put("titleCarta", "Fondo naturale del Rame [Cu] della pianura emiliano-romagnola. 2a edizione");
 carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview16_new.jpg");
 carteTable[liv5].put("scalaCarta", "1:250.000");
 carteTable[liv5].put("codiceLivelloCarta", 16);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(16));
-carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola del Rame in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Rame nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda il Rame il fattore prevalente è il grado evolutivo: nei suoli molto evoluti di pertinenza delle superfici più antiche del margine appenninico questo metallo si impoverisce in modo significa mentre non si riscontrano differenze significative nei suoli in relazione alle differenti granulometrie o provenienze del sedimento in cui si è impostato il suolo.I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale.<\\/p><p>Per questo metallo l’attacco con acqua regia e lettura ICP-MS determina valori <span>comparabili<\\/span> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>4%<\\/strong> circa.<\\/p>");
+carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola del Rame in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Rame nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda il Rame il fattore prevalente è il grado evolutivo: nei suoli molto evoluti di pertinenza delle superfici più antiche del margine appenninico questo metallo si impoverisce in modo significa mentre non si riscontrano differenze significative nei suoli in relazione alle differenti granulometrie o provenienze del sedimento in cui si è impostato il suolo.I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale.<\\/p><p>Per questo metallo l’attacco con acqua regia e lettura ICP-MS (UNI EN 13346- 2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>17%<\\/strong> circa.<\\/p>");
 carteTable[liv5].put("nomeNoteIllustrative", "CARTA_PEDOGEOCHIMICA.pdf");
 macroCatTable[app].put(16, carteTable[liv5]);
 
+// NUOVA CARTA VANADIO
+liv5++;
+carteTable[liv5].put("dataCarta", dfm.parse("2016-07-18 00:00:00").getTime());
+carteTable[liv5].put("articoloTestoLinkCarta", "la");
+carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale del Vanadio [V] della pianura emiliano-romagnola");
+carteTable[liv5].put("titleCarta", "Fondo naturale del Vanadio [V] della pianura emiliano-romagnola");
+carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview35.jpg");
+carteTable[liv5].put("scalaCarta", "1:250.000");
+carteTable[liv5].put("codiceLivelloCarta", 35);
+carteTable[liv5].put("linkMetadato", linkMetadati.get(35));
+carteTable[liv5].put("descCarta", "<p>La “Carta del contenuto di fondo naturale di vanadio in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di piombo nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda il Vanadio il fattore dominante è la tessitura.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X, Leoni, L & Saitta, M. 1976) al fine di determinare il contenuto totale, per questo metallo l'attacco con acqua regia e lettura ICP-MS (UNI EN 13346- 2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span>, una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>37%<\\/strong> circa.<\\/p>");
+carteTable[liv5].put("nomeNoteIllustrative", "CARTA_PEDOGEOCHIMICA.pdf");
+macroCatTable[app].put(17, carteTable[liv5]);
+
 
 liv5++;
-carteTable[liv5].put("dataCarta", dfm.parse("2012-03-01 00:00:00").getTime());
+carteTable[liv5].put("dataCarta", dfm.parse("2016-07-18 00:00:00").getTime());
 carteTable[liv5].put("articoloTestoLinkCarta", "la");
-carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale dello Zinco [Zn] della pianura emiliano-romagnola");
-carteTable[liv5].put("titleCarta", "Fondo naturale dello Zinco [Zn] della pianura emiliano-romagnola");
+carteTable[liv5].put("testoLinkCarta", "Carta del Fondo naturale dello Zinco [Zn] della pianura emiliano-romagnola. 2a edizione");
+carteTable[liv5].put("titleCarta", "Fondo naturale dello Zinco [Zn] della pianura emiliano-romagnola. 2a edizione");
 carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview17_new.jpg");
 carteTable[liv5].put("scalaCarta", "1:250.000");
 carteTable[liv5].put("codiceLivelloCarta", 17);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(17));
-carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola dello Zinco in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Zinco nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda lo Zinco il fattore dominante è la granulometria dei suoli mentre quello secondario è il grado evolutivo.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale.<\\/p><p>Per questo metallo l’attacco con acqua regia e lettura ICP-MS determina valori <span>comparabili<\\/span> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>7%<\\/strong> circa.<\\/p>");
+carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola dello Zinco in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Zinco nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda lo Zinco il fattore dominante è la granulometria dei suoli mentre quello secondario è il grado evolutivo.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale.<\\/p><p>Per questo metallo l’attacco con acqua regia e lettura ICP-MS (UNI EN 13346- 2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>14%<\\/strong> circa.<\\/p>");
 carteTable[liv5].put("nomeNoteIllustrative", "CARTA_PEDOGEOCHIMICA.pdf");
-macroCatTable[app].put(17, carteTable[liv5]);
+macroCatTable[app].put(18, carteTable[liv5]);
 
 
 liv5++;

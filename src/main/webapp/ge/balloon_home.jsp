@@ -54,7 +54,7 @@
 		
 		case 6:
 			scala = "Livello di dettaglio 1:50.000";
-			descUc = "Carta del contenuto % di carbonio organico nei suoli di pianura tra 0-30 cm. Seconda edizione";
+			descUc = "Carta del contenuto % di carbonio organico nei suoli di pianura tra 0-30 cm. 2a edizione";
 			titoloUc = "La carta del contenuto percentuale di carbonio organico nei suoli di pianura è il risultato di elaborazioni statistiche e geostatistiche che, a partire da valori puntuali di carbonio organico, tengono conto della distribuzione dei suoli nel paesaggio e dell’influenza che la gestione agronomica esercita sull’accumulo della materia organica.<br />La carta è rappresentata attraverso una struttura a maglia costituita da celle con lato di 500 m. Ad ogni cella è attribuito un valore percentuale stimato di carbonio organico e la valutazione di attendibilità del valore stimato.";
 		break;
 		
@@ -66,13 +66,13 @@
 
 		case 8:
 			scala = "Livello di dettaglio 1:50.000";
-			descUc = "Carta del contenuto % di argilla nei suoli di pianura tra 0-30 cm ";
+			descUc = "Carta del contenuto % di argilla nei suoli di pianura tra 0-30 cm";
 			titoloUc = "La carta del contenuto percentuale di argilla nei suoli della pianura emiliano-romagnola, è il risultato di una elaborazione geostatistica che, a partire da valori puntuali di argilla, tiene conto della distribuzione dei suoli a cui questi valori si riferiscono. La carta è rappresentata attraverso una struttura a maglia costituita da celle con lato di 1Km e fornisce il valore percentuale medio attribuito alla cella dall’analisi geostatistica.";
 		break;
 
 		case 9:
 			scala = "Livello di dettaglio 1:50.000";
-			descUc = "Carta del carbonio organico immagazzinato nei suoli di pianura tra 0-30 cm. Seconda edizione";
+			descUc = "Carta del carbonio organico immagazzinato nei suoli di pianura tra 0-30 cm. 2a edizione";
 			titoloUc = "La carta del carbonio organico immagazzinato nei suoli di pianura è il risultato di elaborazioni statistiche e geostatistiche che, a partire da valori puntuali di carbonio organico percentuale, tessitura e scheletro, tengono conto della distribuzione dei suoli nel paesaggio e del contributo nullo delle superfici considerate prive di suolo.<br />La carta è rappresentata attraverso una struttura a maglia costituita da celle con lato di 500 m. Ad ogni cella è attribuito un valore stimato del contenuto di carbonio organico espresso in Mg*ha-1 nei primi 30 cm di suolo. Vengono anche forniti i valori stimati di densità apparente, carbonio organico, scheletro e percentuale di aree prive di suolo.";
 		break;
 
@@ -96,37 +96,37 @@
 
 		case 13:
 			scala = "Scala 1:250.000";
-			descUc = "Carta del Fondo naturale del Cromo [Cr] della pianura emiliano-romagnola";
+			descUc = "Carta del Fondo naturale del Cromo [Cr] della pianura emiliano-romagnola. 2a edizione";
 			titoloUc = "Rappresenta la distribuzione areale del contenuto naturale di Cromo nei suoli ad uso agricolo a circa un metro di profondità; tale profondità è ritenuta rappresentativa del contenuto naturale (<i>pedo-geochemical content</i> secondo la norma ISO/DIS 19258, 2005) in quanto non influenzata da contributo antropico. I valori di concentrazione, espressi in mg/kg, sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale dei metalli.";
 		break;
 
 		case 14:
 			scala = "Scala 1:250.000";
-			descUc = "Carta del Fondo naturale del Nichel [Ni] della pianura emiliano-romagnola";
+			descUc = "Carta del Fondo naturale del Nichel [Ni] della pianura emiliano-romagnola. 2a edizione";
 			titoloUc = "Rappresenta la distribuzione areale del contenuto naturale di Nichel nei suoli ad uso agricolo a circa un metro di profondità; tale profondità è ritenuta rappresentativa del contenuto naturale (<i>pedo-geochemical content</i> secondo la norma ISO/DIS 19258, 2005) in quanto non influenzata da contributo antropico. I valori di concentrazione, espressi in mg/kg, sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale dei metalli.";
 		break;
 
 		case 15:
 			scala = "Scala 1:250.000";
-			descUc = "Carta del Fondo naturale del Piombo [Pb] della pianura emiliano-romagnola";
+			descUc = "Carta del Fondo naturale del Piombo [Pb] della pianura emiliano-romagnola. 2a edizione";
 			titoloUc = "Rappresenta la distribuzione areale del contenuto naturale di Piombo nei suoli ad uso agricolo a circa un metro di profondità; tale profondità è ritenuta rappresentativa del contenuto naturale (<i>pedo-geochemical content</i> secondo la norma ISO/DIS 19258, 2005) in quanto non influenzata da contributo antropico. I valori di concentrazione, espressi in mg/kg, sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale dei metalli.";
 		break;
 
 		case 16:
 			scala = "Scala 1:250.000";
-			descUc = "Carta del Fondo naturale del Rame [Cu] della pianura emiliano-romagnola";
+			descUc = "Carta del Fondo naturale del Rame [Cu] della pianura emiliano-romagnola. 2a edizione";
 			titoloUc = "Rappresenta la distribuzione areale del contenuto naturale di Rame nei suoli ad uso agricolo a circa un metro di profondità; tale profondità è ritenuta rappresentativa del contenuto naturale (<i>pedo-geochemical content</i> secondo la norma ISO/DIS 19258, 2005) in quanto non influenzata da contributo antropico. I valori di concentrazione, espressi in mg/kg, sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale dei metalli.";
 		break;
 
 		case 17:
 			scala = "Scala 1:250.000";
-			descUc = "Carta del Fondo naturale dello Zinco [Zn] della pianura emiliano-romagnola";
+			descUc = "Carta del Fondo naturale dello Zinco [Zn] della pianura emiliano-romagnola. 2a edizione";
 			titoloUc = "Rappresenta la distribuzione areale del contenuto naturale di Zinco nei suoli ad uso agricolo a circa un metro di profondità; tale profondità è ritenuta rappresentativa del contenuto naturale (<i>pedo-geochemical content</i> secondo la norma ISO/DIS 19258, 2005) in quanto non influenzata da contributo antropico. I valori di concentrazione, espressi in mg/kg, sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale dei metalli.";
 		break;
 
 		case 18:
 			scala = "Scala 1:50.000";
-			descUc = "Carta della dotazione in sostanza organica dei suoli di pianura tra 0-30 cm (seconda edizione)";
+			descUc = "Carta della dotazione in sostanza organica dei suoli di pianura tra 0-30 cm . 2a edizione";
 			titoloUc = "La carta della dotazione in sostanza organica descrive qualitativamente il contenuto di sostanza organica nei primi 30 cm di suolo in funzione della classe tessiturale del suolo stesso, secondo lo schema di valutazione contenuto nei Disciplinari di Produzione Integrata (2015) della Regione Emilia-Romagna.<br />La carta è rappresentata attraverso una struttura a maglia costituita da celle con lato di 500 m. Ad ogni cella è attribuita la classe di dotazione di sostanza organica.";
 		break;
 
@@ -213,7 +213,17 @@
 			scala = "Scala 1:25.000";
 			descUc = "Carta delle Superfici impermeabilizzate di pianura";
 			titoloUc = "La carta superfici impermeabilizzate della pianura è stata costruita partendo dal Data Base Topografico  della Regione Emilia Romagna, attribuendo ad ogni oggetto cartografato un valore di impermeabilizzazione classato.<br />La carta è rappresentata attraverso una struttura a maglia costituita da celle con lato di 10 m. All’interno delle celle possono essere presenti più oggetti, come ad esempio una strada e parte di un prato, il valore di impermeabilità attribuito della cella sarà quello dell’oggetto arealmente più esteso al suo interno. <br />Ad ogni cella sono associate le informazioni relative al comune di appartenenza (Area del comune; Area del comune che ricade in pianura; Percentuale aree permeabili antropizzate o corpi idrici; Percentuale aree con una impermeabilità del 25%; Percentuale aree con una impermeabilità del 50%; Percentuale aree con una impermeabilità del 75%; Percentuale aree con una impermeabilità del 90%; Percentuale aree completamente impermeabili.)";
-		break;		
+		break;
+		case 34:
+			scala = "Livello di dettaglio 1:50.000";
+			descUc = "Carta del contenuto % di carbonio organico nei suoli di pianura tra 0-100 cm.";
+			titoloUc = "La carta del contenuto percentuale di carbonio organico nei suoli di pianura è il risultato di elaborazioni statistiche e geostatistiche che, a partire da valori puntuali di carbonio organico, tengono conto della distribuzione dei suoli nel paesaggio e dell’influenza che la gestione agronomica esercita sull’accumulo della materia organica.<br />La carta è rappresentata attraverso una struttura a maglia costituita da celle con lato di 500 m. Ad ogni cella è attribuito un valore percentuale stimato di carbonio organico e la valutazione di attendibilità del valore stimato.";
+		break;
+		case 35:
+			scala = "Scala 1:250.000";
+			descUc = "Carta del Fondo naturale del Vanadio [V] della pianura emiliano-romagnola";
+			titoloUc = "Rappresenta la distribuzione areale del contenuto naturale di Vanadio nei suoli ad uso agricolo a circa un metro di profondità; tale profondità è ritenuta rappresentativa del contenuto naturale (<i>pedo-geochemical content</i> secondo la norma ISO/DIS 19258, 2005) in quanto non influenzata da contributo antropico. I valori di concentrazione, espressi in mg/kg, sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale dei metalli.";
+		break;                
 	}
 %>
 <%@ include file="head_balloon.jsp"

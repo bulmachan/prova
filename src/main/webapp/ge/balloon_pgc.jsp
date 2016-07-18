@@ -42,7 +42,7 @@ try {
 	if(liv==13){
 		sqlString="select PED_VTAB_MET_CROMO_POL.*, ped_legende_ge_pedochimiche.descrizione from ped_user.PED_VTAB_MET_CROMO_POL, ped_user.ped_legende_ge_pedochimiche where PED_VTAB_MET_CROMO_POL.classe_ge = ped_legende_ge_pedochimiche.id and PED_VTAB_MET_CROMO_POL.id_delineazione = " + id + " and ped_legende_ge_pedochimiche.liv = "+liv;
 	
-		scala="Carta del Fondo naturale del Cromo [Cr]<br />della pianura emiliano-romagnola<br />Scala 1:250.000";
+		scala="Carta del Fondo naturale del Cromo [Cr]<br />della pianura emiliano-romagnola. 2a edizione<br />Scala 1:250.000";
 		titoloLegenda="Cromo";
 		vtab_met="PED_VTAB_MET_CROMO_POL";
 		sigla_met="CR";
@@ -50,7 +50,7 @@ try {
 	if(liv==14){
 		sqlString="select PED_VTAB_MET_NICHEL_POL.*, ped_legende_ge_pedochimiche.descrizione from ped_user.PED_VTAB_MET_NICHEL_POL, ped_user.ped_legende_ge_pedochimiche where PED_VTAB_MET_NICHEL_POL.classe_ge = ped_legende_ge_pedochimiche.id and PED_VTAB_MET_NICHEL_POL.id_delineazione = " + id + " and ped_legende_ge_pedochimiche.liv = "+liv;
 	
-		scala="Carta del Fondo naturale del Nichel [Ni]<br />della pianura emiliano-romagnola<br />Scala 1:250.000";
+		scala="Carta del Fondo naturale del Nichel [Ni]<br />della pianura emiliano-romagnola. 2a edizione<br />Scala 1:250.000";
 		titoloLegenda="Nichel";
 		vtab_met="PED_VTAB_MET_NICHEL_POL";
 		sigla_met="NI";
@@ -58,7 +58,7 @@ try {
 	if(liv==15){
 		sqlString="select PED_VTAB_MET_PIOMBO_POL.*, ped_legende_ge_pedochimiche.descrizione from ped_user.PED_VTAB_MET_PIOMBO_POL, ped_user.ped_legende_ge_pedochimiche where PED_VTAB_MET_PIOMBO_POL.classe_ge = ped_legende_ge_pedochimiche.id and PED_VTAB_MET_PIOMBO_POL.id_delineazione = " + id + " and ped_legende_ge_pedochimiche.liv = "+liv;
 	
-		scala="Carta del Fondo naturale del Piombo [Pb]<br />della pianura emiliano-romagnola<br />Scala 1:250.000";
+		scala="Carta del Fondo naturale del Piombo [Pb]<br />della pianura emiliano-romagnola. 2a edizione<br />Scala 1:250.000";
 		titoloLegenda="Piombo";
 		vtab_met="PED_VTAB_MET_PIOMBO_POL";
 		sigla_met="PB";
@@ -66,7 +66,7 @@ try {
 	if(liv==16){
 		sqlString="select PED_VTAB_MET_RAME_POL.*, ped_legende_ge_pedochimiche.descrizione from ped_user.PED_VTAB_MET_RAME_POL, ped_user.ped_legende_ge_pedochimiche where PED_VTAB_MET_RAME_POL.classe_ge = ped_legende_ge_pedochimiche.id and PED_VTAB_MET_RAME_POL.id_delineazione = " + id + " and ped_legende_ge_pedochimiche.liv = "+liv;
 	
-		scala="Carta del Fondo naturale del Rame [Cu]<br />della pianura emiliano-romagnola<br />Scala 1:250.000";
+		scala="Carta del Fondo naturale del Rame [Cu]<br />della pianura emiliano-romagnola. 2a edizione<br />Scala 1:250.000";
 		titoloLegenda="Rame";
 		vtab_met="PED_VTAB_MET_RAME_POL";
 		sigla_met="CU";
@@ -74,11 +74,19 @@ try {
 	if(liv==17){
 		sqlString="select PED_VTAB_MET_ZINCO_POL.*, ped_legende_ge_pedochimiche.descrizione from ped_user.PED_VTAB_MET_ZINCO_POL, ped_user.ped_legende_ge_pedochimiche where PED_VTAB_MET_ZINCO_POL.classe_ge = ped_legende_ge_pedochimiche.id and PED_VTAB_MET_ZINCO_POL.id_delineazione = " + id + " and ped_legende_ge_pedochimiche.liv = "+liv;
 	
-		scala="Carta del Fondo naturale dello Zinco [Zn]<br />della pianura emiliano-romagnola<br />Scala 1:250.000";
+		scala="Carta del Fondo naturale dello Zinco [Zn]<br />della pianura emiliano-romagnola. 2a edizione<br />Scala 1:250.000";
 		titoloLegenda="Zinco";
 		vtab_met="PED_VTAB_MET_ZINCO_POL";
 		sigla_met="ZN";
 	}
+	if(liv==35){
+		sqlString="select PED_VTAB_MET_VANADIO_POL.*, ped_legende_ge_pedochimiche.descrizione from ped_user.PED_VTAB_MET_VANADIO_POL, ped_user.ped_legende_ge_pedochimiche where PED_VTAB_MET_VANADIO_POL.classe_ge = ped_legende_ge_pedochimiche.id and PED_VTAB_MET_VANADIO_POL.id_delineazione = " + id + " and ped_legende_ge_pedochimiche.liv = "+liv;
+	
+		scala="Carta del Fondo naturale del Vanadio [V]<br />della pianura emiliano-romagnola<br />Scala 1:250.000";
+		titoloLegenda="Vanadio";
+		vtab_met="PED_VTAB_MET_VANADIO_POL";
+		sigla_met="V";
+	}        
 
 //out.println(sqlString);
 	Statement stm = dbConn.createStatement();
@@ -104,7 +112,7 @@ try {
 
 	  <p class="scala"><%=scala%></p>
 	  <div class="uc">
-		 Classe
+		 Classe di concentrazione
 	  </div>
 	  <div class="titolo_uc_bal"><strong>
 	<%	if (rs.getString("CLASSE") != null) {
@@ -255,29 +263,34 @@ try {
 
 <% if(liv==13){
 %>		  
-	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico XRF (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS determina valori <u>inferiori</u>, con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>40%</strong> circa. Ad esempio 100 mg/kg di Cromo determinati con l'attacco in acqua regia corrispondono a 140 mg/kg totali di concentrazione con XRF.</p>
+	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS (metodo UNI EN 13346- 2002/EPA 6020) determina valori <u>inferiori rispetto a quelli ottenuti con l'XRF</u>, con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>35%</strong> circa.</p>
 	<!-- <p class="note">Classificazione dei suoli: WRB, 2007.</p> -->
 
 <% } else if(liv==14){
 %>		  
-	<p class="note"><strong>Note</strong>: i valori di concentrazione del Nichel sono ottenuti con il metodo analitico XRF (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS determina valori <u>inferiori</u>, con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>20%</strong> circa. Ad esempio 100 mg/kg di Nichel determinati con l'attacco in acqua regia corrispondono a 120 mg/kg totali di concentrazione con XRF.</p>
+	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS (metodo UNI EN 13346- 2002/EPA 6020) determina valori <u>inferiori rispetto a quelli ottenuti con l'XRF</u>, con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>23%</strong> circa.</p>
 	<!-- <p class="note">Classificazione dei suoli: WRB, 2007.</p> -->
 
 <% } else if(liv==15){
 %>		  
-	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS determina valori <u>comparabili</u> tra i due metodi.  </p>
+	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS (metodo UNI EN 13346- 2002/EPA 6020) determina valori <u>inferiori rispetto a quelli ottenuti con l'XRF</u>. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>7%</strong> circa.</p>
 	<!-- <p class="note">Classificazione dei suoli: WRB, 2007.</p> -->
 
 <% } else if(liv==16){
 %>		  
-	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS determina valori <u>inferiori</u> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>4%</strong> circa tra i due metodi. </p>
+	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS (metodo UNI EN 13346- 2002/EPA 6020) determina valori <u>inferiori rispetto a quelli ottenuti con l'XRF</u> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>17%</strong> circa. </p>
 	<!-- <p class="note">Classificazione dei suoli: WRB, 2007.</p> -->
 
 <% } else if(liv==17){
 %>		  
-	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS determina valori <u>inferiori</u> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>7%</strong> circa tra i due metodi. </p>
+	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS (metodo UNI EN 13346- 2002/EPA 6020) determina valori <u>inferiori rispetto a quelli ottenuti con l'XRF</u> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>14%</strong> circa. </p>
 	<!-- <p class="note">Classificazione dei suoli: WRB, 2007.</p> -->
 
+<% } else if(liv==35){
+%>		  
+	<p class="note"><strong>Note</strong>: i valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF</strong> (Spettrometria per Fluorescenza a raggi X). Per questo metallo l'attacco con acqua regia e lettura ICP-MS (metodo UNI EN 13346- 2002/EPA 6020) determina valori <u>inferiori rispetto a quelli ottenuti con l'XRF</u> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>37%</strong> circa. </p>
+	<!-- <p class="note">Classificazione dei suoli: WRB, 2007.</p> -->
+        
 <% } else {  %>
 	<p class="note">&nbsp;</p>
 <% } %>
@@ -288,10 +301,10 @@ try {
 		  Anno di aggiornamento
 	  </div>
 	  <div class="titolo_uc_bal">
-		2013		
+		2016		
 	  </div>
 	  <div class="link_dettaglio">
-<% if(liv==13 || liv==14 || liv==15 || liv==16 || liv==17){
+<% if(liv==13 || liv==14 || liv==15 || liv==16 || liv==17 || liv==35){
 %>		  
 		<a href="/gstatico/documenti/dati_pedol/CARTA_PEDOGEOCHIMICA.pdf" rel="external">Apri note illustrative</a>
 <% } %>
