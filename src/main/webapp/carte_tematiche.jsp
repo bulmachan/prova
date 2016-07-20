@@ -178,7 +178,7 @@ carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview
 carteTable[liv5].put("scalaCarta", "1:250.000");
 carteTable[liv5].put("codiceLivelloCarta", 35);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(35));
-carteTable[liv5].put("descCarta", "<p>La “Carta del contenuto di fondo naturale di vanadio in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di piombo nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda il Vanadio il fattore dominante è la tessitura.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X, Leoni, L & Saitta, M. 1976) al fine di determinare il contenuto totale, per questo metallo l'attacco con acqua regia e lettura ICP-MS (UNI EN 13346- 2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span>, una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>37%<\\/strong> circa.<\\/p>");
+carteTable[liv5].put("descCarta", "<p>La “Carta del contenuto di fondo naturale di vanadio in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di vanadio nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda il Vanadio il fattore dominante è la tessitura, il fattore secondario è la provenienza e sembra esserci un legame con il contenuto di sostanza organica, quest'ultimo in fase di studio.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X, Leoni, L & Saitta, M. 1976) al fine di determinare il contenuto totale, per questo metallo l'attacco con acqua regia e lettura ICP-MS (UNI EN 13346- 2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span>, una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>37%<\\/strong> circa.<\\/p>");
 carteTable[liv5].put("nomeNoteIllustrative", "CARTA_PEDOGEOCHIMICA.pdf");
 macroCatTable[app].put(17, carteTable[liv5]);
 
@@ -192,7 +192,7 @@ carteTable[liv5].put("imgCarta", "/gstatico/documenti/cartpedo/immagini/overview
 carteTable[liv5].put("scalaCarta", "1:250.000");
 carteTable[liv5].put("codiceLivelloCarta", 17);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(17));
-carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola dello Zinco in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Zinco nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda lo Zinco il fattore dominante è la granulometria dei suoli mentre quello secondario è il grado evolutivo.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale.<\\/p><p>Per questo metallo l’attacco con acqua regia e lettura ICP-MS (UNI EN 13346- 2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>14%<\\/strong> circa.<\\/p>");
+carteTable[liv5].put("descCarta", "<p>La “Carta del Fondo naturale della Pianura emiliano-romagnola dello Zinco in scala 1:250.000” rappresenta la distribuzione areale del contenuto naturale di Zinco nel <i>subsoil<\\/i> (90-140 cm di profondità, 60-80 nei suoli con ghiaie) nei suoli ad uso agricolo.<\\/p><p>Il contenuto di fondo naturale dei metalli nei suoli è regolato principalmente da tre fattori: 1) la provenienza del sedimento in cui si è impostato il suolo, 2) la tessitura, 3) il grado evolutivo. Per quanto riguarda lo Zinco il fattore dominante è la granulometria dei suoli mentre quello secondario è la provenienza.<\\/p><p>I valori di concentrazione sono ottenuti con il metodo analitico <strong>XRF<\\/strong> (Spettrometria per Fluorescenza a raggi X) al fine di determinare il contenuto totale.<\\/p><p>Per questo metallo l’attacco con acqua regia e lettura ICP-MS (UNI EN 13346- 2002/EPA 6020) determina valori <span>inferiori rispetto a quelli ottenuti con l'XRF<\\/span> con una percentuale variabile in relazione alle caratteristiche fisico-chimiche della matrice. Una media sul set di dati utilizzati per la carta segnala uno scarto del <strong>14%<\\/strong> circa.<\\/p>");
 carteTable[liv5].put("nomeNoteIllustrative", "CARTA_PEDOGEOCHIMICA.pdf");
 macroCatTable[app].put(18, carteTable[liv5]);
 
@@ -518,7 +518,7 @@ carteTable[liv5].put("codiceLivelloCarta", 33);
 carteTable[liv5].put("linkMetadato", linkMetadati.get(33));
 carteTable[liv5].put("descCarta", "<p>La carta della dell’impermeabilizzazione dei suoli di pianura rappresenta, attraverso celle quadrate di 10 metri di lato, il grado di impermeabilizzazione delle superfici. <br />I dati di base sono stati estrapolati Data Base Topografico della Regione Emilia-Romagna (aggiornamento 2008-2011) unito alle informazioni sulla natura delle superfici cartografate. <br />Nella carta sono mappati tutti i manufatti come edifici, strade, marciapiedi, impianti sportivi, ecc. presenti nella pianura emiliano romagnola ed il loro grado di impermeabilizzazione. Avendo le celle un area spesso maggiore degli oggetti cartografati (es. strade strette, marciapiedi, peste ciclabili, ecc.) ad ogni cella è stato attribuito il valore di impermeabilizzazione maggioritario al suo interno.<\\/p>");
 
-carteTable[liv5].put("nomeNoteIllustrative", "impermeabilizzazione.pdf");
+carteTable[liv5].put("nomeNoteIllustrative", "AREE_IMPERMEABILIZZATE_PIANURA.pdf");
 macroCatTable[app].put(33, carteTable[liv5]);
 
 
@@ -619,7 +619,7 @@ while (itrCat.hasNext()) {
 					%>		  
 							document.write("<li class=\"green\">visualizza la legenda della <a href=\"legenda.jsp?liv=<%=codiceLivelloCarta%>\" title=\"Apre la legenda della  <%=carta.get("testoLinkCarta").toString()%>\"><%=carta.get("testoLinkCarta").toString()%><\/a><\/li>");
 					
-					<% } else if(liv==13 || liv==14 || liv==15 || liv==16 || liv==17){
+					<% } else if(liv==13 || liv==14 || liv==15 || liv==16 || liv==17 || liv==18){
 					%>		  
 							document.write("<li class=\"green\">visualizza la legenda della <a href=\"legenda_pgc.jsp?liv=<%=codiceLivelloCarta%>\" title=\"Apre la legenda della <%=carta.get("testoLinkCarta").toString()%>\"><%=carta.get("testoLinkCarta").toString()%><\/a><\/li>");
 
@@ -717,7 +717,7 @@ while (itrCat.hasNext()) {
 							<li class="green">visualizza la legenda della carta <%=carta.get("articoloTestoLinkCarta").toString()%> <a href="legenda.jsp?liv=<%=livCarta%>" title="Apre la legenda della carta <%=carta.get("articoloTestoLinkCarta").toString()%> <%=carta.get("testoLinkCarta").toString()%>"><%=carta.get("testoLinkCarta").toString()%></a></li>
 					<% } %>
 					
-					<% if(liv==13 || liv==14 || liv==15 || liv==16 || liv==17){
+					<% if(liv==13 || liv==14 || liv==15 || liv==16 || liv==17 || liv==18){
 					%>		  
 							<li class="green">visualizza la legenda della carta <%=carta.get("articoloTestoLinkCarta").toString()%> <a href="legenda_pgc.jsp?liv=<%=livCarta%>" title="Apre la legenda della carta <%=carta.get("articoloTestoLinkCarta").toString()%> <%=carta.get("testoLinkCarta").toString()%>"> <%=carta.get("titleCarta").toString()%></a></li>
 					<% } %>
